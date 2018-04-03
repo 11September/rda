@@ -44,8 +44,8 @@
                         <input type="text" placeholder="Пошук сайтом...">
                         <i class="fas fa-search"></i>
                     </form>
-                    <li><a href="" class="menu-list-item">ГОЛОВНА</a></li>
-                <ul class="menu-list">
+
+
                     <li><a href="{{ url('/') }}" class="menu-list-item">ГОЛОВНА</a></li>
                     <li><a href="{{ url('/news') }}" class="menu-list-item">НОВИНИ</a></li>
                     <li><a href="" class="menu-list-item">ПУБЛІЧНА ІНФОРМАЦІЯ</a></li>
