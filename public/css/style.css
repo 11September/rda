@@ -326,6 +326,7 @@ a, a:hover, a:visited, a:link {
 
 .news_item_link_padding{
     padding: 15px 15px 0;
+    width: 100%;
 }
 
 .news_item_link{
@@ -715,6 +716,7 @@ a, a:hover, a:visited, a:link {
 }
 
 .wrapper-news-heading{
+    margin-top: 30px;
     height:80px;
     padding: 20px 0;
     background-color: #ffffff;
