@@ -956,6 +956,10 @@ a, a:hover, a:visited, a:link {
 .wrapper-sigle-post-anonses .news_right_block{
     padding: 0;
 }
+
+.sigle-post-video-header{
+    margin: 70px 0 40px 0;
+}
 /* Post page end */
 
 @media (max-width: 1920px) {

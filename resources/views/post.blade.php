@@ -179,12 +179,18 @@
                         </div>
                     </div>
 
-
                     <div class="wrapper-sigle-post-anonses">
-
                         @include('partials.anonses')
-
                     </div>
+
+                    <h2 class="sigle-post-video-header">BІДЕО</h2>
+
+                    <div class="video-item">
+                        <a href="#">
+                            <img src="{{ asset('images/video_poster.png') }}" alt="gallery">
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>
