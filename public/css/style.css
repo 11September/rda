@@ -612,6 +612,104 @@ a, a:hover, a:visited, a:link {
 
 /* footer end */
 
+
+
+
+/* Page posts */
+.news-page{
+
+}
+
+.wrapper-post-content{
+    border-bottom: 2px solid #1567a1;
+}
+
+.post-item-calender{
+    height:20px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.post-item-calender svg{
+    color: #ffa304;
+    font-size: 20px;
+}
+
+.post-item-calender-date{
+    color: #1567a1;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+    line-height: 22px;
+}
+
+.post-content{
+    padding: 22px 0;
+    line-height: 20px;
+    font-size: 18px;
+    color: #4b4b4b;
+}
+
+.post-item-category{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.post-item-more{
+    float: right;
+    color: #4b4b4b;
+    font-size: 18px;
+}
+
+.post-item-more:hover{
+    color: #fff;
+}
+
+.post-item-more span:hover{
+    background: #ffa304;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.post-item-more span{
+    padding: 8px 35px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+
+.post-item-bottom{
+    padding: 15px 0 25px 0;
+}
+
+.wrapper-post-item-category svg{
+    color: #ffa304;
+    font-size: 20px;
+}
+
+.post-item-category{
+    text-transform: uppercase;
+    color: #4b4b4b;
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 3px;
+    margin-right: 10px;
+}
+
+.post-item-user{
+    color: #4b4b4b;
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 3px;
+}
+
+
+/* Page posts end */
+
+
 @media (max-width: 1920px) {
 
 }
