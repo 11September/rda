@@ -53,6 +53,68 @@ a, a:hover, a:visited, a:link {
     text-decoration: none;
 }
 
+.header-top{
+    border-bottom: 1.5px solid #4687B5;
+}
+
+.logo-part{
+    display: flex;
+}
+
+.top-part-body{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.top-part-body .text-block p:first-child{
+    font-family: 'Century_Gothic';
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.top-part-body .text-block p:nth-child(2){
+    font-family: 'Century_Gothic';
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.logo-part img{
+    margin-right: 15px;
+}
+
+.language-part{
+    align-items: center;
+    display: flex;
+}
+
+.language-part a{
+    margin-right: 5px;
+    color: #4b4b4b;
+}
+
+.language-part a:hover{
+    color: blue;
+}
+
+.social-part svg{
+    color: #a5a5a5;
+    font-size: 24px;
+}
+
+.social-part{
+    display: flex;
+    align-items: center;
+}
+
+.social-part a{
+    margin-right: 15px;
+}
+
+
+
 /* header end */
 
 /* big-slider */

@@ -26,5 +26,7 @@
     left: 40px;
 }
 
-
+.owl-carousel.owl-drag .owl-item {
+    height: 400px;
+}
 

@@ -22,20 +22,31 @@
         <div class="container">
             <div class="top-part-body">
                 <div class="logo-part">
+                    <img src="{{ asset('images/header_logo.png') }}" alt="">
 
+                    <div class="text-block">
+                        <p>Відділ освіти</p>
+                        <p>Сумської Районної Державної<br>Адміністрації</p>
+                    </div>
                 </div>
 
                 <div class="language-part">
-
+                    <a href="">УКР</a>
+                    <a href="">РУС</a>
+                    <a href="">ENG</a>
                 </div>
 
                 <div class="social-part">
-
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fas fa-rss"></i></a>
                 </div>
 
-                <div class="search-part">
-
-                </div>
+                <form class="search-part">
+                    <input type="text" placeholder="Пошук сайтом...">
+                    <i class="fas fa-search"></i>
+                </form>
             </div>
         </div>
     </div>
