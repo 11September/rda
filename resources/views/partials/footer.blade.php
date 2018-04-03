@@ -1,84 +1,44 @@
 <footer class="footer">
     <div class="footer-top">
         <div class="container">
-            <div class="row">
-                <div class="col-md-2 col-lg-2 col-sm-3 col-12">
-                    <div class="footer-wrapper-logo-social">
-                        <div class="footer-wrapper-logo">
-                            <a href="index.html">
-                                <img src="images/footer-logo.png" alt="footer-logo">
-                            </a>
-                        </div>
-                        <div class="footer-wrapper-social">
-                            <div class="wrapper-wrapper-social-block">
-                                <a class="social-link" href="#">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a class="social-link" href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a class="social-link" href="#">
-                                    <i class="fab fa-google-plus"></i>
-                                </a>
-                                <a class="social-link" href="#">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                                <a class="social-link" href="#">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </div>
+            <div class="row wrapper-footer-top-content">
+                <div class="col-lg-4 col-md-4 col-sm-5 center-block">
+                    <div class="wrapper-footer-logo">
+                        <img src="{{ asset('images/footer_logo.png') }}" alt="footer-logo">
+                        <div class="logo-info">
+                            <h4>Відділ освіти </h4>
+                            <h5>Сумської Районної Державної <br>
+                                Адміністрації
+                            </h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4 col-sm-9">
-                    <div class="footer-wrapper-about">
-                        <p>Рекламно-производственная компания «РекламаЦентр» известна и результативно работает на
-                            рынке рекламно-полиграфических услуг с 2008 года.</p>
-                        <p>Особенностью нашей политики есть конкурентные цены на все виды продукции. Мы можем
-                            гордиться большим производством, высокотехнологичным оборудованием и с использованием
-                            только проверенных и качественных материалов ведущих мировых и украинских
-                            производителей.</p>
-                        <p>Производство рекламы – это мы делаем ежедневно. И делаем это с полной отдачей и большим
-                            удовольствием!</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-3 col-sm-6">
-                    <div class="footer-wrapper-services">
-                        <h5>УСЛУГИ</h5>
-
-                        <ul class="footer-services-menu">
-
-                            @foreach($services as $service)
-                                <li><a href="{{ url('service-' . $service->slug) }}">{{ $service->title }}</a></li>
-                            @endforeach
-
-                            {{--<li><a href="">Дизайн</a></li>--}}
-                            {{--<li><a href="">Изготовление и монтаж наружной рекламы</a></li>--}}
-                            {{--<li><a href="">Широкоформатная печать</a></li>--}}
-                            {{--<li><a href="">Лазерная и фрезерная резка и гравировка</a></li>--}}
-                            {{--<li><a href="">Шелкотрафаретная печать</a></li>--}}
-                            {{--<li><a href="">Плоттерная порезка</a></li>--}}
-                            {{--<li><a href="">Производство пластиковых карт</a></li>--}}
-                            {{--<li><a href="">Изготовление сувенирной продукции</a></li>--}}
-                            {{--<li><a href="">Брендирование автотранспорта</a></li>--}}
-                            {{--<li><a href="">Аренда рекламных плоскостей</a></li>--}}
-                            {{--<li><a href="">Реклама на/в транспорте</a></li>--}}
+                <div class="col-lg-2 col-md-4 col-sm-3 center-block text-center">
+                    <div class="wrapper-footer-languages">
+                        <ul class="footer-languages-menu list-inline">
+                            <li class="list-inline-item footer-languages-menu-item"><a href="#">УКР</a></li>
+                            <li class="list-inline-item footer-languages-menu-item"><a href="#">РУС</a></li>
+                            <li class="list-inline-item footer-languages-menu-item"><a href="#">ENG</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-lg-3 col-sm-6">
-                    <div class="footer-wrapper-production">
-                        <h5>ПРОДУКЦИЯ</h5>
-                        <ul class="footer-services-menu">
-
-                            @foreach($productions as $production)
-                                <li><a href="{{ url('service-' . $production->slug) }}">{{ $production->title }}</a></li>
-                            @endforeach
-
-                            {{--<li><a href="">Наружная реклама</a></li>--}}
-                            {{--<li><a href="">Интерьерная реклама</a></li>--}}
-                            {{--<li><a href="">Полиграфия</a></li>--}}
-                            {{--<li><a href="">Рекламно-сувенирная продукция</a></li>--}}
+                <div class="col-lg-3 col-md-4 col-sm-4 center-block text-center">
+                    <div class="wrapper-footer-social">
+                        <a class="footer-social-item" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="footer-social-item" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="footer-social-item" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="footer-social-item" href="#"><i class="fas fa-rss"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 center-block">
+                    <div class="wrapper-footer-additional">
+                        <ul class="footer-additional-menu">
+                            <li class="footer-additional-menu-item"><a href="#"><i class="fas fa-users"></i>Звернення
+                                    громадян</a></li>
+                            <li class="footer-additional-menu-item"><a href="#"><i class="fas fa-sitemap"></i>Мапа сайту</a>
+                            </li>
+                            <li class="footer-additional-menu-item"><a href="#"><i class="fas fa-envelope"></i>Контактна
+                                    інформація</a></li>
                         </ul>
                     </div>
                 </div>
@@ -87,32 +47,9 @@
     </div>
     <div class="footer-bottom">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="footer-bottom-sitemap">
-                        <p class="footer-bottom-sitemap-sitemap text-red">Карта сайта</p>
-                        <div class="footer-bottom-sitemap-copyright">
-                            <p>© 2008 -
-                                <script>document.write(new Date().getFullYear())</script>
-                                Рекламно-производственное агентство «Реклама Центр».
-                            </p>
-                            <p>Все права защищены. Перепечатка материалов без письменного согласия запрещена!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <p class="madeBy">
-                        Разработано
-
-                        <span class="text-red pad2">
-                            @if (rand(1,1000) == 1000)
-                                Made with <i class="fas fa-heart"></i>
-                                by <a style="color: #ef3a41" href="http://redbox.in.ua/" target="_blank">Redbox</a>
-                            @else
-                                 LocalService
-                            @endif
-                        </span>
-                    </p>
+            <div class="row wrapper-footer-bottom">
+                <div class="col-md-12">
+                    <p class="copyright">Разработано <a href="#"><span class="red">LocalService</span></a></p>
                 </div>
             </div>
         </div>
