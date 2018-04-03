@@ -535,7 +535,7 @@
 @endsection
 
 @section('scripts')
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <script>
         $('.big-slider-body').owlCarousel({
             loop: true,

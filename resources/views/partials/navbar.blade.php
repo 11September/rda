@@ -3,7 +3,9 @@
         <div class="container">
             <div class="top-part-body">
                 <div class="logo-part">
-                    <img src="{{ asset('images/header_logo.png') }}" alt="">
+                    <a href="{{ url('/') }}">
+                        <img src="{{ asset('images/header_logo.png') }}" alt="">
+                    </a>
 
                     <div class="text-block">
                         <p>Відділ освіти</p>
@@ -36,7 +38,7 @@
         <div class="container">
             <nav class="menu-body">
                 <ul class="menu-list">
-                    <li><a href="" class="menu-list-item">ГОЛОВНА</a></li>
+                    <li><a href="{{ url('/') }}" class="menu-list-item">ГОЛОВНА</a></li>
                     <li><a href="{{ url('/news') }}" class="menu-list-item">НОВИНИ</a></li>
                     <li><a href="" class="menu-list-item">ПУБЛІЧНА ІНФОРМАЦІЯ</a></li>
                     <li><a href="" class="menu-list-item">ЗВЕРНЕННЯ ГРОМАДЯН</a></li>
