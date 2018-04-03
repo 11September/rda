@@ -69,12 +69,12 @@
                                 <div class="wrapper-single-post-additional">
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                            <a class="social-icon text-xs-center blue18" target="_blank" href="#">
                                                 <i class="far fa-calendar-alt"></i>14.03.2018
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                            <a class="social-icon text-xs-center blue18" target="_blank" href="#">
                                                 <i class="far fa-clock"></i>9.30
                                             </a>
                                         </li>
@@ -89,10 +89,10 @@
 
                             <div class="col-md-4">
                                 <div class="wrapper-single-post-additional">
-                                    <ul class="list-inline">
+                                    <ul class="list-inline float-right">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fas fa-user"></i>FB
+                                                <i class="fas fa-user"></i>Админ.
                                             </a>
                                         </li>
                                     </ul>
@@ -177,6 +177,13 @@
                             </div>
 
                         </div>
+                    </div>
+
+
+                    <div class="wrapper-sigle-post-anonses">
+
+                        @include('partials.anonses')
+
                     </div>
                 </div>
             </div>

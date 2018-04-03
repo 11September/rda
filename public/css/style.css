@@ -941,6 +941,21 @@ a, a:hover, a:visited, a:link {
     margin-right: 8px;
 }
 
+.wrapper-single-post-additional a{
+    color: #4b4b4b;
+    font-size: 14px;
+}
+
+.wrapper-single-post-additional .blue18{
+    color: #1567a1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.wrapper-sigle-post-anonses .news_right_block{
+    padding: 0;
+}
 /* Post page end */
 
 @media (max-width: 1920px) {
