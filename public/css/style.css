@@ -50,10 +50,32 @@
     align-items: center;
 }
 
-.wrapper-footer-logo img{
-    width:60px;
+.wrapper-footer-logo{
+    display: flex;
 }
 
+.wrapper-footer-logo img{
+    width:60px;
+    margin-right: 5px;
+}
+
+.logo-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-info h4{
+    font-size: 17px;
+    color: #ababab;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo-info h5{
+    font-size: 13px;
+    color: #ababab;
+}
 
 .footer-bottom{
     height:40px;
