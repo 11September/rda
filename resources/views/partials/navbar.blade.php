@@ -28,7 +28,10 @@
 
                 <form class="search-part">
                     <input type="text" placeholder="Пошук сайтом...">
-                    <i class="fas fa-search"></i>
+
+                    <button type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
                 </form>
             </div>
         </div>

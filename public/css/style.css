@@ -37,6 +37,12 @@ a, a:hover, a:visited, a:link {
     display: none;
 }
 
+.search-part button{
+    background: none;
+    border: none;
+    outline: none;
+}
+
 .menu-list{
     display: flex;
     justify-content: space-between;
@@ -143,11 +149,13 @@ a, a:hover, a:visited, a:link {
     width: 35px;
     height: 35px;
     text-align: center;
-    padding-top: 7px;
+    padding: 7px;
     border-radius: 20px;
     font-size: 20px;
     margin-left: 10px;
 }
+
+
 
 .social-part svg:hover{
     color: #616161;
