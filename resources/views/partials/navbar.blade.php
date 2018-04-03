@@ -1,87 +1,50 @@
-<nav class="wrapper-all-menu">
-    <div class="container-fluid fluid fixed-top">
+<header class="header-wrapper">
+    <div class="header-top">
         <div class="container">
-            <div class="top-menu">
-                <div class="top-menu_logo">
-                    <a href="{{ url('/') }}">
-                        <img src="{{ asset('images/logo-image.png') }}" alt="">
-                    </a>
-                </div>
+            <div class="top-part-body">
+                <div class="logo-part">
+                    <img src="{{ asset('images/header_logo.png') }}" alt="">
 
-                <div class="top-menu_nav">
-                    <img src="{{ asset('images/grids.png') }}" alt="">
-                    <ul class="manu-list">
-                        <p class="mobile-menu">
-                            <i class="fas fa-bars mobile-menu-icon"></i>
-                        </p>
-                        <div class="menu-block hider">
-                            <div class="search-box hide-768">
-                                <form action="">
-                                    <a href="" class="search-link"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    <input type="text">
-                                </form>
-                            </div>
-
-                            <li>
-                                <div class="dropdown">
-                                    <a href="{{ url('/') }}" class="menu-btn">
-                                        <img src="{{ asset('images/red-grid-small.png') }}" alt="">
-                                        ГЛАВНАЯ
-                                    </a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary menu-btn dropdown-toggle" type="button"
-                                            id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true"
-                                            aria-expanded="false">
-                                        <img src="{{ asset('images/red-grid-small.png') }}" alt="">
-                                        УСЛУГИ
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-
-                                        @foreach($services as $service)
-                                            <a class="dropdown-item" href="{{ url('service-' . $service->slug) }}">{{ $service->title }}</a>
-                                        @endforeach
-
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary menu-btn dropdown-toggle" type="button"
-                                            id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true"
-                                            aria-expanded="false">
-                                        <img src="{{ asset('images/red-grid-small.png') }}" alt="">
-                                        ПРОДУКЦИЯ
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-
-                                        @foreach($productions as $production)
-                                            <a class="dropdown-item" href="{{ url('service-' . $production->slug) }}">{{ $production->title }}</a>
-                                        @endforeach
-
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="{{ url('/contact') }}" class="menu-btn">
-                                    <img src="{{ asset('images/red-grid-small.png') }}" alt="">
-                                    КОНТАКТЫ
-                                </a>
-                            </li>
-                        </div>
-                    </ul>
-                    <img src="{{ asset('images/grids.png') }}" class="grids-ico" alt="">
-                </div>
-
-                <div class="top-menu_search">
-                    <div class="search-box">
-                        <a href="{{ url('/search') }}" class="search-link"><i class="fa fa-search"
-                                                                              aria-hidden="true"></i></a>
+                    <div class="text-block">
+                        <p>Відділ освіти</p>
+                        <p>Сумської Районної Державної<br>Адміністрації</p>
                     </div>
                 </div>
+
+                <div class="language-part">
+                    <a href="">УКР</a>
+                    <a href="">РУС</a>
+                    <a href="">ENG</a>
+                </div>
+
+                <div class="social-part">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fas fa-rss"></i></a>
+                </div>
+
+                <form class="search-part">
+                    <input type="text" placeholder="Пошук сайтом...">
+                    <i class="fas fa-search"></i>
+                </form>
             </div>
         </div>
     </div>
-</nav>
+
+    <div class="header-bottom">
+        <div class="container">
+            <nav class="menu-body">
+                <ul class="menu-list">
+                    <li><a href="" class="menu-list-item">ГОЛОВНА</a></li>
+                    <li><a href="{{ url('/news') }}" class="menu-list-item">НОВИНИ</a></li>
+                    <li><a href="" class="menu-list-item">ПУБЛІЧНА ІНФОРМАЦІЯ</a></li>
+                    <li><a href="" class="menu-list-item">ЗВЕРНЕННЯ ГРОМАДЯН</a></li>
+                    <li><a href="" class="menu-list-item">ДОШКІЛЬНА ОСВІТА</a></li>
+                    <li><a href="" class="menu-list-item">ЗАГАЛЬНА СЕРЕДНЯ ОСВІТА</a></li>
+                    <li><a href="" class="menu-list-item">ПОЗАШКІЛЬНА ОСВІТА</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
