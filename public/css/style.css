@@ -184,6 +184,10 @@ h2 {
     color: #a5a5a5;
 }
 
+.footer-additional-menu-item a:hover{
+    color: #2696f5;
+}
+
 .footer-additional-menu-item svg {
     color: #1567a1;
     width: 20px !important;
