@@ -174,22 +174,22 @@
         <div class="container">
             <h2>Новини</h2>
             <div class="row">
-                <div class="col-xl-8 news_left_block">
+                <div class="col-xl-8 col-lg-8 col-md-12 news_left_block">
                     <div class="news_item">
                         <div class="row">
-                            <div class="col-xl-4 news_item_img">
+                            <div class="col-xl-4 col-lg-4 col-md-4 news_item_img">
                                 <img src="{{ asset('images/news_item_1.png') }}" alt="news_item_img">
                             </div>
-                            <div class="col-xl-8 news_item_text">
+                            <div class="col-xl-8 col-lg-8 col-md-8 news_item_text">
                                 <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
                             </div>
                             <div class="news_item_link_padding">
-                                <div class="col-xl-12 news_item_link">
+                                <div class="col-xl-12 col-lg-12 col-md-12 news_item_link">
                                     <div class="row">
-                                        <div class="col-xl-6 news_item_link_left">
+                                        <div class="col-xl-6 col-lg-7 col-md-7 col-sm-12 news_item_link_left">
                                             <div class="calendar">
                                                 <i class="fas fa-calendar-alt"></i>
                                                 <p class="">14.03.2018</p>
@@ -201,7 +201,7 @@
 
 
                                         </div>
-                                        <div class="col-xl-6 news_item_link_right">
+                                        <div class="col-xl-6 col-lg-5 col-md-5 col-sm-12 news_item_link_right">
                                             <a href="#">
                                                 <span>Докладніше...</span>
                                             </a>
@@ -213,19 +213,19 @@
                     </div>
                     <div class="news_item">
                         <div class="row">
-                            <div class="col-xl-4 news_item_img">
+                            <div class="col-xl-4 col-lg-4 col-md-4 news_item_img">
                                 <img src="{{ asset('images/news_item_2.png') }}" alt="news_item_img">
                             </div>
-                            <div class="col-xl-8 news_item_text">
+                            <div class="col-xl-8 col-lg-8 col-md-8 news_item_text">
                                 <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
                             </div>
                             <div class="news_item_link_padding">
-                                <div class="col-xl-12 news_item_link">
+                                <div class="col-xl-12 col-lg-12 col-md-12 news_item_link">
                                     <div class="row">
-                                        <div class="col-xl-6 news_item_link_left">
+                                        <div class="col-xl-6 col-lg-7 col-md-7 col-sm-12 news_item_link_left">
                                             <div class="calendar">
                                                 <i class="fas fa-calendar-alt"></i>
                                                 <p class="">14.03.2018</p>
@@ -237,7 +237,7 @@
 
 
                                         </div>
-                                        <div class="col-xl-6 news_item_link_right">
+                                        <div class="col-xl-6 col-lg-5 col-md-5 col-sm-12 news_item_link_right">
                                             <a href="#">
                                                 <span>Докладніше...</span>
                                             </a>
@@ -249,19 +249,19 @@
                     </div>
                     <div class="news_item">
                         <div class="row">
-                            <div class="col-xl-4 news_item_img">
+                            <div class="col-xl-4 col-lg-4 col-md-4 news_item_img">
                                 <img src="{{ asset('images/news_item_3.png') }}" alt="news_item_img">
                             </div>
-                            <div class="col-xl-8 news_item_text">
+                            <div class="col-xl-8 col-lg-8 col-md-8 news_item_text">
                                 <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
                             </div>
                             <div class="news_item_link_padding">
-                                <div class="col-xl-12 news_item_link">
+                                <div class="col-xl-12 col-lg-12 col-md-12  news_item_link">
                                     <div class="row">
-                                        <div class="col-xl-6 news_item_link_left">
+                                        <div class="col-xl-6 col-lg-7 col-sm-12 news_item_link_left">
                                             <div class="calendar">
                                                 <i class="fas fa-calendar-alt"></i>
                                                 <p class="">14.03.2018</p>
@@ -273,7 +273,7 @@
 
 
                                         </div>
-                                        <div class="col-xl-6 news_item_link_right">
+                                        <div class="col-xl-6 col-lg-5 col-sm-12 news_item_link_right">
                                             <a href="#">
                                                 <span>Докладніше...</span>
                                             </a>
@@ -288,18 +288,12 @@
                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                             <li class="page-item"><a class="page-link page-link-active" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                            <li class="page-item"><a class="page-link" href="#">5</a></li>
-                            <li class="page-item"><a class="page-link" href="#">6</a></li>
-                            <li class="page-item"><a class="page-link" href="#">7</a></li>
-                            <li class="page-item"><a class="page-link" href="#">8</a></li>
-                            <li class="page-item"><a class="page-link" href="#">9</a></li>
                             <li class="page-item add_info"><a class="page-link" href="#">>></a></li>
                             <li class="page-item add_info add_info_news"><a class="page-link" href="#">Всі новини</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="col-xl-4 news_right_block">
+                <div class="col-xl-4 col-lg-4 news_right_block">
                     <h2>АНОНСИ ПОДІЙ</h2>
                     <p>
                         Lorem ipsum dolor sit amet
