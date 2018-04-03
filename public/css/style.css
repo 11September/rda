@@ -8,9 +8,20 @@
     src: url(../fonts/GOTHIC.ttf); /* Путь к файлу со шрифтом */
 }
 
+h2 {
+    font-family: 'Century_Gothic'; /* Имя шрифта */
+    font-size: 36px;
+    color: #1567a1;
+    text-transform: uppercase;
+}
+
 .slick-slide:hover, .slick-slide:active, .slick-slide:visited {
     outline: 0;
     outline-offset: 0;
+}
+
+a, a:hover, a:visited, a:link {
+    text-decoration: none;
 }
 
 /* header */
@@ -52,11 +63,185 @@
 
 /* content end */
 
+/* news */
+.news{
+    background: #f8f8f8;
+    padding: 20px 0 20px;
+    border-top: 1px dashed #f8f8f8;
+    border-bottom: 1px dashed #f8f8f8;
+    font-family: 'Century_Gothic';
+}
+
+.news h2{
+    font-size: 36px;
+    color: #1567a1;
+    padding-bottom: 30px;
+}
+
+.news_item_img img{
+    width: auto;
+    height: 200px;
+}
+
+.news_item_text{
+    padding-left: 45px;
+}
+
+.news_item_text h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1567a1;
+    padding-bottom: 25px;
+}
+
+.news_item_text p{
+    font-size: 18px;
+    color: #4b4b4b;
+    line-height: 1.2;
+    height: 106px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news_item_link_padding{
+    padding: 15px 15px 0;
+}
+
+.news_item_link{
+    border-top: 2px solid #1567a1;
+    padding: 0;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    width: 754px;
+    max-width: 754px;
+}
+
+.news_item_link .row{
+    width: 100%;
+}
+
+.news_item_link_left{
+
+}
+
+.news_item_link_left svg{
+    color: #ffa304;
+    font-size: 20px;
+}
+
+.news_item_link_left p{
+    color: #1567a1;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 3px;
+}
+
+.calendar{
+    display: inline-block;
+}
+
+.last_news{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.last_news p{
+    text-transform: uppercase;
+    color: #4b4b4b;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.news_item_link_right{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+}
+
+.news_item_link_right a{
+    color: #fff;
+    font-size: 18px;
+    margin-right: -15px;
+}
+
+.news_item_link_right a:hover{
+    color: #4b4b4b;
+}
+
+.news_item_link_right span{
+    padding: 10px 30px;
+    background: #ffa304;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+/* news end */
+
 /* gallery */
+.wrapper-gallery {
+    margin: 40px 0 50px 0;
+}
+
+.gallery-item{
+    position: relative;
+    height:260px;
+    margin-bottom: 30px;
+}
+
+.wrapper-gallery-item-date{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:165px;
+    height:34px;
+    background-color: #1567a1;
+}
+
+.gallery-item-date{
+    height:inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffa304;
+    font-size: 24px;
+}
+
+.gallery-item img, .video-item img{
+    width:100%;
+    height: inherit;
+}
+
+.video-item{
+    height:260px;
+    margin-bottom: 30px;
+}
+
+.video-item a{
+    width:100%;
+    height:100%;
+    text-decoration: none;
+}
+
 
 /* gallery end */
 
 /* links */
+.links {
+    background-color: #f8f8f8;
+    padding: 30px 0 20px 0;
+}
+
+.wrapper-links-content {
+    margin: 30px 0;
+}
+
+.wrapper-link-item {
+    margin-bottom: 27px;
+}
 
 /* links end */
 
@@ -147,6 +332,10 @@
     color: #a5a5a5;
 }
 
+.footer-additional-menu-item a:hover{
+    color: #2696f5;
+}
+
 .footer-additional-menu-item svg {
     color: #1567a1;
     width: 20px !important;
@@ -185,15 +374,19 @@
 }
 
 @media (max-width: 992px) {
-    .footer-top{
-        height:auto;
+    .gallery-item, .video-item{
+        height: auto;
     }
 
-    .wrapper-footer-top-content{
+    .footer-top {
+        height: auto;
+    }
+
+    .wrapper-footer-top-content {
         padding-top: 40px;
     }
 
-    .footer-additional-menu{
+    .footer-additional-menu {
         margin-top: 40px;
         margin-bottom: 30px;
         display: flex;
@@ -204,7 +397,9 @@
 }
 
 @media (max-width: 768px) {
-
+    .wrapper-link-item, .wrapper-link-item img{
+        width:100%;
+    }
 }
 
 @media (max-width: 576px) {

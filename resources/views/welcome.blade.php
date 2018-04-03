@@ -172,21 +172,168 @@
     </div>
 </section>
 
+<section class="news">
+    <div class="container">
+        <h2>Новини</h2>
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="news_item">
+                    <div class="row">
+                        <div class="col-xl-4 news_item_img">
+                             <img src="{{ asset('images/news_item_1.png') }}" alt="news_item_img">
+                        </div>
+                        <div class="col-xl-8 news_item_text">
+                             <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
+                             <p>
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                             </p>
+                        </div>
+                        <div class="news_item_link_padding">
+                            <div class="col-xl-12 news_item_link">
+                                <div class="row">
+                                    <div class="col-xl-6 news_item_link_left">
+                                        <div class="calendar">
+                                            <i class="fas fa-calendar-alt"></i>
+                                            <p class="">14.03.2018</p>
+                                        </div>
+                                        <div class="last_news">
+                                            <i class="fas fa-folder-open"></i>
+                                            <p class="">ОСТАННІ НОВИНИ</p>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <div class="col-xl-6 news_item_link_right">
+                                        <a href="#">
+                                            <span>Докладніше...</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news_item">
+                    <div class="row">
+                        <div class="col-xl-4 news_item_img">
+                             <img src="{{ asset('images/news_item_1.png') }}" alt="news_item_img">
+                        </div>
+                        <div class="col-xl-8 news_item_text">
+                             <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
+                             <p>
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                             </p>
+                        </div>
+                        <div class="news_item_link_padding">
+                            <div class="col-xl-12 news_item_link">
+                                <div class="row">
+                                    <div class="col-xl-6 news_item_link_left">
+                                        <div class="calendar">
+                                            <i class="fas fa-calendar-alt"></i>
+                                            <p class="">14.03.2018</p>
+                                        </div>
+                                        <div class="last_news">
+                                            <i class="fas fa-folder-open"></i>
+                                            <p class="">ОСТАННІ НОВИНИ</p>
+                                        </div>
+                                        
+
+                                    </div>
+                                    <div class="col-xl-6 news_item_link_right">
+                                        <a href="#">
+                                            <span>Докладніше...</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="gallery">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="row">
-                    <div class="col-md-6"></div>
-                    <div class="col-md-6"></div>
-                    <div class="col-md-6"></div>
-                    <div class="col-md-6"></div>
+
+                <h2>ГАЛЕРЕЯ</h2>
+
+                <div class="wrapper-gallery">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="gallery-item">
+                                <img src="{{ asset('images/gallery_item_1.png') }}" alt="gallery">
+
+                                <div class="wrapper-gallery-item-date">
+                                    <p class="gallery-item-date">
+                                        14.03.2018
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="gallery-item">
+                                <img src="{{ asset('images/gallery_item_2.png') }}" alt="gallery">
+
+                                <div class="wrapper-gallery-item-date">
+                                    <p class="gallery-item-date">
+                                        14.03.2018
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="gallery-item">
+                                <img src="{{ asset('images/gallery_item_3.png') }}" alt="gallery">
+
+                                <div class="wrapper-gallery-item-date">
+                                    <p class="gallery-item-date">
+                                        14.03.2018
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="gallery-item">
+                                <img src="{{ asset('images/gallery_item_4.png') }}" alt="gallery">
+
+                                <div class="wrapper-gallery-item-date">
+                                    <p class="gallery-item-date">
+                                        14.03.2018
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-12"></div>
-                    <div class="col-md-12"></div>
+
+                <h2>BІДЕО</h2>
+
+                <div class="wrapper-gallery">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-6">
+                            <div class="video-item">
+                                <a href="#">
+                                    <img src="{{ asset('images/video_poster.png') }}" alt="gallery">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-6">
+                            <div class="video-item">
+                                <a href="#">
+                                    <img src="{{ asset('images/video_poster.png') }}" alt="gallery">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -202,28 +349,113 @@
 
 <section class="links">
     <div class="container">
-        <div class="row">
-            <div class="col-md-2">
-                <div class="wrapper-link-item">
-                    <img src="" alt="">
-                </div>
-            </div>
 
-            <div class="col-md-2">
-                <div class="wrapper-link-item">
-                    <img src="" alt="">
-                </div>
-            </div>
+        <h2>ПОСИЛАННЯ</h2>
 
-            <div class="col-md-2">
-                <div class="wrapper-link-item">
-                    <img src="" alt="">
+        <div class="wrapper-links-content">
+            <div class="row">
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_1.png') }}" alt="link">
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-md-2">
-                <div class="wrapper-link-item">
-                    <img src="" alt="">
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_2.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_3.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_4.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_5.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_6.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_7.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_8.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_9.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_10.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_11.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_12.png') }}" alt="link">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3">
+                    <div class="wrapper-link-item">
+                        <a href="#">
+                            <img src="{{ asset('images/link_item_13.png') }}" alt="link">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
