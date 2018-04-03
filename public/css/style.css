@@ -755,7 +755,7 @@ a, a:hover, a:visited, a:link {
     }
 
     .header-wrapper .container {
-        max-width: 100%;
+        max-width: 90%;
         padding: 0;
     }
 }
