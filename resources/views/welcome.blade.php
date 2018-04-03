@@ -204,12 +204,15 @@
     <div class="footer-top">
         <div class="container">
             <div class="row wrapper-footer-top-content">
-                <div class="col-lg-3 col-md-12 center-block">
+                <div class="col-lg-4 col-md-12 center-block">
                     <div class="wrapper-footer-logo">
-                        <img src="" alt="footer-logo">
+                        <img src="{{ asset('images/footer_logo.png') }}" alt="footer-logo">
+                        <h5>Відділ освіти </h5>
+                        <p>Сумської Районної Державної <br>
+                            Адміністрації</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-12 center-block">
+                <div class="col-lg-2 col-md-12 center-block">
                     <div class="wrapper-footer-languages">
                         <ul class="footer-languages-menu list-inline">
                             <li class="list-inline-item footer-languages-menu-item"><a href="#">УКР</a></li>
