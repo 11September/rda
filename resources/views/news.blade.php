@@ -25,8 +25,11 @@
                     <div class="col-md-6">
                         <h2>Новини</h2>
                     </div>
-                    <div class="col-md-6">
-
+                    <div class="col-md-6 news-page-panel">
+                        <a href="#">останні новини</a>
+                        <a class="news-page-panel-active" href="#">несортовані</a>
+                        <a href="#">влада</a>
+                        <a href="#">закон</a>
                     </div>
                 </div>
             </div>
@@ -405,6 +408,14 @@
                                 <li class="page-item"><a class="page-link" href="#">8</a></li>
                                 <li class="page-item"><a class="page-link" href="#">9</a></li>
                                 <li class="page-item add_info"><a class="page-link" href="#">>></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
                                 <li class="page-item add_info add_info_news"><a class="page-link" href="#">Всі
                                         новини</a>
                                 </li>
