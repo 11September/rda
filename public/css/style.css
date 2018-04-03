@@ -99,12 +99,49 @@ a, a:hover, a:visited, a:link {
     color: blue;
 }
 
-.social-part svg{
+.social-part i{
     color: #a5a5a5;
     font-size: 24px;
 }
 
-.social-part svg:hover{
+.search-part{
+    align-items: center;
+    display: flex;
+}
+
+.search-part input{
+    background: #f4f4f4;
+
+    border-radius: 20px;
+    height: 40px;
+    outline: none;
+    padding-left: 20px;
+
+    border: none;
+
+    -webkit-box-shadow: inset -1px 4px 59px -3px rgba(140,140,140,1);
+    -moz-box-shadow: inset -1px 4px 59px -3px rgba(140,140,140,1);
+    box-shadow: inset -1px 3px 10px -3px rgba(140,140,140,1);
+}
+
+.search-part input::-webkit-input-placeholder {color:#4b4b4b;}
+.search-part input::-moz-placeholder          {color:#4b4b4b;}/* Firefox 19+ */
+.search-part input:-moz-placeholder           {color:#4b4b4b;}/* Firefox 18- */
+.search-part input:-ms-input-placeholder      {color:#4b4b4b;}
+
+.search-part .fa-search{
+    color: white;
+    background: #296ea2;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.social-part i:hover{
     color: #616161;
 }
 
@@ -497,7 +534,10 @@ a, a:hover, a:visited, a:link {
 }
 
 @media (max-width: 1400px) {
-
+    .menu-list-item {
+        font-family: 'Century_Gothic';
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -505,8 +545,22 @@ a, a:hover, a:visited, a:link {
         height: auto;
     }
 
+    .header-wrapper .container{
+        max-width: 90%;
+    }
+
+    .menu-list-item {
+        font-family: 'Century_Gothic';
+        font-size: 9px;
+    }
+
     .footer-top {
         height: auto;
+    }
+
+    .menu-list {
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .wrapper-footer-top-content {
@@ -527,6 +581,22 @@ a, a:hover, a:visited, a:link {
     .wrapper-link-item, .wrapper-link-item img{
         width:100%;
     }
+
+    .hider{
+        display: none;
+    }
+
+    .menu-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-bottom {
+        background: #1567a1;
+        text-align: center;
+    }
+
+
 }
 
 @media (max-width: 576px) {

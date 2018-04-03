@@ -54,7 +54,8 @@
     <div class="header-bottom">
         <div class="container">
             <nav class="menu-body">
-                <ul class="menu-list">
+                <i class="fas fa-bars mobile-btn"></i>
+                <ul class="menu-list hider">
                     <li><a href="" class="menu-list-item">ГОЛОВНА</a></li>
                     <li><a href="{{ url('/news') }}" class="menu-list-item">НОВИНИ</a></li>
                     <li><a href="" class="menu-list-item">ПУБЛІЧНА ІНФОРМАЦІЯ</a></li>
@@ -586,18 +587,7 @@
     </div>
 </footer>
 
-<script src="js/owl.carousel.min.js"></script>
 
-
-<script>
-
-    $('.big-slider-body').owlCarousel({
-        loop: true,
-        margin: 10,
-        items: 1
-    });
-
-</script>
 
 </body>
 </html>
