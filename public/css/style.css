@@ -375,6 +375,10 @@ a, a:hover, a:visited, a:link {
 /* news end */
 
 /* gallery */
+.gallery{
+    padding-top: 30px;
+}
+
 .wrapper-gallery {
     margin: 40px 0 50px 0;
 }
