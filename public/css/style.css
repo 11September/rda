@@ -167,14 +167,7 @@ a, a:hover, a:visited, a:link {
 .social-part a{
     margin-right: 25px;
 }
-
-
-
 /* header end */
-
-/* big-slider */
-
-/* big-slider end */
 
 /* content */
 .content{
@@ -951,6 +944,10 @@ a, a:hover, a:visited, a:link {
         max-width: 90%;
         padding: 0;
     }
+
+    .owl-carousel.owl-drag .owl-item{
+        height: auto !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -969,7 +966,7 @@ a, a:hover, a:visited, a:link {
     }
 
     .search-part {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .top-part-body .text-block p:nth-child(2) {
@@ -1089,8 +1086,6 @@ a, a:hover, a:visited, a:link {
         background: #1567a1;
         text-align: center;
     }
-
-
 }
 
 @media (max-width: 576px) {
