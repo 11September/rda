@@ -620,12 +620,22 @@ a, a:hover, a:visited, a:link {
 
 
 /* Page posts */
-.news-page{
+.news-page {
+    background-color: #f8f8f8;
+}
 
+.wrapper-news-heading{
+    height:80px;
+    padding: 20px 0;
+    background-color: #ffffff;
 }
 
 .wrapper-post-content{
     border-bottom: 2px solid #1567a1;
+}
+
+.post-item{
+    padding-top: 40px;
 }
 
 .post-item-calender{
@@ -710,7 +720,11 @@ a, a:hover, a:visited, a:link {
     padding-left: 3px;
 }
 
-
+.wrapper-pagination{
+    height:60px;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
 /* Page posts end */
 
 
