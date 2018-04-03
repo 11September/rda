@@ -146,17 +146,79 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="row">
-                    <div class="col-md-6"></div>
-                    <div class="col-md-6"></div>
-                    <div class="col-md-6"></div>
-                    <div class="col-md-6"></div>
+
+                <h2>ГАЛЕРЕЯ</h2>
+
+                <div class="wrapper-gallery">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <img src="{{ asset('images/gallery_item_1.png') }}" alt="gallery">
+
+                                <div class="wrapper-gallery-item-date">
+                                    <p class="gallery-item-date">
+                                        14.03.2018
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <img src="{{ asset('images/gallery_item_2.png') }}" alt="gallery">
+
+                                <div class="wrapper-gallery-item-date">
+                                    <p class="gallery-item-date">
+                                        14.03.2018
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <img src="{{ asset('images/gallery_item_3.png') }}" alt="gallery">
+
+                                <div class="wrapper-gallery-item-date">
+                                    <p class="gallery-item-date">
+                                        14.03.2018
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="gallery-item">
+                                <img src="{{ asset('images/gallery_item_4.png') }}" alt="gallery">
+
+                                <div class="wrapper-gallery-item-date">
+                                    <p class="gallery-item-date">
+                                        14.03.2018
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-12"></div>
-                    <div class="col-md-12"></div>
+
+                <h2>BІДЕО</h2>
+
+                <div class="wrapper-gallery">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="video-item">
+                                <a href="#">
+                                    <img src="{{ asset('images/video_poster.png') }}" alt="gallery">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="video-item">
+                                <a href="#">
+                                    <img src="{{ asset('images/video_poster.png') }}" alt="gallery">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
