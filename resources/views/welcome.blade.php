@@ -2,7 +2,7 @@
 
 @section('css')
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
 @endsection
 
 @section('content')
@@ -46,37 +46,41 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-
                         <h2>ПОДІЇ</h2>
-
                         <div class="wrapper-news">
-                            <div class="row">
-                                <div class="wrapper-news-item">
-                                    <div class="row">
-                                        <div class="col-md-4"></div>
-                                        <div class="col-md-8"></div>
-                                    </div>
+                            <div class="news-img">
+                                <img src="images/events_head.png" alt="">
 
-                                    <div class="wrapper-news-item-bottom">
-                                        <div class="row">
-                                            <div class="col-md-6"></div>
-                                            <div class="col-md-6"></div>
-                                        </div>
-                                    </div>
+                                <div class="info-flex">
+                                    <p class="abstract">Головна подія дня, чи тижня. Заголовок набраний висотою 20пт.
+                                        Шрифт без засічок у начертанні BOLD</p>
+                                    <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint und...</p>
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="wrapper-news-item">
-                                    <div class="row">
-                                        <div class="col-md-4"></div>
-                                        <div class="col-md-8"></div>
-                                    </div>
-
-                                    <div class="wrapper-news-item-bottom">
+                                <div class="news_item_link_padding">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 news_item_link">
                                         <div class="row">
-                                            <div class="col-md-6"></div>
-                                            <div class="col-md-6"></div>
+                                            <div class="col-xl-6 col-lg-7 col-md-7 col-sm-12 news_item_link_left">
+                                                <div class="calendar">
+                                                    <i class="fas fa-calendar-alt"></i>
+                                                    <p class="">14.03.2018</p>
+                                                </div>
+                                                <div class="last_news">
+                                                    <i class="fas fa-folder-open"></i>
+                                                    <p class="">Головна подія</p>
+                                                </div>
+
+
+                                            </div>
+                                            <div class="col-xl-6 col-lg-5 col-md-5 col-sm-12 news_item_link_right">
+                                                <a href="#">
+                                                    <span>Докладніше...</span>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +90,7 @@
 
                     <div class="col-md-4">
 
-                        <h2>ПОСЛУГИ</h2>
+                        <h2 class="service-header">ПОСЛУГИ</h2>
 
                         <div class="wrapper-services">
                             <div class="wrapper-services-list">
