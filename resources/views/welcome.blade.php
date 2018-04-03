@@ -177,11 +177,16 @@
                 <div class="col-xl-8 col-lg-8 col-md-12 news_left_block">
                     <div class="news_item">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4 news_item_img">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6 news_item_img">
                                 <img src="{{ asset('images/news_item_1.png') }}" alt="news_item_img">
                             </div>
-                            <div class="col-xl-8 col-lg-8 col-md-8 news_item_text">
+                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6  news_item_text">
                                 <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                                </p>
+                            </div>
+                            <div class="col-sm-12 news_item_text news_item_text_hiden">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
@@ -213,11 +218,16 @@
                     </div>
                     <div class="news_item">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4 news_item_img">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 news_item_img">
                                 <img src="{{ asset('images/news_item_2.png') }}" alt="news_item_img">
                             </div>
-                            <div class="col-xl-8 col-lg-8 col-md-8 news_item_text">
+                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 news_item_text">
                                 <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                                </p>
+                            </div>
+                            <div class="col-sm-12 news_item_text news_item_text_hiden">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
@@ -249,11 +259,16 @@
                     </div>
                     <div class="news_item">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4 news_item_img">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 news_item_img">
                                 <img src="{{ asset('images/news_item_3.png') }}" alt="news_item_img">
                             </div>
-                            <div class="col-xl-8 col-lg-8 col-md-8 news_item_text">
+                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 news_item_text">
                                 <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                                </p>
+                            </div>
+                            <div class="col-sm-12 news_item_text news_item_text_hiden">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
