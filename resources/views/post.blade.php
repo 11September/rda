@@ -35,8 +35,70 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="{{ asset('images/') }}" alt="">
+                                <div class="wrapper-single-post-image">
+                                    <img src="{{ asset('images/events_head.png') }}" alt="">
+                                </div>
                             </div>
+
+
+                            <div class="col-md-3">
+                                <ul class="single-post-menu">
+                                    <li><a class="date" href="#"><i class="far fa-calendar-alt"></i>14.03.2018</a></li>
+                                    <li><a class="category" href="#"><i class="fas fa-folder-open"></i>ГОЛОВНА ПОДІЯ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="wrapper-single-post-heading">
+                                    <h5>
+                                        Головна подія дня, чи тижня. Заголовок набраний висотою 30пт.
+                                        Шрифт без засічок у начертанні BOLD
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="single-post-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium beatae
+                                        distinctio ea earum facere impedit incidunt ipsum iusto laboriosam modi, nulla
+                                        officia quaerat quisquam reiciendis ullam vel, voluptate voluptatem!</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="wrapper-single-post-additional">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="far fa-calendar-alt"></i>14.03.2018
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="far fa-clock"></i>9.30
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fas fa-folder-open"></i>ГОЛОВНА ПОДІЯ
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="wrapper-single-post-additional">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fas fa-user"></i>FB
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

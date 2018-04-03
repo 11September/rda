@@ -874,7 +874,71 @@ a, a:hover, a:visited, a:link {
 }
 
 .wrapper-single-post-content{
-    margin-top: 30px;
+    margin: 30px 0 70px 0;
+}
+
+.wrapper-single-post-image img{
+    margin: 30px 0 38px 0;
+    width:100%;
+    height:270px;
+}
+
+.wrapper-single-post-heading{
+    border-bottom: 3px solid #1567a1;
+    padding-bottom: 22px;
+    max-height: 190px;
+    overflow: hidden;
+}
+
+.wrapper-single-post-heading h5{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1567a1;
+}
+
+.single-post-menu{
+    padding-top: 5px;
+}
+
+.single-post-menu li{
+    margin-bottom: 12px;
+}
+
+.single-post-menu svg{
+    color: #ffa304;
+    font-size: 20px;
+    width:23px !important;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.single-post-menu a{
+    color: #4b4b4b;
+    font-size: 14px;
+}
+
+.single-post-menu .date{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1567a1;
+}
+
+.single-post-content{
+    margin-top: 35px;
+    width:100%;
+    overflow: hidden;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #c7c7c7;
+}
+
+.wrapper-single-post-additional{
+    margin: 15px 0;
+}
+
+.wrapper-single-post-additional svg{
+    color: #ffa304;
+    font-size: 20px;
+    margin-right: 8px;
 }
 
 /* Post page end */
