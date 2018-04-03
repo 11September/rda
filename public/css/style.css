@@ -821,6 +821,38 @@ a, a:hover, a:visited, a:link {
 /* Page posts end */
 
 
+/* Post page */
+.post-page{
+    margin-top: 33px;
+}
+
+.wrapper-breadcrumbs{
+    height:56px;
+}
+
+.wrapper-breadcrumbs .breadcrumb{
+    height: inherit;
+    background-color: #1567a1;
+    border: none;
+    border-radius: 0;
+    padding: 20px 25px;
+}
+
+.wrapper-breadcrumbs .breadcrumb-item{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #ffffff;
+}
+
+.wrapper-single-post-content{
+    margin-top: 30px;
+}
+
+/* Post page end */
+
 @media (max-width: 1920px) {
 
 }
