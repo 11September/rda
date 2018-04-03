@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/', 'WelcomeController@index');
+Route::get('/news', 'NewsController@index');
+Route::get('/contact', 'WelcomeController@contacts');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
