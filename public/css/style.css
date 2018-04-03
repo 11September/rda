@@ -104,13 +104,17 @@ a, a:hover, a:visited, a:link {
     font-size: 24px;
 }
 
+.social-part svg:hover{
+    color: #616161;
+}
+
 .social-part{
     display: flex;
     align-items: center;
 }
 
 .social-part a{
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 
