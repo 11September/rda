@@ -11,30 +11,60 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 <body>
 
 <header class="header-wrapper">
+
     <div class="header-top">
         <div class="container">
+            <div class="top-part-body">
+                <div class="logo-part">
 
+                </div>
+
+                <div class="language-part">
+
+                </div>
+
+                <div class="social-part">
+
+                </div>
+
+                <div class="search-part">
+
+                </div>
+            </div>
         </div>
     </div>
+
     <div class="header-bottom">
         <div class="container">
-
+            <nav class="menu-body">
+                <ul class="menu-list">
+                    <li><a href="" class="menu-list-item">ГОЛОВНА</a></li>
+                    <li><a href="" class="menu-list-item">НОВИНИ</a></li>
+                    <li><a href="" class="menu-list-item">ПУБЛІЧНА ІНФОРМАЦІЯ</a></li>
+                    <li><a href="" class="menu-list-item">ЗВЕРНЕННЯ ГРОМАДЯН</a></li>
+                    <li><a href="" class="menu-list-item">ДОШКІЛЬНА ОСВІТА</a></li>
+                    <li><a href="" class="menu-list-item">ЗАГАЛЬНА СЕРЕДНЯ ОСВІТА</a></li>
+                    <li><a href="" class="menu-list-item">ПОЗАШКІЛЬНА ОСВІТА</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
 
 <section class="big-slider">
-    <div class="big-slider-body">
-        <div><img src="images/header_slide.png"></div>
-        <div><img src="images/header_slide.png"></div>
-        <div><img src="images/header_slide.png"></div>
-        <div><img src="images/header_slide.png"></div>
-        <div><img src="images/header_slide.png"></div>
-        <div><img src="images/header_slide.png"></div>
+    <div class="big-slider-body owl-carousel  owl-theme">
+        <div><img src="{{ asset('images/slide.png') }}"></div>
+        <div><img src="{{ asset('images/slide.png') }}"></div>
+        <div><img src="{{ asset('images/slide.png') }}"></div>
+        <div><img src="{{ asset('images/slide.png') }}"></div>
+        <div><img src="{{ asset('images/slide.png') }}"></div>
+        <div><img src="{{ asset('images/slide.png') }}"></div>
     </div>
 </section>
 
@@ -269,5 +299,18 @@
         integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>
 <script src="js/fontawesome-all.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+
+<script>
+
+    $('.big-slider-body').owlCarousel({
+        loop:true,
+        margin:10,
+        items: 1
+    });
+
+</script>
+
 </body>
 </html>
