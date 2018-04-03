@@ -8,7 +8,7 @@
     src: url(../fonts/GOTHIC.ttf); /* Путь к файлу со шрифтом */
 }
 
-.slick-slide:hover, .slick-slide:active, .slick-slide:visited{
+.slick-slide:hover, .slick-slide:active, .slick-slide:visited {
     outline: 0;
     outline-offset: 0;
 }
@@ -16,7 +16,6 @@
 /* header */
 
 /* header end */
-
 
 /* big-slider */
 
@@ -35,93 +34,93 @@
 /* links end */
 
 /* footer */
-.footer-top{
+.footer-top {
     background-color: #3b3b3b;
-    height:135px;
+    height: 135px;
 }
 
-.footer-top .container{
-    height:100%;
+.footer-top .container {
+    height: 100%;
 }
 
-.wrapper-footer-top-content{
-    height:100%;
+.wrapper-footer-top-content {
+    height: 100%;
     flex-direction: row;
     align-items: center;
 }
 
-.wrapper-footer-logo{
+.wrapper-footer-logo {
     display: flex;
 }
 
-.wrapper-footer-logo img{
-    width:60px;
+.wrapper-footer-logo img {
+    width: 60px;
     margin-right: 5px;
 }
 
-.logo-info{
+.logo-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.logo-info h4{
+.logo-info h4 {
     font-size: 17px;
     color: #ababab;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.logo-info h5{
+.logo-info h5 {
     font-size: 13px;
     color: #ababab;
 }
 
-.footer-bottom{
-    height:40px;
+.footer-bottom {
+    height: 40px;
     background-color: #cbcccc;
 }
 
-.footer-bottom .container{
-    height:100%;
- }
+.footer-bottom .container {
+    height: 100%;
+}
 
-.wrapper-footer-bottom{
+.wrapper-footer-bottom {
     font-size: 14px;
-    height:100%;
+    height: 100%;
     flex-direction: row;
     align-items: center;
 }
 
-.footer-languages-menu a{
+.footer-languages-menu a {
     color: #ababab;
     text-decoration: none;
 }
 
-.footer-languages-menu a:hover{
+.footer-languages-menu a:hover {
     color: #2696f5;
 }
 
-.wrapper-footer-social .footer-social-item{
+.wrapper-footer-social .footer-social-item {
     padding-right: 15px;
 }
 
-.footer-social-item svg{
+.footer-social-item svg {
     font-size: 20px;
     color: #a5a5a5;
 }
 
-.footer-social-item:hover svg{
+.footer-social-item:hover svg {
     color: #2696f5;
 }
 
-.footer-additional-menu-item{
+.footer-additional-menu-item {
     padding-bottom: 7px;
     font-size: 14px;
     color: #a5a5a5;
 }
 
-.footer-additional-menu-item svg{
+.footer-additional-menu-item svg {
     color: #1567a1;
     width: 20px !important;
     text-align: center;
@@ -129,26 +128,26 @@
     font-size: 15px;
 }
 
-.footer-additional-menu-item a{
+.footer-additional-menu-item a {
     text-decoration: none;
     color: #a5a5a5;
 }
 
-.red{
+.red {
     color: #ef3a41;
 }
 
-.copyright{
+.copyright {
     font-size: 14px;
     color: #818181;
     text-align: right;
 }
 
-.copyright a{
+.copyright a {
     text-decoration: none;
 }
-/* footer end */
 
+/* footer end */
 
 @media (max-width: 1920px) {
 
@@ -159,7 +158,22 @@
 }
 
 @media (max-width: 992px) {
+    .footer-top{
+        height:auto;
+    }
 
+    .wrapper-footer-top-content{
+        padding-top: 40px;
+    }
+
+    .footer-additional-menu{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 768px) {

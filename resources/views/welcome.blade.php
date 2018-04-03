@@ -204,7 +204,7 @@
     <div class="footer-top">
         <div class="container">
             <div class="row wrapper-footer-top-content">
-                <div class="col-lg-4 col-md-12 center-block">
+                <div class="col-lg-4 col-md-4 col-sm-5 center-block">
                     <div class="wrapper-footer-logo">
                         <img src="{{ asset('images/footer_logo.png') }}" alt="footer-logo">
                         <div class="logo-info">
@@ -215,7 +215,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-12 center-block text-center">
+                <div class="col-lg-2 col-md-4 col-sm-3 center-block text-center">
                     <div class="wrapper-footer-languages">
                         <ul class="footer-languages-menu list-inline">
                             <li class="list-inline-item footer-languages-menu-item"><a href="#">УКР</a></li>
@@ -224,7 +224,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-12 center-block text-center">
+                <div class="col-lg-3 col-md-4 col-sm-4 center-block text-center">
                     <div class="wrapper-footer-social">
                         <a class="footer-social-item" href="#"><i class="fab fa-facebook-f"></i></a>
                         <a class="footer-social-item" href="#"><i class="fab fa-twitter"></i></a>
@@ -232,7 +232,7 @@
                         <a class="footer-social-item" href="#"><i class="fas fa-rss"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-12 center-block">
+                <div class="col-lg-3 col-md-12 col-sm-12 center-block">
                     <div class="wrapper-footer-additional">
                         <ul class="footer-additional-menu">
                             <li class="footer-additional-menu-item"><a href="#"><i class="fas fa-users"></i>Звернення
