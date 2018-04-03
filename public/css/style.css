@@ -4,23 +4,8 @@
 }
 
 @font-face {
-    font-family: 'Adigiana'; /* Имя шрифта */
-    src: url(../fonts/Adigiana.ttf); /* Путь к файлу со шрифтом */
-}
-
-@font-face {
-    font-family: 'MuseoSansCyrl'; /* Имя шрифта */
-    src: url(../fonts/MuseoSansCyrl.otf); /* Путь к файлу со шрифтом */
-}
-
-@font-face {
-    font-family: 'GothamPro'; /* Имя шрифта */
-    src: url(../fonts/GothamPro.otf); /* Путь к файлу со шрифтом */
-}
-
-@font-face {
-    font-family: 'Roboto-Bold'; /* Имя шрифта */
-    src: url(../fonts/Roboto-Bold.ttf); /* Путь к файлу со шрифтом */
+    font-family: 'Century_Gothic'; /* Имя шрифта */
+    src: url(../fonts/GOTHIC.ttf); /* Путь к файлу со шрифтом */
 }
 
 .slick-slide:hover, .slick-slide:active, .slick-slide:visited{
