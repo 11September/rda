@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('/', 'WelcomeController@index');
 Route::get('/news', 'NewsController@index');
 Route::get('/news/{news}', 'NewsController@post');
+Route::get('/search', 'NewsController@serach');
 Route::get('/contact', 'WelcomeController@contacts');
 
 Route::group(['prefix' => 'admin'], function () {

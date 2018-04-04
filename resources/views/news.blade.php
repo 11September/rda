@@ -25,6 +25,7 @@
                     <div class="col-md-6">
                         <h2>Новини</h2>
                     </div>
+
                     <div class="col-md-6 news-page-panel">
                         <a href="#">останні новини</a>
                         <a class="news-page-panel-active" href="#">несортовані</a>

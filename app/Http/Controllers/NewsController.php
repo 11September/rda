@@ -15,4 +15,9 @@ class NewsController extends Controller
     {
         return view('post');
     }
+
+    public function serach()
+    {
+        return view('search');
+    }
 }

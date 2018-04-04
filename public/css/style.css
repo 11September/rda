@@ -588,6 +588,10 @@ a, a:hover, a:visited, a:link {
     margin-bottom: 27px;
 }
 
+.wrapper-link-item img{
+    width:100%;
+}
+
 /* links end */
 
 /* footer */
@@ -1046,6 +1050,113 @@ a, a:hover, a:visited, a:link {
 }
 /* Anonses component end */
 
+/* Search Page */
+.search-wrapper-breadcrumbs{
+    margin-top: 33px;
+}
+
+.wrapper-search-result{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.search-result{
+    font-size: 36px;
+    color: #1567a1;
+}
+
+.search-result span{
+    color: #393939;
+    font-style: italic;
+}
+
+.search-additional-count{
+    font-size: 18px;
+    color: #4b4b4b;
+    margin-right: 70px;
+}
+
+.search-additional-count span{
+    font-weight: bold;
+}
+
+.wrapper-search-additional{
+    height:32px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.sections{
+    margin-right: 12px;
+}
+
+.search-wrapper-breadcrumbs .news-page-panel{
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-wrapper-breadcrumbs .news-page-panel a {
+    background: #f8f8f8;
+    color: #4b4b4b;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.search-wrapper-breadcrumbs .news-page-panel a:hover {
+    background: #ffa304;
+    color: #fff;
+}
+/* Search Page end */
+
+/* Search more component */
+.wrapper-search-more{
+    height:70px;
+    background-color: #eeeded;
+}
+
+.search-more{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-more input{
+    height: 42px;
+    background: #ffffff;
+    border-radius: 20px;
+    outline: none;
+    padding: 0 20px;
+    border: none;
+    -webkit-box-shadow: inset -1px 4px 59px -3px rgba(140,140,140,1);
+    -moz-box-shadow: inset -1px 4px 59px -3px rgba(140,140,140,1);
+    box-shadow: inset -1px 3px 10px -3px rgba(140,140,140,1);
+}
+
+.wrapper-search-more button{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.wrapper-search-more svg{
+    color: white;
+    background: #296ea2;
+    width: 35px !important;
+    height: 35px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* Search more component end */
+
 @media (max-width: 1920px) {
 
 }
@@ -1351,6 +1462,18 @@ a, a:hover, a:visited, a:link {
 
     .wrapper-single-post-additional .list-inline {
         float: none !important;
+    }
+
+    .wrapper-search-additional{
+        height:auto;
+    }
+
+    .news-page-panel{
+        flex-direction: column;
+    }
+
+    .news-page-panel a{
+        margin: 5px 0;
     }
 }
 
