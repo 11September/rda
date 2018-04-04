@@ -1676,6 +1676,10 @@ form button:hover{
 }
 
 @media (max-width: 375px) {
+    .social-part a{
+        margin-right: 15px;
+    }
+
     /* news */
     .news_item_img img {
         width: auto;
