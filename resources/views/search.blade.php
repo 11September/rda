@@ -17,7 +17,7 @@
     </section>
 
 
-    <section class="search-wrapper-breadcrumbs">
+    <section class="search-wrapper-breadcrumbs" id="basic-waypoint">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

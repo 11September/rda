@@ -68,3 +68,19 @@
         </div>
     </div>
 </header>
+
+<div class="header-bottom" id="header-move">
+    <div class="container">
+        <nav class="menu-body">
+            <ul class="menu-list hider">
+                <li><a href="{{ url('/') }}" class="menu-list-item">ГОЛОВНА</a></li>
+                <li><a href="{{ url('/news') }}" class="menu-list-item">НОВИНИ</a></li>
+                <li><a href="" class="menu-list-item">ПУБЛІЧНА ІНФОРМАЦІЯ</a></li>
+                <li><a href="" class="menu-list-item">ЗВЕРНЕННЯ ГРОМАДЯН</a></li>
+                <li><a href="" class="menu-list-item">ДОШКІЛЬНА ОСВІТА</a></li>
+                <li><a href="" class="menu-list-item">ЗАГАЛЬНА СЕРЕДНЯ ОСВІТА</a></li>
+                <li><a href="" class="menu-list-item">ПОЗАШКІЛЬНА ОСВІТА</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>

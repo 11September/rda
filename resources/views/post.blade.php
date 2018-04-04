@@ -17,7 +17,7 @@
         </div>
     </section>
 
-    <section class="post-page">
+    <section class="post-page" id="basic-waypoint">
 
         <div class="container">
             <div class="row">

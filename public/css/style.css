@@ -175,6 +175,14 @@ form button:hover{
     margin-right: 25px;
 }
 
+#header-move{
+    display: none;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+}
+
 /* header end */
 
 /* content */

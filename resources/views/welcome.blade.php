@@ -17,7 +17,7 @@
         </div>
     </section>
 <section class="content">
-    <div class="wrapper-main-news-services">
+    <div id="basic-waypoint" class="wrapper-main-news-services">
         <div class="wrapper-news-anonses">
             <div class="container">
                 <div class="row">

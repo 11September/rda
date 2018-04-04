@@ -9,4 +9,17 @@ $(document).ready(function() {
         margin: 10,
         items: 1
     });
+
+    var waypoint = new Waypoint({
+        element: document.getElementById('basic-waypoint'),
+        handler: function(direction) {
+            if( direction === 'down') {
+                $("#header-move").fadeIn( "slow" );
+            }
+            else if( direction === 'up'){
+                $("#header-move").fadeOut("slow");
+            }
+        }
+    });
 });
+
