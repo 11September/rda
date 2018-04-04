@@ -195,6 +195,24 @@
             </div>
         </div>
 
+        <div class="wrapper-post-controls">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="post-controls">
+                            <p>
+                                <a href=""><i class="fas fa-angle-left control-arrow-left"></i> Попередня стаття</a>
+                                <span>|</span>
+                                <a href="">Наступна стаття <i class="fas fa-angle-right control-arrow-right"></i></a>
+                            </p>
+
+                            <p><a href="">Всі новини <i class="fas fa-angle-double-right control-arrow-right"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
 
