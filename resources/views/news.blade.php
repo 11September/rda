@@ -7,7 +7,7 @@
 
 @section('content')
     <section class="big-slider">
-        <div class="big-slider-body owl-carousel  owl-theme">
+        <div class="big-slider-body owl-carousel owl-theme big_slider_2">
             <div><img src="{{ asset('images/news/news_header.png') }}"></div>
             <div><img src="{{ asset('images/news/news_header.png') }}"></div>
             <div><img src="{{ asset('images/news/news_header.png') }}"></div>

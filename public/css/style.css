@@ -847,6 +847,14 @@ a, a:hover, a:visited, a:link {
     background: #ffa304 !important;
 }
 
+.big_slider_2 .owl-item > div{
+    height: 100%;
+}
+
+.big_slider_2 .owl-item img{
+    height: 100%;
+}
+
 /* Post page */
 .post-page{
     margin-top: 33px;
