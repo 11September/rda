@@ -672,10 +672,6 @@
                                 <li class="page-item"><a class="page-link page-link-active" href="#">3</a></li>
                                 <li class="page-item"><a class="page-link" href="#">4</a></li>
                                 <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                <li class="page-item"><a class="page-link" href="#">6</a></li>
-                                <li class="page-item"><a class="page-link" href="#">7</a></li>
-                                <li class="page-item"><a class="page-link" href="#">8</a></li>
-                                <li class="page-item"><a class="page-link" href="#">9</a></li>
                                 <li class="page-item add_info"><a class="page-link" href="#">>></a></li>
                             </ul>
                         </nav>
