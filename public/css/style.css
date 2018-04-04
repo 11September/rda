@@ -1029,6 +1029,21 @@ a, a:hover, a:visited, a:link {
 }
 /* Post page end */
 
+/* Anonses component */
+.anonses-menu-item{
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 1.1;
+    max-height: 107px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.anonses-menu-item a{
+    color: #4485b4;
+}
+/* Anonses component end */
+
 @media (max-width: 1920px) {
 
 }
