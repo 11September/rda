@@ -26,7 +26,9 @@
                     <a href=""><i class="fas fa-rss"></i></a>
                 </div>
 
-                <form class="search-part">
+                <form action="{{ action('NewsController@search') }}" class="search-part">
+                    {{ csrf_field() }}
+
                     <input type="text" placeholder="Пошук сайтом...">
 
                     <button type="submit">
@@ -43,7 +45,9 @@
                 <p class="mobile-btn"><i class="fas fa-bars"></i></p>
 
                 <ul class="menu-list hider">
-                    <form class="search-part">
+                    <form action="{{ action('NewsController@search') }}" class="search-part">
+                        {{ csrf_field() }}
+
                         <input type="text" placeholder="Пошук сайтом...">
                         <button type="submit">
                             <i class="fas fa-search"></i>
