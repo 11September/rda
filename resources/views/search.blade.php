@@ -730,6 +730,7 @@
 
     </section>
 
+    @include('partials.thubnails')
 
     @include('partials.search-more')
 

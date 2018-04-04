@@ -1154,8 +1154,18 @@ a, a:hover, a:visited, a:link {
     font-size: 20px;
     margin-left: 10px;
 }
-
 /* Search more component end */
+
+/* Section thubnails */
+.thumbnails{
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.thumbnails .wrapper-gallery{
+    margin: 0;
+}
+/* Section thubnails end */
 
 @media (max-width: 1920px) {
 

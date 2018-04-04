@@ -18,30 +18,6 @@
     </section>
 <section class="content">
     <div class="wrapper-main-news-services">
-        <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h3></h3>
-
-                        <div class="wrapper-main-news">
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4">
-                        <h3></h3>
-
-                        <div class="wrapper-sidebar-services">
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
         <div class="wrapper-news-anonses">
             <div class="container">
                 <div class="row">
@@ -421,13 +397,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="wrapper-gallery-bottom">
-                <div class="row">
-                    <div class="col-md-8"></div>
-                    <div class="col-md-4"></div>
                 </div>
             </div>
         </div>
