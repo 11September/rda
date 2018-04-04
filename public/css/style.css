@@ -129,14 +129,11 @@ form button:hover{
 
 .search-part input{
     background: #f4f4f4;
-
     border-radius: 20px;
     height: 40px;
     outline: none;
     padding-left: 20px;
-
     border: none;
-
     -webkit-box-shadow: inset -1px 4px 59px -3px rgba(140,140,140,1);
     -moz-box-shadow: inset -1px 4px 59px -3px rgba(140,140,140,1);
     box-shadow: inset -1px 3px 10px -3px rgba(140,140,140,1);
@@ -158,8 +155,6 @@ form button:hover{
     font-size: 20px;
     margin-left: 10px;
 }
-
-
 
 .social-part svg:hover{
     color: #616161;
@@ -266,7 +261,6 @@ form button:hover{
 
 .services-list-item-content{
     padding: 0 28px;
-
 }
 
 .services-list-item-text{
@@ -414,10 +408,6 @@ form button:hover{
     border: none;
 }
 
-.news .news_navigation{
-
-}
-
 .news .news_navigation a{
     height: 40px;
     width: 40px;
@@ -526,7 +516,6 @@ form button:hover{
     text-decoration: none;
 }
 
-
 /* gallery end */
 
 /* gallery */
@@ -574,7 +563,6 @@ form button:hover{
     height:100%;
     text-decoration: none;
 }
-
 
 /* gallery end */
 
@@ -717,9 +705,6 @@ form button:hover{
 }
 
 /* footer end */
-
-
-
 
 /* Page posts */
 .news-page {
@@ -1174,10 +1159,6 @@ form button:hover{
     margin: 0;
 }
 /* Section thubnails end */
-
-@media (max-width: 1920px) {
-
-}
 
 @media (max-width: 1400px) {
     .menu-list-item {
