@@ -546,7 +546,7 @@
                 </div>
             </div>
         </div>
-    </section>E
+    </section>
 
 @endsection
 
