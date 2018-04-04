@@ -24,6 +24,10 @@ a, a:hover, a:visited, a:link {
     text-decoration: none;
 }
 
+form button:hover{
+    cursor: pointer;
+}
+
 /* header */
 .header-bottom{
     background: #F8F8F8;
