@@ -1445,6 +1445,16 @@ a, a:hover, a:visited, a:link {
         justify-content: center;
         width: 100%;
     }
+
+    .wrapper-link-item img {
+        width: 85%;
+        height: auto;
+    }
+
+    .wrapper-link-item{
+        /*width: 85%;*/
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
