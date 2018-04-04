@@ -858,11 +858,16 @@ a, a:hover, a:visited, a:link {
 .news-page h3{
     color: #1567a1;
     padding-top: 15px;
+    font-size: 20px;
 }
 
 .news-page h3:hover{
     text-decoration: underline;
     color: #5d6266;
+}
+
+.news-page .news_bg_fff{
+    background: #fff;
 }
 
 /* Post page */

@@ -155,7 +155,16 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="news_bg_fff">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 news_left_block">
+                    <div class="row">
                         <div class="col-md-6">
                             <div class="post-item">
                                 <div class="row">
@@ -271,7 +280,17 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
 
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 news_left_block">
+                    <div class="row">
                         <div class="col-md-6">
                             <div class="post-item">
                                 <div class="row">
@@ -387,7 +406,16 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="news_bg_fff">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 news_left_block">
+                    <div class="row">
                         <div class="col-md-6">
                             <div class="post-item">
                                 <div class="row">
@@ -503,7 +531,16 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 news_left_block">
+                    <div class="row">
                         <div class="col-md-6">
                             <div class="post-item">
                                 <div class="row">
