@@ -109,8 +109,8 @@ a, a:hover, a:visited, a:link {
     color: #4b4b4b;
 }
 
-.language-part a:hover{
-    color: blue;
+.language-part a:hover {
+    color: #0056b3;
 }
 
 .social-part svg{
