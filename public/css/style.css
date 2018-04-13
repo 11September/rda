@@ -29,6 +29,26 @@ a, a:hover, a:visited, a:link {
     background: #F8F8F8;
 }
 
+.btn-secondary,.btn-secondary:hover,
+.btn-secondary:focus,.btn-secondary:active{
+    background-color: transparent!important;
+    border: none;
+    font-family: 'Century_Gothic';
+    font-size: 14px;
+    font-weight: 600;
+    color: #4b4b4b!important;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    top: 1px;
+    box-shadow: none!important;
+    padding: 0!important;
+}
+
+.language-part{
+    display: none!important;
+}
+
 .mobile-btn{
     display: none;
 }
@@ -42,6 +62,8 @@ a, a:hover, a:visited, a:link {
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px;
+    width: 100%;
+    align-items: center;
 }
 
 .menu-list-item{
@@ -977,7 +999,7 @@ a, a:hover, a:visited, a:link {
     .social-part {
         position: absolute;
         right: 20px;
-        top: 130px;
+        top: 110px;
     }
 
     .top-part-body{
@@ -987,6 +1009,7 @@ a, a:hover, a:visited, a:link {
 
     .news_item_link_padding{
         padding: 0;
+
     }
 
     .news_item {
