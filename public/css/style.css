@@ -1273,6 +1273,9 @@ form button:hover{
 }
 
 @media (max-width: 992px) {
+    .header-bottom .dropdown-menu.show {
+        top: 11px !important;
+    }
     /* news */
     .news_item_img img {
         width: auto;
