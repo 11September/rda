@@ -6,16 +6,20 @@
 @endsection
 
 @section('content')
-    <section class="big-slider">
-        <div class="big-slider-body owl-carousel  owl-theme">
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-        </div>
-    </section>
+
+    @include('partials.slider')
+
+    {{--<section class="big-slider">--}}
+        {{--<div class="big-slider-body owl-carousel  owl-theme">--}}
+            {{--<div><img src="{{ asset('images/slide.png') }}"></div>--}}
+            {{--<div><img src="{{ asset('images/slide.png') }}"></div>--}}
+            {{--<div><img src="{{ asset('images/slide.png') }}"></div>--}}
+            {{--<div><img src="{{ asset('images/slide.png') }}"></div>--}}
+            {{--<div><img src="{{ asset('images/slide.png') }}"></div>--}}
+            {{--<div><img src="{{ asset('images/slide.png') }}"></div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
+
     <section class="content">
         <div id="basic-waypoint" class="wrapper-main-news-services">
             <div class="wrapper-news-anonses">
@@ -251,77 +255,14 @@
 
                     <h2>ГАЛЕРЕЯ</h2>
 
-                    <div class="wrapper-gallery">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="gallery-item">
-                                    <img src="{{ asset('images/gallery_item_1.png') }}" alt="gallery">
+                    @include('partials.gallery-photos')
 
-                                    <div class="wrapper-gallery-item-date">
-                                        <p class="gallery-item-date">
-                                            14.03.2018
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="gallery-item">
-                                    <img src="{{ asset('images/gallery_item_2.png') }}" alt="gallery">
-
-                                    <div class="wrapper-gallery-item-date">
-                                        <p class="gallery-item-date">
-                                            14.03.2018
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="gallery-item">
-                                    <img src="{{ asset('images/gallery_item_3.png') }}" alt="gallery">
-
-                                    <div class="wrapper-gallery-item-date">
-                                        <p class="gallery-item-date">
-                                            14.03.2018
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="gallery-item">
-                                    <img src="{{ asset('images/gallery_item_4.png') }}" alt="gallery">
-
-                                    <div class="wrapper-gallery-item-date">
-                                        <p class="gallery-item-date">
-                                            14.03.2018
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-4">
 
                     <h2>BІДЕО</h2>
 
-                    <div class="wrapper-gallery">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-6">
-                                <div class="video-item">
-                                    <a href="#">
-                                        <img src="{{ asset('images/video_poster.png') }}" alt="gallery">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-sm-6">
-                                <div class="video-item">
-                                    <a href="#">
-                                        <img src="{{ asset('images/video_poster.png') }}" alt="gallery">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @include('partials.gallery-videos')
                 </div>
             </div>
         </div>

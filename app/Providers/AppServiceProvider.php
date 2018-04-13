@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Gallery;
+use App\Slider;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +25,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        view()->composer('partials.gallery-photos', function ($view) {
+            $view->with('photos', Gallery::thubnails_photos());
+        });
+
+        view()->composer('partials.slider', function ($view) {
+            $view->with('sliders', Slider::thubnails_photos());
+        });
+
     }
 }
