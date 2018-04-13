@@ -61,9 +61,22 @@
                                 Публічна інформація
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item" href="#">
+                                    Статут
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Меню другого рівня
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Пункт номер три
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Підменю чотири
+                                    <div class="dropdown-item-line"></div>
+                                </a>
                             </div>
                         </div></li>
                     <li><a href="" class="menu-list-item">ЗВЕРНЕННЯ ГРОМАДЯН</a></li>
