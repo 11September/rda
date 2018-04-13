@@ -10,4 +10,14 @@ class NewsController extends Controller
     {
         return view('news');
     }
+
+    public function post($post = null)
+    {
+        return view('post');
+    }
+
+    public function search()
+    {
+        return view('search');
+    }
 }
