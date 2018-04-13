@@ -1456,6 +1456,14 @@ form button:hover{
         margin-bottom: 20px;
     }
 
+    .mobile-btn{
+        cursor: pointer;
+    }
+
+    .menu-list-item:hover{
+        color: white;
+    }
+
     .search-part {
         justify-content: center;
         margin-bottom: 40px;
