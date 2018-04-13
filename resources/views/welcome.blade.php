@@ -112,32 +112,6 @@
                                     </div>
                                 </div>
 
-                                <div class="wrapper-services-list-item">
-                                    <div class="services-list-item">
-                                        <div class="services-list-item-picture">
-                                            <img src="{{ asset('images/services_item_4.png') }}" alt="services">
-                                        </div>
-                                        <div class="services-list-item-content">
-                                            <a href="#">
-                                                <p class="services-list-item-text">Підписатись на новини</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="wrapper-services-list-item">
-                                    <div class="services-list-item services-last-item">
-                                        <div class="services-list-item-picture">
-                                            <img src="{{ asset('images/services_item_5.png') }}" alt="services">
-                                        </div>
-                                        <div class="services-list-item-content">
-                                            <a href="#">
-                                                <p class="services-list-item-text">План-календар заходів</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
