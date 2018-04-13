@@ -33,6 +33,45 @@ form button:hover{
     background: #F8F8F8;
 }
 
+.header-bottom .dropdown .dropdown-item{
+    text-transform: uppercase;
+    padding: 15px 1.5rem 0;
+    width: 100%;
+}
+
+.header-bottom .dropdown .dropdown-item:nth-child(2n){
+    background: #f8f8f8;
+}
+
+.header-bottom .dropdown-menu{
+    padding: 0;
+}
+
+.header-bottom .dropdown-menu:hover{
+    cursor: pointer;
+}
+
+.header-bottom .dropdown-menu.show {
+    display: block;
+    top: 21px !important;
+}
+
+.header-bottom .dropdown .dropdown-item .dropdown-item-line{
+    background: #d3d3d3;
+    height: 1px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.header-bottom .dropdown .dropdown-item:last-child{
+    padding-bottom: 15px;
+}
+
+.header-bottom .dropdown .dropdown-item:last-child .dropdown-item-line{
+    display: none;
+}
+
+
 .btn-secondary,.btn-secondary:hover,
 .btn-secondary:focus,.btn-secondary:active{
     background-color: transparent!important;
@@ -1337,6 +1376,9 @@ form button:hover{
 }
 
 @media (max-width: 768px) {
+    .header-bottom .dropdown-menu.show {
+        top: 0 !important;
+    }
     /* news */
     .news_item_img{
         text-align: center;
