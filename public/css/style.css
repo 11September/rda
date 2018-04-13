@@ -1497,8 +1497,21 @@ form button:hover{
         display: inline-block;
         font-family: 'Century_Gothic';
         font-size: 14px;
-        color: white;
+        color: white !important;
         margin-bottom: 20px;
+    }
+
+    .menu-body .btn-secondary{
+        color: white !important;
+    }
+
+    .header-bottom .dropdown .dropdown-item {
+        padding: 10px 1.5rem 0;
+        font-size: 14px;
+    }
+
+    .header-bottom .dropdown .dropdown-item .dropdown-item-line {
+        margin-top: 10px;
     }
 
     .mobile-btn{
