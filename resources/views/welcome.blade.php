@@ -16,102 +16,106 @@
             <div><img src="{{ asset('images/slide.png') }}"></div>
         </div>
     </section>
-<section class="content">
-    <div id="basic-waypoint" class="wrapper-main-news-services">
-        <div class="wrapper-news-anonses">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h2>ПОДІЇ</h2>
-                        <div class="wrapper-news">
-                            <div class="news-img">
-                                <img src="images/events_head.png" alt="">
+    <section class="content">
+        <div id="basic-waypoint" class="wrapper-main-news-services">
+            <div class="wrapper-news-anonses">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2>ПОДІЇ</h2>
+                            <div class="wrapper-news">
+                                <div class="news-img">
+                                    <img src="images/events_head.png" alt="">
 
-                                <div class="info-flex">
-                                    <p class="abstract">Головна подія дня, чи тижня. Заголовок набраний висотою 20пт.
-                                        Шрифт без засічок у начертанні BOLD</p>
-                                    <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint und...</p>
-                                </div>
+                                    <div class="info-flex">
+                                        <p class="abstract">Головна подія дня, чи тижня. Заголовок набраний висотою
+                                            20пт.
+                                            Шрифт без засічок у начертанні BOLD</p>
+                                        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                            aliquip
+                                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                            velit
+                                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint und...</p>
+                                    </div>
 
-                                <div class="news_item_link_padding">
-                                    <div class="col-xl-12 col-lg-12 col-md-12 news_item_link">
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-7 col-md-7 col-sm-12 news_item_link_left">
-                                                <div class="calendar">
-                                                    <i class="fas fa-calendar-alt"></i>
-                                                    <p class="">14.03.2018</p>
+                                    <div class="news_item_link_padding">
+                                        <div class="col-xl-12 col-lg-12 col-md-12 news_item_link">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-7 col-md-7 col-sm-12 news_item_link_left">
+                                                    <div class="calendar">
+                                                        <i class="fas fa-calendar-alt"></i>
+                                                        <p class="">14.03.2018</p>
+                                                    </div>
+                                                    <div class="last_news">
+                                                        <i class="fas fa-folder-open"></i>
+                                                        <p class="">Головна подія</p>
+                                                    </div>
+
+
                                                 </div>
-                                                <div class="last_news">
-                                                    <i class="fas fa-folder-open"></i>
-                                                    <p class="">Головна подія</p>
+                                                <div class="col-xl-6 col-lg-5 col-md-5 col-sm-12 news_item_link_right">
+                                                    <a href="#">
+                                                        <span>Докладніше...</span>
+                                                    </a>
                                                 </div>
-
-
-                                            </div>
-                                            <div class="col-xl-6 col-lg-5 col-md-5 col-sm-12 news_item_link_right">
-                                                <a href="#">
-                                                    <span>Докладніше...</span>
-                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-4">
+                        <div class="col-md-4">
 
-                        <h2 class="service-header">ПОСЛУГИ</h2>
+                            <h2 class="service-header">ПОСЛУГИ</h2>
 
-                        <div class="wrapper-services">
-                            <div class="wrapper-services-list">
+                            <div class="wrapper-services">
+                                <div class="wrapper-services-list">
 
-                                <div class="wrapper-services-list-item">
-                                    <div class="services-list-item">
+                                    <div class="wrapper-services-list-item">
+                                        <div class="services-list-item">
 
-                                        <div class="services-list-item-picture">
-                                            <img src="{{ asset('images/services_item_1.png') }}" alt="services">
-                                        </div>
-                                        <div class="services-list-item-content">
-                                            <a href="#">
-                                                <p class="services-list-item-text">Адміністративні послуги</p>
-                                            </a>
-                                        </div>
+                                            <div class="services-list-item-picture">
+                                                <img src="{{ asset('images/services_item_1.png') }}" alt="services">
+                                            </div>
+                                            <div class="services-list-item-content">
+                                                <a href="#">
+                                                    <p class="services-list-item-text">Адміністративні послуги</p>
+                                                </a>
+                                            </div>
 
-                                    </div>
-                                </div>
-
-                                <div class="wrapper-services-list-item">
-                                    <div class="services-list-item">
-                                        <div class="services-list-item-picture">
-                                            <img src="{{ asset('images/services_item_2.png') }}" alt="services">
-                                        </div>
-                                        <div class="services-list-item-content">
-                                            <a href="#">
-                                                <p class="services-list-item-text">Портал Державних послуг</p>
-                                            </a>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="wrapper-services-list-item">
-                                    <div class="services-list-item">
-                                        <div class="services-list-item-picture">
-                                            <img src="{{ asset('images/services_item_3.png') }}" alt="services">
-                                        </div>
-                                        <div class="services-list-item-content">
-                                            <a href="#">
-                                                <p class="services-list-item-text">Система електронних зверненнь</p>
-                                            </a>
+                                    <div class="wrapper-services-list-item">
+                                        <div class="services-list-item">
+                                            <div class="services-list-item-picture">
+                                                <img src="{{ asset('images/services_item_2.png') }}" alt="services">
+                                            </div>
+                                            <div class="services-list-item-content">
+                                                <a href="#">
+                                                    <p class="services-list-item-text">Портал Державних послуг</p>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
 
+                                    <div class="wrapper-services-list-item">
+                                        <div class="services-list-item">
+                                            <div class="services-list-item-picture">
+                                                <img src="{{ asset('images/services_item_3.png') }}" alt="services">
+                                            </div>
+                                            <div class="services-list-item-content">
+                                                <a href="#">
+                                                    <p class="services-list-item-text">Система електронних зверненнь</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -131,14 +135,19 @@
                                 <img src="{{ asset('images/news_item_1.png') }}" alt="news_item_img">
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6  news_item_text">
-                                <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
+                                <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у
+                                    начертанні BOLD</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
                             </div>
                             <div class="col-sm-12 news_item_text news_item_text_hiden">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
                             </div>
                             <div class="news_item_link_padding">
@@ -172,14 +181,19 @@
                                 <img src="{{ asset('images/news_item_2.png') }}" alt="news_item_img">
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 news_item_text">
-                                <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
+                                <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у
+                                    начертанні BOLD</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
                             </div>
                             <div class="col-sm-12 news_item_text news_item_text_hiden">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
                             </div>
                             <div class="news_item_link_padding">
@@ -213,14 +227,19 @@
                                 <img src="{{ asset('images/news_item_3.png') }}" alt="news_item_img">
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 news_item_text">
-                                <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у начертанні BOLD</h3>
+                                <h3>Подія дня, чи цієї години. Заголовок набраний висотою 20пт. Шрифт без засічок у
+                                    начертанні BOLD</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
                             </div>
                             <div class="col-sm-12 news_item_text news_item_text_hiden">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
                                 </p>
                             </div>
                             <div class="news_item_link_padding">
@@ -254,7 +273,8 @@
                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                             <li class="page-item"><a class="page-link page-link-active" href="#">3</a></li>
                             <li class="page-item add_info"><a class="page-link" href="#">>></a></li>
-                            <li class="page-item add_info add_info_news"><a class="page-link" href="#">Всі новини</a></li>
+                            <li class="page-item add_info add_info_news"><a class="page-link" href="#">Всі новини</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -265,28 +285,36 @@
                         Сonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                     <p>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
                     </p>
                     <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
                     </p>
                     <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.
                     </p>
                     <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam.
                     </p>
                     <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
                     </p>
                     <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.
                     </p>
                     <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
                     </p>
                     <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est laborum.
                     </p>
                 </div>
             </div>
