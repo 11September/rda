@@ -72,50 +72,7 @@
                             <h2 class="service-header">ПОСЛУГИ</h2>
 
                             <div class="wrapper-services">
-                                <div class="wrapper-services-list">
-
-                                    <div class="wrapper-services-list-item">
-                                        <div class="services-list-item">
-
-                                            <div class="services-list-item-picture">
-                                                <img src="{{ asset('images/services_item_1.png') }}" alt="services">
-                                            </div>
-                                            <div class="services-list-item-content">
-                                                <a href="#">
-                                                    <p class="services-list-item-text">Адміністративні послуги</p>
-                                                </a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="wrapper-services-list-item">
-                                        <div class="services-list-item">
-                                            <div class="services-list-item-picture">
-                                                <img src="{{ asset('images/services_item_2.png') }}" alt="services">
-                                            </div>
-                                            <div class="services-list-item-content">
-                                                <a href="#">
-                                                    <p class="services-list-item-text">Портал Державних послуг</p>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="wrapper-services-list-item">
-                                        <div class="services-list-item">
-                                            <div class="services-list-item-picture">
-                                                <img src="{{ asset('images/services_item_3.png') }}" alt="services">
-                                            </div>
-                                            <div class="services-list-item-content">
-                                                <a href="#">
-                                                    <p class="services-list-item-text">Система електронних зверненнь</p>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                @include('partials.services-list')
                             </div>
                         </div>
                     </div>
@@ -279,43 +236,9 @@
                     </nav>
                 </div>
                 <div class="col-xl-4 col-lg-4 news_right_block">
-                    <h2>АНОНСИ ПОДІЙ</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet
-                        Сonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <p>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </p>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur.
-                    </p>
-                    <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id est laborum.
-                    </p>
-                    <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                        laudantium, totam rem aperiam.
-                    </p>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur.
-                    </p>
-                    <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id est laborum.
-                    </p>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur.
-                    </p>
-                    <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id est laborum.
-                    </p>
+
+                    @include('partials.anonses')
+
                 </div>
             </div>
         </div>

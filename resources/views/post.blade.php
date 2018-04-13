@@ -107,54 +107,13 @@
                     <h2 class="service-header">ПОСЛУГИ</h2>
 
                     <div class="wrapper-services">
-                        <div class="wrapper-services-list">
-
-                            <div class="wrapper-services-list-item">
-                                <div class="services-list-item">
-
-                                    <div class="services-list-item-picture">
-                                        <img src="{{ asset('images/services_item_1.png') }}" alt="services">
-                                    </div>
-                                    <div class="services-list-item-content">
-                                        <a href="#">
-                                            <p class="services-list-item-text">Адміністративні послуги</p>
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="wrapper-services-list-item">
-                                <div class="services-list-item">
-                                    <div class="services-list-item-picture">
-                                        <img src="{{ asset('images/services_item_2.png') }}" alt="services">
-                                    </div>
-                                    <div class="services-list-item-content">
-                                        <a href="#">
-                                            <p class="services-list-item-text">Портал Державних послуг</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="wrapper-services-list-item">
-                                <div class="services-list-item">
-                                    <div class="services-list-item-picture">
-                                        <img src="{{ asset('images/services_item_3.png') }}" alt="services">
-                                    </div>
-                                    <div class="services-list-item-content">
-                                        <a href="#">
-                                            <p class="services-list-item-text">Система електронних зверненнь</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+                        @include('partials.services-list')
                     </div>
 
                     <div class="wrapper-sigle-post-anonses">
-                        @include('partials.anonses')
+                        <div class="news_right_block">
+                            @include('partials.anonses')
+                        </div>
                     </div>
 
                     <h2 class="sigle-post-video-header">BІДЕО</h2>
@@ -180,7 +139,8 @@
                                 <a href="">Наступна стаття <i class="fas fa-angle-right control-arrow-right"></i></a>
                             </p>
 
-                            <p><a href="">Всі новини <i class="fas fa-angle-double-right control-arrow-right"></i></a></p>
+                            <p><a href="">Всі новини <i class="fas fa-angle-double-right control-arrow-right"></i></a>
+                            </p>
                         </div>
                     </div>
                 </div>
