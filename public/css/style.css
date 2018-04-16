@@ -344,6 +344,10 @@ form button:hover {
     height: 100%;
 }
 
+.collapse-service-link:hover{
+    cursor: cell;
+}
+
 .services-last-item {
     border-bottom: none;
 }
@@ -357,7 +361,11 @@ form button:hover {
 }
 
 .services-list-item-content {
-    padding: 0 28px;
+    padding: 0 25px;
+}
+
+.collapse-service-link .collapsed{
+
 }
 
 .services-list-item-text {
@@ -1270,15 +1278,18 @@ form button:hover {
     align-items: center;
     justify-content: flex-start;
     padding: 15px 0 25px 0;
+    color: #4b4b4b;
+    background: #ffa304;
 }
 
 .wrapper-collapse-services p{
     margin: 5px 0;
 }
 
-.collapse-one-service{
-    font-size: 18px;
+.wrapper-collapse-services .collapse-one-service{
     color: #4b4b4b;
+    font-weight: bold;
+    font-size: 14px;
     line-height: 22px;
     font-family: 'Century_Gothic';
 }

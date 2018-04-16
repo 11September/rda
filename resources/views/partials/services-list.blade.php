@@ -47,7 +47,7 @@
             <div class="services-list-item-content">
                 <a href="#">
                     <p class="services-list-item-text">
-                        <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <a class="collapse-service-link" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                             Нормативно-правова база
                         </a>
                     </p>
@@ -83,7 +83,7 @@
             <div class="services-list-item-content">
                 <a href="#">
                     <p class="services-list-item-text">
-                        <a data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                        <a class="collapse-service-link" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
                             Доступ до публiчноi iнформацii
                         </a>
                     </p>
@@ -116,7 +116,7 @@
             <div class="services-list-item-content">
                 <a href="#">
                     <p class="services-list-item-text">
-                        <a data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                        <a class="collapse-service-link" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
                             Звернення Громадян
                         </a>
                     </p>
