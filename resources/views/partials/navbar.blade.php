@@ -52,37 +52,145 @@
                         <button type="submit">
                             <i class="fas fa-search"></i>
                         </button>
-                        {{--<i class="fas fa-search"></i>--}}
                     </form>
                     <li><a href="{{ url('/') }}" class="menu-list-item">ГОЛОВНА</a></li>
                     <li><a href="{{ url('/news') }}" class="menu-list-item">НОВИНИ</a></li>
                     <li><div class="dropdown menu-list-item">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Публічна інформація
+                                ВІДДІЛ ОСВІТИ
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">
-                                    Статут
+                                    Керівництво
                                     <div class="dropdown-item-line"></div>
                                 </a>
                                 <a class="dropdown-item" href="#">
-                                    Меню другого рівня
+                                    Структура
                                     <div class="dropdown-item-line"></div>
                                 </a>
                                 <a class="dropdown-item" href="#">
-                                    Пункт номер три
+                                    Положення про відділ освіти
                                     <div class="dropdown-item-line"></div>
                                 </a>
                                 <a class="dropdown-item" href="#">
-                                    Підменю чотири
+                                    Перелік послуг
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    План роботи
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Вакансії
                                     <div class="dropdown-item-line"></div>
                                 </a>
                             </div>
-                        </div></li>
-                    <li><a href="" class="menu-list-item">ЗВЕРНЕННЯ ГРОМАДЯН</a></li>
-                    <li><a href="" class="menu-list-item">ДОШКІЛЬНА ОСВІТА</a></li>
-                    <li><a href="" class="menu-list-item">ЗАГАЛЬНА СЕРЕДНЯ ОСВІТА</a></li>
-                    <li><a href="" class="menu-list-item">ПОЗАШКІЛЬНА ОСВІТА</a></li>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown menu-list-item">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                РУБРИКИ
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">
+                                    Колегії
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Наради
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Олімпіади, конкурси
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    НУШ
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    ДПА
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    ЗНО
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    БЖД
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Виховна робота
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Психологічна служба
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Спортивне життя
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown menu-list-item">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ДОШКІЛЬНА ОСВІТА
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">
+                                    Мережа закладів
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Методичні рекомендації щодо організації освітнього процесу
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown menu-list-item">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ЗАГАЛЬНА СЕРЕДНЯ ОСВІТА
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">
+                                    Мережа закладів
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Методичні рекомендації щодо організації освітнього процесу
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Опорні школи
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown menu-list-item">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ПОЗАШКІЛЬНА ОСВІТА
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">
+                                    Мережа закладів
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    Методичні рекомендації щодо організації освітнього процесу
+                                    <div class="dropdown-item-line"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </div>
