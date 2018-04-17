@@ -6,16 +6,7 @@
 @endsection
 
 @section('content')
-    <section class="big-slider">
-        <div class="big-slider-body owl-carousel  owl-theme">
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-            <div><img src="{{ asset('images/slide.png') }}"></div>
-        </div>
-    </section>
+    @include('partials.slider')
 
     <section class="post-page" id="basic-waypoint">
 
@@ -24,9 +15,9 @@
                 <div class="col-md-8">
                     <div class="wrapper-breadcrumbs">
                         <nav class="breadcrumb">
-                            <a class="breadcrumb-item" href="#">Головна</a>
-                            <a class="breadcrumb-item" href="#">Новини</a>
-                            <span class="breadcrumb-item active">Головна подія</span>
+                            <a class="breadcrumb-item" href="{{ url('/') }}">Головна</a>
+                            <a class="breadcrumb-item" href="{{ url('/news') }}">Новини</a>
+                            <a class="breadcrumb-item" href="#"><span class="breadcrumb-item active">{{ $post->title }}</span></a>
                         </nav>
                     </div>
 
@@ -36,32 +27,42 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="wrapper-single-post-image">
-                                    <img src="{{ asset('images/events_head.png') }}" alt="">
+                                    <img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->title }}">
                                 </div>
                             </div>
 
 
                             <div class="col-md-3">
                                 <ul class="single-post-menu">
-                                    <li><a class="date" href="#"><i class="far fa-calendar-alt"></i>14.03.2018</a></li>
-                                    <li><a class="category" href="#"><i class="fas fa-folder-open"></i>ГОЛОВНА ПОДІЯ</a>
+                                    <li><a class="date" href="#">
+                                            <i class="far fa-calendar-alt"></i>
+                                            {{ Carbon\Carbon::parse($post->created_at)->format('d.m.Y') }}
+                                        </a>
+                                    </li>
+                                    <li><a class="category" href="#">
+                                            <i class="fas fa-folder-open"></i>
+                                            @if($post->feature == 1)
+                                                ГОЛОВНА ПОДІЯ
+                                            @else
+                                                ОСТАННІ НОВИНИ
+                                            @endif
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-md-9">
                                 <div class="wrapper-single-post-heading">
                                     <h5>
-                                        Головна подія дня, чи тижня. Заголовок набраний висотою 30пт.
-                                        Шрифт без засічок у начертанні BOLD
+                                        {{ $post->title }}
                                     </h5>
                                 </div>
                             </div>
 
                             <div class="col-md-12">
                                 <div class="single-post-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium beatae
-                                        distinctio ea earum facere impedit incidunt ipsum iusto laboriosam modi, nulla
-                                        officia quaerat quisquam reiciendis ullam vel, voluptate voluptatem!</p>
+                                    <p>
+                                        {!! $post->body !!}
+                                    </p>
                                 </div>
                             </div>
 
@@ -70,17 +71,23 @@
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center blue18" target="_blank" href="#">
-                                                <i class="far fa-calendar-alt"></i>14.03.2018
+                                                <i class="far fa-calendar-alt"></i>{{ Carbon\Carbon::parse($post->created_at)->format('d.m.Y') }}
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center blue18" target="_blank" href="#">
-                                                <i class="far fa-clock"></i>9.30
+                                                <i class="far fa-clock"></i>
+                                                {{ Carbon\Carbon::parse($post->created_at)->format('h.s') }}
                                             </a>
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fas fa-folder-open"></i>ГОЛОВНА ПОДІЯ
+                                                <i class="fas fa-folder-open"></i>
+                                                @if($post->feature == 1)
+                                                    ГОЛОВНА ПОДІЯ
+                                                @else
+                                                    ОСТАННІ НОВИНИ
+                                                @endif
                                             </a>
                                         </li>
                                     </ul>
@@ -91,7 +98,7 @@
                                 <div class="wrapper-single-post-additional">
                                     <ul class="list-inline float-right">
                                         <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
+                                            <a class="social-icon text-xs-center" target="_blank" href="{{ url('/news') }}">
                                                 <i class="fas fa-user"></i>Админ.
                                             </a>
                                         </li>
@@ -134,12 +141,23 @@
                     <div class="col-md-8">
                         <div class="post-controls">
                             <p>
-                                <a href=""><i class="fas fa-angle-left control-arrow-left"></i> Попередня стаття</a>
+                                @if (isset($previous))
+                                    <a href="{{ action('NewsController@post', $previous->id) }}">
+                                        <i class="fas fa-angle-left control-arrow-left"></i> Попередня стаття
+                                    </a>
+                                @endif
+
                                 <span>|</span>
-                                <a href="">Наступна стаття <i class="fas fa-angle-right control-arrow-right"></i></a>
+
+                                @if (isset($next))
+                                    <a href="{{ action('NewsController@post', $next->id) }}">Наступна стаття
+                                        <i class="fas fa-angle-right control-arrow-right"></i>
+                                    </a>
+                                @endif
                             </p>
 
-                            <p><a href="">Всі новини <i class="fas fa-angle-double-right control-arrow-right"></i></a>
+                            <p>
+                                <a href="{{ url('/news') }}">Всі новини <i class="fas fa-angle-double-right control-arrow-right"></i></a>
                             </p>
                         </div>
                     </div>

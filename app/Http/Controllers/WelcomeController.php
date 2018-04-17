@@ -2,13 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Page;
-use App\Risk;
-use App\About;
-use App\Contact;
-use App\Principle;
-use App\Belonging;
-use App\Mail\ContactUs;
+use App\News;
 use Illuminate\Http\Request;
 
 class WelcomeController extends Controller
@@ -20,7 +14,11 @@ class WelcomeController extends Controller
      */
     public function index(Request $request)
     {
-        return view('welcome');
+        $feature_post = News::where('feature', 1)->first();
+
+        $posts = News::where('status', 'published')->latest()->paginate(3);
+
+        return view('welcome', compact('feature_post', 'posts'));
     }
 
     public function contacts()

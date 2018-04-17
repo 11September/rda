@@ -16,20 +16,28 @@
                     </div>
                 </div>
                 {{--<div class="col-lg-2 col-md-4 col-sm-3 center-block text-center">--}}
-                    {{--<div class="wrapper-footer-languages">--}}
-                        {{--<ul class="footer-languages-menu list-inline">--}}
-                            {{--<li class="list-inline-item footer-languages-menu-item"><a href="#">УКР</a></li>--}}
-                            {{--<li class="list-inline-item footer-languages-menu-item"><a href="#">РУС</a></li>--}}
-                            {{--<li class="list-inline-item footer-languages-menu-item"><a href="#">ENG</a></li>--}}
-                        {{--</ul>--}}
-                    {{--</div>--}}
+                {{--<div class="wrapper-footer-languages">--}}
+                {{--<ul class="footer-languages-menu list-inline">--}}
+                {{--<li class="list-inline-item footer-languages-menu-item"><a href="#">УКР</a></li>--}}
+                {{--<li class="list-inline-item footer-languages-menu-item"><a href="#">РУС</a></li>--}}
+                {{--<li class="list-inline-item footer-languages-menu-item"><a href="#">ENG</a></li>--}}
+                {{--</ul>--}}
+                {{--</div>--}}
                 {{--</div>--}}
                 <div class="col-lg-4 col-md-4 col-sm-4 center-block text-center">
                     <div class="wrapper-footer-social">
-                        <a class="footer-social-item" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="footer-social-item" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="footer-social-item" href="#"><i class="fab fa-youtube"></i></a>
-                        <a class="footer-social-item" href="#"><i class="fas fa-rss"></i></a>
+                        @if(setting('site.facebook_link'))
+                            <a class="footer-social-item" href="{{ setting('site.facebook_link') }}"><i class="fab fa-facebook-f"></i></a>
+                        @endif
+                        @if(setting('site.twitter_link'))
+                            <a class="footer-social-item" href="{{ setting('site.twitter_link') }}"><i class="fab fa-twitter"></i></a>
+                        @endif
+                        @if(setting('site.youtube_link'))
+                            <a class="footer-social-item" href="{{ setting('site.youtube_link') }}"><i class="fab fa-youtube"></i></a>
+                        @endif
+                        @if(setting('site.rss_link'))
+                            <a class="footer-social-item" href="{{ setting('site.rss_link') }}"><i class="fas fa-rss"></i></a>
+                        @endif
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 center-block">

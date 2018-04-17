@@ -536,6 +536,10 @@ form button:hover {
     width: auto;
 }
 
+.add_info_news{
+    margin-top: 20px;
+}
+
 .news .add_info_news a {
     padding: 9px 40px;
 }
@@ -1292,6 +1296,43 @@ form button:hover {
     font-size: 14px;
     line-height: 22px;
     font-family: 'Century_Gothic';
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    position: relative;
+    display: block;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: rgb(0, 123, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem 0.75rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(222, 226, 230);
+    border-image: initial;
+    cursor: pointer;
+}
+
+.pagination li:hover {
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.pagination .active {
+    background: #1567a1;
+    color: #fff;
+}
+
+.pagination .active:hover {
+    background: #1567a1;
+    color: #fff;
 }
 
 @media (max-width: 1400px) {

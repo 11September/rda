@@ -2,22 +2,41 @@
 
 namespace App\Http\Controllers;
 
+use App\News;
 use Illuminate\Http\Request;
 
 class NewsController extends Controller
 {
     public function index()
     {
-        return view('news');
+        $posts = News::where('status', 'published')->paginate(1);
+
+        return view('news', compact('posts'));
     }
 
-    public function post($post = null)
+    public function post($id = null)
     {
-        return view('post');
+        $post = News::where('id', $id)->firstOrFail();
+
+        $previous = News::where('id', '<', $post->id)->orderBy('id','desc')->first();
+
+        $next = News::where('id', '>', $post->id)->orderBy('id')->first();
+
+        return view('post', compact('post', 'previous', 'next'));
     }
 
-    public function search()
+    public function search(Request $request)
     {
-        return view('search');
+        $request->validate([
+            'search' => 'required|max:255',
+        ]);
+
+        $query = $request->search;
+
+        $posts = News::where('status', 'published')
+            ->where('title', 'LIKE', '%' . $query . '%')
+            ->paginate(1);
+
+        return view('search', compact('posts', 'query'));
     }
 }

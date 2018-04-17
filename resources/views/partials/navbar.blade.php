@@ -20,16 +20,24 @@
                 </div>
 
                 <div class="social-part">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
-                    <a href=""><i class="fas fa-rss"></i></a>
+                    @if(setting('site.facebook_link'))
+                        <a href="{{ setting('site.facebook_link') }}"><i class="fab fa-facebook-f"></i></a>
+                    @endif
+                    @if(setting('site.twitter_link'))
+                        <a href="{{ setting('site.twitter_link') }}"><i class="fab fa-twitter"></i></a>
+                    @endif
+                    @if(setting('site.youtube_link'))
+                        <a href="{{ setting('site.youtube_link') }}"><i class="fab fa-youtube"></i></a>
+                    @endif
+                    @if(setting('site.rss_link'))
+                        <a href="{{ setting('site.rss_link') }}"><i class="fas fa-rss"></i></a>
+                    @endif
                 </div>
 
                 <form action="{{ action('NewsController@search') }}" class="search-part">
                     {{ csrf_field() }}
 
-                    <input type="text" placeholder="Пошук сайтом...">
+                    <input name="search" type="text" placeholder="Пошук сайтом...">
 
                     <button type="submit">
                         <i class="fas fa-search"></i>
