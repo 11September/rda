@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 17 2018 г., 19:07
+-- Время создания: Апр 17 2018 г., 20:13
 -- Версия сервера: 5.7.19
 -- Версия PHP: 7.1.7
 
@@ -21,6 +21,56 @@ SET time_zone = "+00:00";
 --
 -- База данных: `rda`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `albums`
+--
+
+CREATE TABLE `albums` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `image` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Дамп данных таблицы `albums`
+--
+
+INSERT INTO `albums` (`id`, `name`, `image`, `created_at`, `updated_at`) VALUES
+(1, 'Садко', 'albums/April2018/r1mKMSzO4f8lu7M8IuCP.jpg', '2018-04-17 16:36:11', '2018-04-17 16:36:11'),
+(2, 'Сотня', 'albums/April2018/SdezaOA6uVlKOpOaTEIG.jpeg', '2018-04-17 16:36:50', '2018-04-17 16:36:50'),
+(3, 'Банковская', 'albums/April2018/eJqnb1qc4SWENoEgr643.jpg', '2018-04-17 16:37:29', '2018-04-17 16:37:29'),
+(4, 'Щепкина', 'albums/April2018/kyatFmKedRCDE3sliiZz.jpg', '2018-04-17 16:38:01', '2018-04-17 16:38:01'),
+(5, 'Казка', 'albums/April2018/IwT0mo8iAmqAPO5D6D0i.jpg', '2018-04-17 16:38:43', '2018-04-17 16:38:43'),
+(6, 'Альтанка', 'albums/April2018/PVrBuPxZDOoGjplJTAFL.jpg', '2018-04-17 16:39:19', '2018-04-17 16:39:19');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `anounses`
+--
+
+CREATE TABLE `anounses` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `body` text COLLATE utf8_unicode_ci,
+  `image` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` enum('published','pending','closed') COLLATE utf8_unicode_ci DEFAULT 'published',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Дамп данных таблицы `anounses`
+--
+
+INSERT INTO `anounses` (`id`, `title`, `body`, `image`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Доски объявлений. Как выделить объявление на общем фоне', '<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\"><span style=\"box-sizing: border-box;\">Люди часто размещают объявления на досках. И многие не задумываются что и как они пишут. Конечно, можно написать много объявлений, разместить их на всех досках и ждать много звонков. Но! Если объявления не интересные, то читать их не будут, звонить &mdash; тем более. И не важно сколько объявлений размещено.<br style=\"box-sizing: border-box;\" /><br style=\"box-sizing: border-box;\" /></span><span style=\"box-sizing: border-box;\">Давайте разберемся с самыми частыми ошибками при создании объявлений и выясним как сделать объявление более привлекательным.<br style=\"box-sizing: border-box;\" /><br style=\"box-sizing: border-box;\" /></span><span style=\"box-sizing: border-box;\"><span style=\"box-sizing: border-box; font-weight: bold;\"><img style=\"box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; margin-bottom: 10px;\" src=\"https://www.s.0542.ua/s/44/section/newsInText/upload/images/news/intext/000/032/594/6_5ad602256d872.jpg\" alt=\"\" width=\"652\" height=\"389\" data-author=\"\" /><br style=\"box-sizing: border-box;\" /></span><em style=\"box-sizing: border-box;\">Что неправильно: орфографические ошибки в заголовке, вакансия размещена в разделе автозапчастей.<br style=\"box-sizing: border-box;\" /><br style=\"box-sizing: border-box;\" /></em></span><span style=\"box-sizing: border-box;\"><span style=\"box-sizing: border-box; font-weight: bold;\"><img style=\"box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; margin-bottom: 10px;\" src=\"https://www.s.0542.ua/s/44/section/newsInText/upload/images/news/intext/000/032/593/9_5ad5f82c778ea.jpg\" alt=\"\" width=\"545\" height=\"577\" data-author=\"\" /><br style=\"box-sizing: border-box;\" /></span><em style=\"box-sizing: border-box;\">Что правильно: понятный заголовок, много фотографий, подробное описание.</em></span><span style=\"box-sizing: border-box;\"><br style=\"box-sizing: border-box;\" /></span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\">&nbsp;</p>', 'anounses/April2018/tWwYVwKrbOY3hZl4uYHd.png', 'published', '2018-04-17 16:17:02', '2018-04-17 16:17:02'),
+(2, 'Мэр г. Сумы Александр Лысенко заявил отвод судье', '<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\"><span style=\"box-sizing: border-box;\">Сегодня в Заречном районном суде г. Сумы должно было состояться слушание по делу в отношении городского головы Сум Александра Лысенко, которого обвиняют в админнарушении, связанном с коррупцией. Сегодня был запланирован допрос свидетелей.</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\"><span style=\"box-sizing: border-box;\">Но к слушанию по сути так и не приступили, поскольку обвиняемый заявил отвод судье. Адвокат утверждает, что судья Климашевская грубо нарушала процессуальное право во время рассмотрения дела, а именно, находясь в отпуске и с целью принятия решения по делу, 14 и 20 марта выходила на работу, в то время как другие дела на указанные даты не назначались. Помимо этого, судья Климашевская не угодила тем, что на время пребывания подсудимого на больничном, во избежание затягивания дела и истечения срока привлечения к админответственности, приостановила рассмотрение дела. Решение о приостановлении слушания принято в форме постановления без присутствия обвиняемого что, как утверждает адвокат Матюшинец, противоречит процессуальному и административному кодексу. В третьих, сторона защиты считает, что при рассмотрении аналогичного дела по секретарю горсовета Андрею Баранову, у суда уже сложилось окончательное мнение, поэтому в данном случае суд может принять такое же решение.</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\"><span style=\"box-sizing: border-box;\">Учитывая ходатайство обвиняемого, дело было отложено до 24 апреля. За это время автоматизированная система должна назначить другого судью.</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\"><span style=\"box-sizing: border-box;\">Впрочем, есть подозрение, что к тому времени истечет срок привлечения Александра Лысенко к административной ответственности. Как утверждает адвокат городского головы, по их подсчетам, срок привлечения к ответственности уже истек.</span></p>', 'anounses/April2018/XlhAaEVdiYUMI3ZwZz9o.jpg', 'published', '2018-04-17 16:17:49', '2018-04-17 16:17:49');
 
 -- --------------------------------------------------------
 
@@ -97,7 +147,26 @@ INSERT INTO `data_rows` (`id`, `data_type_id`, `field`, `type`, `display_name`, 
 (68, 9, 'status', 'radio_btn', 'Статус', 0, 1, 1, 1, 1, 1, '{\"default\":\"published\",\"options\":{\"published\":\"Опубликованный\",\"pending\":\"В ожидании\",\"closed\":\"Закрыто\"}}', 5),
 (69, 9, 'created_at', 'timestamp', 'Время создания', 0, 1, 1, 0, 0, 0, NULL, 6),
 (70, 9, 'updated_at', 'timestamp', 'Время обновления', 0, 0, 0, 0, 0, 0, NULL, 7),
-(71, 9, 'image', 'image', 'Картинка', 0, 1, 1, 1, 1, 1, '{\"resize\":{\"width\":\"1000\",\"height\":null},\"quality\":\"65%\",\"upsize\":true}', 4);
+(71, 9, 'image', 'image', 'Картинка', 0, 1, 1, 1, 1, 1, '{\"resize\":{\"width\":\"1000\",\"height\":null},\"quality\":\"65%\",\"upsize\":true}', 4),
+(72, 10, 'id', 'checkbox', 'Id', 1, 0, 0, 0, 0, 0, NULL, 1),
+(73, 10, 'title', 'text', 'Заголовок', 1, 1, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required|max:255\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 2),
+(74, 10, 'body', 'rich_text_box', 'Описание анонса', 0, 1, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required|max:4000\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 3),
+(75, 10, 'image', 'image', 'Картинка', 0, 1, 1, 1, 1, 1, '{\"resize\":{\"width\":\"1000\",\"height\":null},\"quality\":\"65%\",\"upsize\":true}', 4),
+(76, 10, 'status', 'radio_btn', 'Статус', 0, 1, 1, 1, 1, 1, '{\"default\":\"published\",\"options\":{\"published\":\"Опубликованный\",\"pending\":\"В ожидании\",\"closed\":\"Закрыто\"}}', 5),
+(77, 10, 'created_at', 'timestamp', 'Время создания', 0, 1, 1, 0, 0, 0, NULL, 6),
+(78, 10, 'updated_at', 'timestamp', 'Время обновления', 0, 0, 0, 0, 0, 0, NULL, 7),
+(79, 11, 'id', 'checkbox', 'Id', 1, 0, 0, 0, 0, 0, NULL, 1),
+(80, 11, 'name', 'text', 'Название', 1, 1, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required|max:255\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 2),
+(81, 11, 'image', 'image', 'Картинка', 0, 1, 1, 1, 1, 1, '{\"resize\":{\"width\":\"1000\",\"height\":null},\"quality\":\"65%\",\"upsize\":true}', 3),
+(82, 11, 'created_at', 'timestamp', 'Время создания', 0, 1, 1, 0, 0, 0, NULL, 4),
+(83, 11, 'updated_at', 'timestamp', 'Время обновления', 0, 0, 0, 0, 0, 0, NULL, 5),
+(84, 12, 'id', 'checkbox', 'Id', 1, 0, 0, 0, 0, 0, NULL, 1),
+(85, 12, 'album_id', 'checkbox', 'Album Id', 1, 1, 1, 1, 1, 1, NULL, 2),
+(86, 12, 'image', 'image', 'Картинка', 0, 1, 1, 1, 1, 1, '{\"resize\":{\"width\":\"1000\",\"height\":null},\"quality\":\"65%\",\"upsize\":true}', 3),
+(87, 12, 'title', 'text', 'Название', 0, 1, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"max:255\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 4),
+(88, 12, 'created_at', 'timestamp', 'Время создания', 0, 1, 1, 0, 0, 0, NULL, 5),
+(89, 12, 'updated_at', 'timestamp', 'Время обновления', 0, 0, 0, 0, 0, 0, NULL, 6),
+(90, 12, 'photo_belongsto_album_relationship', 'relationship', 'Альбом', 0, 1, 1, 1, 1, 1, '{\"model\":\"App\\\\Album\",\"table\":\"albums\",\"type\":\"belongsTo\",\"column\":\"album_id\",\"key\":\"id\",\"label\":\"name\",\"pivot_table\":\"albums\",\"pivot\":\"0\"}', 7);
 
 -- --------------------------------------------------------
 
@@ -133,7 +202,10 @@ INSERT INTO `data_types` (`id`, `name`, `slug`, `display_name_singular`, `displa
 (6, 'roles', 'roles', 'Role', 'Roles', 'voyager-lock', 'TCG\\Voyager\\Models\\Role', NULL, '', '', 1, 0, '2018-04-02 14:26:47', '2018-04-02 14:26:47'),
 (7, 'galleries', 'galleries', 'Gallery', 'Galleries', 'voyager-images', 'App\\Gallery', NULL, NULL, NULL, 1, 0, '2018-04-13 10:53:38', '2018-04-13 10:53:38'),
 (8, 'sliders', 'sliders', 'Slider', 'Sliders', 'voyager-play', 'App\\Slider', NULL, NULL, NULL, 1, 0, '2018-04-13 11:12:15', '2018-04-13 11:12:15'),
-(9, 'news', 'news', 'News', 'News', 'voyager-news', 'App\\News', NULL, NULL, NULL, 1, 0, '2018-04-17 06:05:40', '2018-04-17 06:05:40');
+(9, 'news', 'news', 'News', 'News', 'voyager-news', 'App\\News', NULL, NULL, NULL, 1, 0, '2018-04-17 06:05:40', '2018-04-17 06:05:40'),
+(10, 'anounses', 'anounses', 'Anounse', 'Anounses', 'voyager-news', 'App\\Anounse', NULL, NULL, NULL, 1, 0, '2018-04-17 16:15:02', '2018-04-17 16:15:02'),
+(11, 'albums', 'albums', 'Album', 'Albums', 'voyager-photo', 'App\\Album', NULL, NULL, NULL, 1, 0, '2018-04-17 16:35:10', '2018-04-17 16:35:10'),
+(12, 'photos', 'photos', 'Photo', 'Photos', 'voyager-photos', 'App\\Photo', NULL, NULL, NULL, 1, 0, '2018-04-17 16:41:36', '2018-04-17 16:41:36');
 
 -- --------------------------------------------------------
 
@@ -219,7 +291,10 @@ INSERT INTO `menu_items` (`id`, `menu_id`, `title`, `url`, `target`, `icon_class
 (13, 1, 'Hooks', '', '_self', 'voyager-hook', NULL, 8, 13, '2018-04-02 14:26:48', '2018-04-02 14:26:48', 'voyager.hooks', NULL),
 (14, 1, 'Galleries', '/admin/galleries', '_self', 'voyager-images', NULL, NULL, 15, '2018-04-13 10:53:38', '2018-04-13 10:53:38', NULL, NULL),
 (15, 1, 'Sliders', '/admin/sliders', '_self', 'voyager-play', NULL, NULL, 16, '2018-04-13 11:12:15', '2018-04-13 11:12:15', NULL, NULL),
-(16, 1, 'News', '/admin/news', '_self', 'voyager-news', NULL, NULL, 17, '2018-04-17 06:05:40', '2018-04-17 06:05:40', NULL, NULL);
+(16, 1, 'News', '/admin/news', '_self', 'voyager-news', NULL, NULL, 17, '2018-04-17 06:05:40', '2018-04-17 06:05:40', NULL, NULL),
+(17, 1, 'Anounses', '/admin/anounses', '_self', 'voyager-news', NULL, NULL, 18, '2018-04-17 16:15:03', '2018-04-17 16:15:03', NULL, NULL),
+(18, 1, 'Albums', '/admin/albums', '_self', 'voyager-photo', NULL, NULL, 19, '2018-04-17 16:35:10', '2018-04-17 16:35:10', NULL, NULL),
+(19, 1, 'Photos', '/admin/photos', '_self', 'voyager-photos', NULL, NULL, 20, '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -386,7 +461,22 @@ INSERT INTO `permissions` (`id`, `key`, `table_name`, `created_at`, `updated_at`
 (52, 'read_news', 'news', '2018-04-17 06:05:40', '2018-04-17 06:05:40', NULL),
 (53, 'edit_news', 'news', '2018-04-17 06:05:40', '2018-04-17 06:05:40', NULL),
 (54, 'add_news', 'news', '2018-04-17 06:05:40', '2018-04-17 06:05:40', NULL),
-(55, 'delete_news', 'news', '2018-04-17 06:05:40', '2018-04-17 06:05:40', NULL);
+(55, 'delete_news', 'news', '2018-04-17 06:05:40', '2018-04-17 06:05:40', NULL),
+(56, 'browse_anounses', 'anounses', '2018-04-17 16:15:02', '2018-04-17 16:15:02', NULL),
+(57, 'read_anounses', 'anounses', '2018-04-17 16:15:02', '2018-04-17 16:15:02', NULL),
+(58, 'edit_anounses', 'anounses', '2018-04-17 16:15:02', '2018-04-17 16:15:02', NULL),
+(59, 'add_anounses', 'anounses', '2018-04-17 16:15:02', '2018-04-17 16:15:02', NULL),
+(60, 'delete_anounses', 'anounses', '2018-04-17 16:15:02', '2018-04-17 16:15:02', NULL),
+(61, 'browse_albums', 'albums', '2018-04-17 16:35:10', '2018-04-17 16:35:10', NULL),
+(62, 'read_albums', 'albums', '2018-04-17 16:35:10', '2018-04-17 16:35:10', NULL),
+(63, 'edit_albums', 'albums', '2018-04-17 16:35:10', '2018-04-17 16:35:10', NULL),
+(64, 'add_albums', 'albums', '2018-04-17 16:35:10', '2018-04-17 16:35:10', NULL),
+(65, 'delete_albums', 'albums', '2018-04-17 16:35:10', '2018-04-17 16:35:10', NULL),
+(66, 'browse_photos', 'photos', '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL),
+(67, 'read_photos', 'photos', '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL),
+(68, 'edit_photos', 'photos', '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL),
+(69, 'add_photos', 'photos', '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL),
+(70, 'delete_photos', 'photos', '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL);
 
 -- --------------------------------------------------------
 
@@ -459,7 +549,56 @@ INSERT INTO `permission_role` (`permission_id`, `role_id`) VALUES
 (52, 1),
 (53, 1),
 (54, 1),
-(55, 1);
+(55, 1),
+(56, 1),
+(57, 1),
+(58, 1),
+(59, 1),
+(60, 1),
+(61, 1),
+(62, 1),
+(63, 1),
+(64, 1),
+(65, 1),
+(66, 1),
+(67, 1),
+(68, 1),
+(69, 1),
+(70, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `photos`
+--
+
+CREATE TABLE `photos` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `album_id` int(11) NOT NULL,
+  `image` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Дамп данных таблицы `photos`
+--
+
+INSERT INTO `photos` (`id`, `album_id`, `image`, `title`, `created_at`, `updated_at`) VALUES
+(1, 1, 'photos/April2018/m99sP4OyeJ0lnR2vrJav.jpg', NULL, '2018-04-17 16:43:48', '2018-04-17 16:43:48'),
+(2, 1, 'photos/April2018/dxZzqjXUumc1NnHkfHuy.jpg', NULL, '2018-04-17 16:43:56', '2018-04-17 16:43:56'),
+(3, 1, 'photos/April2018/xRxEf0nivNsY2ARna1Mk.jpg', NULL, '2018-04-17 16:44:51', '2018-04-17 16:44:51'),
+(4, 1, 'photos/April2018/UQMsdJfK0POimXzVb5nx.jpeg', NULL, '2018-04-17 16:45:00', '2018-04-17 16:45:00'),
+(5, 1, 'photos/April2018/lr2SozGYEe5ekP0Lr2AW.jpg', NULL, '2018-04-17 16:45:43', '2018-04-17 16:45:43'),
+(6, 1, 'photos/April2018/faZ8kVbCZO2dt3yWoF6Z.jpg', NULL, '2018-04-17 16:45:52', '2018-04-17 16:45:52'),
+(7, 1, 'photos/April2018/rBXxFfDxgA1X6YQLjhIi.jpg', NULL, '2018-04-17 16:46:52', '2018-04-17 16:46:52'),
+(8, 1, 'photos/April2018/hMHX4kwRtk0QM4ZrKFU6.jpg', NULL, '2018-04-17 16:47:02', '2018-04-17 16:47:02'),
+(9, 1, 'photos/April2018/XwEX0PdaG3RBwMuZCJxQ.jpg', NULL, '2018-04-17 16:47:38', '2018-04-17 16:47:38'),
+(10, 1, 'photos/April2018/SbTbcEtpYcp0xAfod4Tj.jpg', NULL, '2018-04-17 16:47:48', '2018-04-17 16:47:48'),
+(11, 1, 'photos/April2018/o1h8h4dEWPM9ILrVv36X.jpg', NULL, '2018-04-17 16:47:59', '2018-04-17 16:47:59'),
+(12, 1, 'photos/April2018/3O1b5IQjqT9Kz9zZD5Tf.jpg', NULL, '2018-04-17 16:48:43', '2018-04-17 16:48:43'),
+(13, 1, 'photos/April2018/9UNEnO7CjXYzfwARtzDO.jpg', NULL, '2018-04-17 16:48:50', '2018-04-17 16:48:50');
 
 -- --------------------------------------------------------
 
@@ -589,6 +728,18 @@ INSERT INTO `users` (`id`, `role_id`, `name`, `email`, `avatar`, `password`, `re
 --
 
 --
+-- Индексы таблицы `albums`
+--
+ALTER TABLE `albums`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `anounses`
+--
+ALTER TABLE `anounses`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `data_rows`
 --
 ALTER TABLE `data_rows`
@@ -671,6 +822,12 @@ ALTER TABLE `permission_role`
   ADD KEY `permission_role_role_id_index` (`role_id`);
 
 --
+-- Индексы таблицы `photos`
+--
+ALTER TABLE `photos`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `roles`
 --
 ALTER TABLE `roles`
@@ -709,15 +866,25 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT для таблицы `albums`
+--
+ALTER TABLE `albums`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT для таблицы `anounses`
+--
+ALTER TABLE `anounses`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
 -- AUTO_INCREMENT для таблицы `data_rows`
 --
 ALTER TABLE `data_rows`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
 --
 -- AUTO_INCREMENT для таблицы `data_types`
 --
 ALTER TABLE `data_types`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT для таблицы `galleries`
 --
@@ -732,7 +899,7 @@ ALTER TABLE `menus`
 -- AUTO_INCREMENT для таблицы `menu_items`
 --
 ALTER TABLE `menu_items`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 --
 -- AUTO_INCREMENT для таблицы `migrations`
 --
@@ -752,12 +919,17 @@ ALTER TABLE `pages`
 -- AUTO_INCREMENT для таблицы `permissions`
 --
 ALTER TABLE `permissions`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
 --
 -- AUTO_INCREMENT для таблицы `permission_groups`
 --
 ALTER TABLE `permission_groups`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT для таблицы `photos`
+--
+ALTER TABLE `photos`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT для таблицы `roles`
 --
