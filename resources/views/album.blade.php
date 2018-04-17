@@ -3,6 +3,7 @@
 @section('css')
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.fancybox.min.css') }}" media="screen" />
 @endsection
 
 @section('content')
@@ -23,6 +24,15 @@
                         <h2>Альбом</h2>
 
 
+                        <div class="row">
+                            @foreach($photos as $photo)
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <a data-fancybox="photos" href="{{ asset('storage/' . $photo->image) }}">
+                                        <img src="{{ asset('storage/' . $photo->image) }}" alt="">
+                                    </a>
+                                </div>
+                            @endforeach
+                        </div>
 
                     </div>
                 </div>
@@ -171,6 +181,8 @@
 @endsection
 
 @section('scripts')
+    <script type="text/javascript" src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
+
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <script>
         $('.big-slider-body').owlCarousel({
