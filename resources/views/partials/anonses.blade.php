@@ -50,7 +50,7 @@
             </a>
         </li>
 
-        <li>
+        <li class="all_anounses">
             <a href="">All anounses</a>
         </li>
     </ul>
