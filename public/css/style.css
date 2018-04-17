@@ -1373,6 +1373,16 @@ form button:hover {
     border-color: #dee2e6;
 }
 
+.albom_item_img{
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.albom_item_img img{
+    width: 100%;
+    height: 150px;
+}
+
 @media (max-width: 1400px) {
     .menu-list-item {
         font-family: 'Century_Gothic';
