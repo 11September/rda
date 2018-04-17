@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Album;
+use App\Anounse;
 use App\Gallery;
 use App\Slider;
 use Illuminate\Support\ServiceProvider;
@@ -32,6 +33,10 @@ class AppServiceProvider extends ServiceProvider
 
         view()->composer('partials.slider', function ($view) {
             $view->with('sliders', Slider::thubnails_photos());
+        });
+
+        view()->composer('partials.anonses', function ($view) {
+            $view->with('anounses', Anounse::thubnails_photos());
         });
 
     }

@@ -1,57 +1,17 @@
+<h2>АНОНСИ ПОДІЙ</h2>
 
-    <h2>АНОНСИ ПОДІЙ</h2>
+<ul class="anonses-menu">
 
-    <ul class="anonses-menu">
+    @foreach($anounses as $anouns)
         <li class="anonses-menu-item">
-            <a href="">
-                Lorem ipsum dolor sit amet
-                Сonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.
+            <a href="{{ action('AnounsesController@post', $anouns->id ) }}">
+                {{ $anouns->title }}
             </a>
         </li>
+    @endforeach
 
-        <li class="anonses-menu-item">
-            <a href="">
-                Lorem ipsum dolor sit amet
-                Сonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.
-            </a>
-        </li>
-
-        <li class="anonses-menu-item">
-            <a href="">
-                Lorem ipsum dolor sit amet
-                Сonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.
-            </a>
-        </li>
-
-        <li class="anonses-menu-item">
-            <a href="">
-                Lorem ipsum dolor sit amet
-                Сonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.
-            </a>
-        </li>
-
-        <li class="anonses-menu-item">
-            <a href="">
-                Lorem ipsum dolor sit amet
-                Сonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.
-            </a>
-        </li>
-
-        <li class="anonses-menu-item">
-            <a href="">
-                Lorem ipsum dolor sit amet
-                Сonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.
-            </a>
-        </li>
-
-        <li class="all_anounses">
-            <a href="{{ url('/anounses') }}">Все Анонси</a>
-        </li>
-    </ul>
+    <li class="all_anounses">
+        <a href="{{ url('/anounses') }}">Все Анонси</a>
+    </li>
+</ul>
 
