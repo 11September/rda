@@ -635,13 +635,14 @@ form button:hover {
 
 .gallery-item {
     position: relative;
-    height: 260px;
+    height: auto;
     margin-bottom: 30px;
+    min-height: 260px;
 }
 
 .wrapper-gallery-item-date {
     position: absolute;
-    bottom: 0;
+    bottom: 2px;
     left: 0;
     width: 165px;
     height: 34px;
@@ -661,6 +662,7 @@ form button:hover {
 .gallery-item img, .video-item img {
     width: 100%;
     height: inherit;
+    min-height: 260px;
 }
 
 .video-item {
@@ -857,10 +859,18 @@ form button:hover {
 }
 
 .post-content {
-    padding: 22px 0;
+    max-height: 100px;
+    padding: 0 0;
     line-height: 20px;
     font-size: 18px;
     color: #4b4b4b;
+    overflow: hidden;
+}
+
+.post-content *{
+    background-color: transparent!important;
+    line-height: 20px !important;
+    color: #4b4b4b !important;
 }
 
 .post-item-category {

@@ -89,9 +89,9 @@
                                     <h3>
                                         {{ $post->title }}
                                     </h3>
-                                    <p>
+                                    <div class="post-content">
                                         {!! $post->body !!}
-                                    </p>
+                                    </div>
                                 </div>
                                 <div class="news_item_link_padding">
                                     <div class="col-xl-12 col-lg-12 col-md-12 news_item_link">
@@ -142,19 +142,19 @@
     <section class="gallery">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-12">
 
                     <h2>ГАЛЕРЕЯ</h2>
 
                     @include('partials.gallery-photos')
 
                 </div>
-                <div class="col-md-4">
+                {{--<div class="col-md-4">
 
                     <h2>BІДЕО</h2>
 
                     @include('partials.gallery-videos')
-                </div>
+                </div>--}}
             </div>
         </div>
     </section>

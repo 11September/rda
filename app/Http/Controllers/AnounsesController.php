@@ -2,27 +2,27 @@
 
 namespace App\Http\Controllers;
 
-use App\News;
+use App\Anounse;
 use Illuminate\Http\Request;
 
 class AnounsesController extends Controller
 {
     public function index()
     {
-        $posts = News::where('status', 'published')->paginate(1);
+        $posts = Anounse::where('status', 'published')->paginate(1);
 
-        return view('news', compact('posts'));
+        return view('anounses', compact('posts'));
     }
 
     public function post($id = null)
     {
-        $post = News::where('id', $id)->firstOrFail();
+        $post = Anounse::where('id', $id)->firstOrFail();
 
-        $previous = News::where('id', '<', $post->id)->orderBy('id','desc')->first();
+        $previous = Anounse::where('id', '<', $post->id)->orderBy('id','desc')->first();
 
-        $next = News::where('id', '>', $post->id)->orderBy('id')->first();
+        $next = Anounse::where('id', '>', $post->id)->orderBy('id')->first();
 
-        return view('post', compact('post', 'previous', 'next'));
+        return view('anounse', compact('post', 'previous', 'next'));
     }
 
     public function search(Request $request)
@@ -33,7 +33,7 @@ class AnounsesController extends Controller
 
         $query = $request->search;
 
-        $posts = News::where('status', 'published')
+        $posts = Anounse::where('status', 'published')
             ->where('title', 'LIKE', '%' . $query . '%')
             ->paginate(1);
 

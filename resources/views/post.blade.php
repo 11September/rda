@@ -60,9 +60,9 @@
 
                             <div class="col-md-12">
                                 <div class="single-post-content">
-                                    <p>
+                                    <div class="post-content">
                                         {!! $post->body !!}
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
 

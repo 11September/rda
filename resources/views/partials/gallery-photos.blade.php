@@ -2,9 +2,11 @@
     <div class="row">
 
         @foreach($photos as $photo)
-            <div class="col-md-6 col-sm-6">
+            <div class="col-md-4 col-sm-4">
                 <div class="gallery-item">
-                    <img src="{{ asset('storage/' . $photo->image) }}" alt="gallery">
+                    <a href="{{ action('WelcomeController@album', $photo->id) }}">
+                        <img src="{{ asset('storage/' . $photo->image) }}" alt="gallery">
+                    </a>
 
                     <div class="wrapper-gallery-item-date">
                         <p class="gallery-item-date">

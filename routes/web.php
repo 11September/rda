@@ -19,6 +19,8 @@ Route::get('/search', 'NewsController@search');
 Route::get('/anounses', 'AnounsesController@index');
 Route::get('/anounses/{anounse}', 'AnounsesController@post');
 
+Route::get('/albums/{album}', 'WelcomeController@album');
+
 //Route::get('/contact', 'WelcomeController@contacts');
 
 Route::group(['prefix' => 'admin'], function () {
