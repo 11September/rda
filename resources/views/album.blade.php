@@ -3,7 +3,7 @@
 @section('css')
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.fancybox.min.css') }}" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.fancybox.min.css') }}" media="screen"/>
 @endsection
 
 @section('content')
@@ -23,15 +23,16 @@
                     <div class="wrapper-single-post-content">
                         <h2>Альбом</h2>
 
-
-                        <div class="row">
-                            @foreach($photos as $photo)
-                                <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 albom_item_img">
-                                    <a data-fancybox="photos" href="{{ asset('storage/' . $photo->image) }}">
-                                        <img src="{{ asset('storage/' . $photo->image) }}" alt="">
-                                    </a>
-                                </div>
-                            @endforeach
+                        <div class="wrapper-album">
+                            <div class="row">
+                                @foreach($photos as $photo)
+                                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 albom_item_img">
+                                        <a data-fancybox="photos" href="{{ asset('storage/' . $photo->image) }}">
+                                            <img src="{{ asset('storage/' . $photo->image) }}" alt="">
+                                        </a>
+                                    </div>
+                                @endforeach
+                            </div>
                         </div>
 
                     </div>

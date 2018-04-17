@@ -80,12 +80,12 @@
                     @foreach($posts as $post)
                         <div class="news_item">
                             <div class="row">
-                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6 news_item_img">
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 news_item_img">
                                     <a href="{{ action('NewsController@post', $post->id) }}">
                                         <img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->title }}">
                                     </a>
                                 </div>
-                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6  news_item_text">
+                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12  news_item_text">
                                     <h3>
                                         {{ $post->title }}
                                     </h3>

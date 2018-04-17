@@ -860,7 +860,7 @@ form button:hover {
 
 .post-content {
     max-height: 100px;
-    padding: 0 0;
+    padding: 0 5%;
     line-height: 20px;
     font-size: 18px;
     color: #4b4b4b;
@@ -1544,6 +1544,10 @@ form button:hover {
 }
 
 @media (max-width: 768px) {
+    .wrapper-album{
+        padding: 0 10%;
+    }
+
     .header-bottom .dropdown-menu.show {
         top: 0 !important;
     }
@@ -1876,7 +1880,7 @@ form button:hover {
     }
 
     .news_item_img img {
-        width: auto;
+        width: 100%;
         height: 210px;
         max-width: inherit;
     }
@@ -1891,6 +1895,7 @@ form button:hover {
 
     .news_item_text h3 {
         height: auto;
+        padding: 0 5%;
     }
 
     /* news end */
