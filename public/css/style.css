@@ -1605,7 +1605,7 @@ form button:hover {
     }
 
     .news_item_text h3 {
-        height: 205px;
+        height: auto;
     }
 
     .news_item_text_hiden {
@@ -1613,7 +1613,7 @@ form button:hover {
     }
 
     .news_item_text p {
-        display: none;
+        /*display: none;*/
     }
 
     .news_item_text_hiden p {
