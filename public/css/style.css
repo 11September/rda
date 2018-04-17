@@ -1345,6 +1345,34 @@ form button:hover {
     color: #fff;
 }
 
+.all_anounses{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.all_anounses a{
+    position: relative;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: rgb(0, 123, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(222, 226, 230);
+    /*border-image: initial;*/
+    cursor: pointer;
+    width: auto;
+}
+
+.all_anounses a:hover{
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
 @media (max-width: 1400px) {
     .menu-list-item {
         font-family: 'Century_Gothic';
