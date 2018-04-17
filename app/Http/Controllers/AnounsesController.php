@@ -9,7 +9,7 @@ class AnounsesController extends Controller
 {
     public function index()
     {
-        $posts = Anounse::where('status', 'published')->paginate(1);
+        $posts = Anounse::where('status', 'published')->paginate(10);
 
         return view('anounses', compact('posts'));
     }

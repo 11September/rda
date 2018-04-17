@@ -14,4 +14,3 @@
         <a href="{{ url('/anounses') }}">Все Анонси</a>
     </li>
 </ul>
-
