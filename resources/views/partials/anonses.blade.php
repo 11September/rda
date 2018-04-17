@@ -51,7 +51,7 @@
         </li>
 
         <li class="all_anounses">
-            <a href="">All anounses</a>
+            <a href="{{ url('/anounses') }}">Все Анонси</a>
         </li>
     </ul>
 
