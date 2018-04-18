@@ -15,8 +15,8 @@
                 <div class="col-md-8">
                     <div class="wrapper-breadcrumbs">
                         <nav class="breadcrumb">
-                            <a class="breadcrumb-item" href="{{ url('/') }}">Головна</a>
-                            <a class="breadcrumb-item" href="{{ url('/news') }}">Новини</a>
+                            <a class="breadcrumb-item" href="{{ url('/') }}">Головна /</a>
+                            <a class="breadcrumb-item" href="{{ url('/news') }}">Новини /</a>
                             <a class="breadcrumb-item" href="#"><span class="breadcrumb-item active">{{ $post->title }}</span></a>
                         </nav>
                     </div>

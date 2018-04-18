@@ -998,20 +998,22 @@ form button:hover {
 }
 
 .wrapper-breadcrumbs {
-    height: 56px;
+    height: auto;
 }
 
 .wrapper-breadcrumbs .breadcrumb {
-    height: inherit;
+    height: auto;
     background-color: #1567a1;
     border: none;
     border-radius: 0;
-    padding: 20px 25px;
+    line-height: 1.5;
+    padding: 15px 25px;
 }
 
 .wrapper-breadcrumbs .breadcrumb-item {
     color: #ffffff;
     font-size: 18px;
+    padding-right: 5px;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -1381,7 +1383,6 @@ form button:hover {
     color: white;
     text-decoration: none;
     border-color: #dee2e6;
-
     background: #ffa304;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     border: none;
@@ -1418,6 +1419,12 @@ form button:hover {
     background: #ffa304;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
+
+.post-page .breadcrumb-item + .breadcrumb-item::before{
+    content: "";
+    padding: 0;
+}
+
 
 @media (max-width: 1400px) {
     .menu-list-item {
