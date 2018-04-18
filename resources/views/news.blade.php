@@ -51,14 +51,11 @@
 
                     </div>
                 </div>
+
                 <div class="row">
-                    <div class="col-md-12">
-                        <nav class="news_navigation" aria-label="Page navigation">
-                            <ul class="pagination">
-                                <li class="add_info add_info_news"><a href="{{ url('/news') }}">Всі новини</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+                    <p class="view-more-wrapper-button">
+                        <a class="view-more-button" href="{{ url('/anounses') }}">Всі новини</a>
+                    </p>
                 </div>
             </div>
         </div>

@@ -13,7 +13,7 @@
         <div id="basic-waypoint" class="wrapper-main-news-services">
             <div class="wrapper-news-anonses">
                 <div class="container">
-                    <div class="row">
+                    <div class="row reverse">
                         <div class="col-md-8">
                             <h2>ПОДІЇ</h2>
                             <div class="wrapper-news">

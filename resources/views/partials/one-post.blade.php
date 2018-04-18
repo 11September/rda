@@ -24,9 +24,9 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="wrapper-post-content">
-                    <p class="post-content">
+                    <div class="post-content">
                         {!! $post->body !!}
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
