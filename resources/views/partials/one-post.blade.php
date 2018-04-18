@@ -36,7 +36,7 @@
                 <div class="col-md-7">
                     <div class="wrapper-post-item-category">
                         <i class="fas fa-user"></i>
-                        <p class="post-item-user">Админ.</p>
+                        <p class="post-item-user">{{ $post->author }}</p>
                     </div>
                 </div>
                 <div class="col-md-5">

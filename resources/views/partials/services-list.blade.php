@@ -19,16 +19,16 @@
             <div class="card-block">
                  <div class="wrapper-collapse-services">
                      <p>
-                         <a href="#" class="collapse-one-service">Закони</a>
+                         <a href="{{ url('/page/27') }}" class="collapse-one-service">Закони</a>
                      </p>
                      <p>
-                         <a href="#" class="collapse-one-service">Укази Президента</a>
+                         <a href="{{ url('/page/28') }}" class="collapse-one-service">Укази Президента</a>
                      </p>
                      <p>
-                         <a href="#" class="collapse-one-service">Постанови КМУ</a>
+                         <a href="{{ url('/page/29') }}" class="collapse-one-service">Постанови КМУ</a>
                      </p>
                      <p>
-                         <a href="#" class="collapse-one-service">Накази </a>
+                         <a href="{{ url('/page/30') }}" class="collapse-one-service">Накази </a>
                      </p>
                  </div>
             </div>
@@ -55,13 +55,13 @@
             <div class="card-block">
                 <div class="wrapper-collapse-services">
                     <p>
-                        <a href="#" class="collapse-one-service">Нормативні акти</a>
+                        <a href="{{ url('/page/31') }}" class="collapse-one-service">Нормативні акти</a>
                     </p>
                     <p>
-                        <a href="#" class="collapse-one-service">Накази відділу освіти з основної діяльності</a>
+                        <a href="{{ url('/page/32') }}" class="collapse-one-service">Накази відділу освіти з основної діяльності</a>
                     </p>
                     <p>
-                        <a href="#" class="collapse-one-service">Програми  </a>
+                        <a href="{{ url('/page/33') }}" class="collapse-one-service">Програми  </a>
                     </p>
                 </div>
             </div>
@@ -88,13 +88,13 @@
             <div class="card-block">
                 <div class="wrapper-collapse-services">
                     <p>
-                        <a href="#" class="collapse-one-service">Нормативні акти</a>
+                        <a href="{{ url('/page/34') }}" class="collapse-one-service">Нормативні акти</a>
                     </p>
                     <p>
-                        <a href="#" class="collapse-one-service">Графік прийому</a>
+                        <a href="{{ url('/page/35') }}" class="collapse-one-service">Графік прийому</a>
                     </p>
                     <p>
-                        <a href="#" class="collapse-one-service">Інформація про роботу зі зверненнями</a>
+                        <a href="{{ url('/page/36') }}" class="collapse-one-service">Інформація про роботу зі зверненнями</a>
                     </p>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                 <img src="{{ asset('images/services_item_5.png') }}" alt="services">
             </div>
             <div class="services-list-item-content">
-                <a href="#">
+                <a href="{{ url('/page/37') }}">
                     <p class="services-list-item-text">Державнi Закупiвлi</p>
                 </a>
             </div>

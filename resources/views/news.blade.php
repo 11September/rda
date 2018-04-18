@@ -13,15 +13,8 @@
         <div class="wrapper-news-heading">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <h2>Новини</h2>
-                    </div>
-
-                    <div class="col-md-6 news-page-panel">
-                        <a href="#">останні новини</a>
-                        <a class="news-page-panel-active" href="#">несортовані</a>
-                        <a href="#">влада</a>
-                        <a href="#">закон</a>
                     </div>
                 </div>
             </div>
@@ -59,124 +52,10 @@
                 </div>
             </div>
         </div>
-
     </section>
 
 
-    <section class="links">
-        <div class="container">
-
-            <h2>ПОСИЛАННЯ</h2>
-
-            <div class="wrapper-links-content">
-                <div class="row">
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_1.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_2.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_3.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_4.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_5.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_6.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_7.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_8.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_9.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_10.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_11.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_12.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-                        <div class="wrapper-link-item">
-                            <a href="#">
-                                <img src="{{ asset('images/link_item_13.png') }}" alt="link">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('partials.links')
 @endsection
 
 @section('scripts')

@@ -69,27 +69,27 @@
                                 ВІДДІЛ ОСВІТИ
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/3') }}">
                                     Керівництво
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/4') }}">
                                     Структура
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/5') }}">
                                     Положення про відділ освіти
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/6') }}">
                                     Перелік послуг
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/7') }}">
                                     План роботи
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/8') }}">
                                     Вакансії
                                     <div class="dropdown-item-line"></div>
                                 </a>
@@ -102,43 +102,43 @@
                                 РУБРИКИ
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/9') }}">
                                     Колегії
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/10') }}">
                                     Наради
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/11') }}">
                                     Олімпіади, конкурси
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/12') }}">
                                     НУШ
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/13') }}">
                                     ДПА
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/14') }}">
                                     ЗНО
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/15') }}">
                                     БЖД
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/16') }}">
                                     Виховна робота
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/17') }}">
                                     Психологічна служба
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/18') }}">
                                     Спортивне життя
                                     <div class="dropdown-item-line"></div>
                                 </a>
@@ -151,11 +151,11 @@
                                 ДОШКІЛЬНА ОСВІТА
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/19') }}">
                                     Мережа закладів
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/20') }}">
                                     Методичні рекомендації щодо організації освітнього процесу
                                     <div class="dropdown-item-line"></div>
                                 </a>
@@ -168,15 +168,15 @@
                                 ЗАГАЛЬНА СЕРЕДНЯ ОСВІТА
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/22') }}">
                                     Мережа закладів
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/23') }}">
                                     Методичні рекомендації щодо організації освітнього процесу
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/24') }}">
                                     Опорні школи
                                     <div class="dropdown-item-line"></div>
                                 </a>
@@ -189,11 +189,11 @@
                                 ПОЗАШКІЛЬНА ОСВІТА
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/25') }}">
                                     Мережа закладів
                                     <div class="dropdown-item-line"></div>
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="{{ url('/page/26') }}">
                                     Методичні рекомендації щодо організації освітнього процесу
                                     <div class="dropdown-item-line"></div>
                                 </a>
@@ -212,6 +212,7 @@
             <ul class="menu-list hider">
                 <li><a href="{{ url('/') }}" class="menu-list-item">ГОЛОВНА</a></li>
                 <li><a href="{{ url('/news') }}" class="menu-list-item">НОВИНИ</a></li>
+                <li><a href="{{ url('/anounses') }}" class="menu-list-item">АНОНСИ</a></li>
                 <li><a href="" class="menu-list-item">ПУБЛІЧНА ІНФОРМАЦІЯ</a></li>
                 <li><a href="" class="menu-list-item">ЗВЕРНЕННЯ ГРОМАДЯН</a></li>
                 <li><a href="" class="menu-list-item">ДОШКІЛЬНА ОСВІТА</a></li>

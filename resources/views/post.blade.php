@@ -80,7 +80,7 @@
                                     <ul class="list-inline float-right">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="{{ url('/news') }}">
-                                                <i class="fas fa-user"></i>Админ.
+                                                <i class="fas fa-user"></i>{{ $post->author }}
                                             </a>
                                         </li>
                                     </ul>

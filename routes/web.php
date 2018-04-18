@@ -19,6 +19,7 @@ Route::get('/search', 'NewsController@search');
 Route::get('/anounses', 'AnounsesController@index');
 Route::get('/anounses/{anounse}', 'AnounsesController@post');
 
+Route::get('/page/{page}', 'WelcomeController@page');
 Route::get('/albums/{album}', 'WelcomeController@album');
 
 //Route::get('/contact', 'WelcomeController@contacts');

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\News;
+use App\Page;
 use App\Photo;
 use Illuminate\Http\Request;
 
@@ -57,6 +58,11 @@ class WelcomeController extends Controller
         $photos = Photo::where('album_id', $album)->get();
 
         return view('album', compact('photos'));
+    }
+
+    public function page(Page $page)
+    {
+        return view('page', compact('page'));
     }
 
     public function contact(Request $request)
