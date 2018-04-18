@@ -1908,7 +1908,8 @@ form button:hover {
     }
 
     .news_item_link {
-        height: 100px;
+        height: auto;
+        padding-bottom: 40px;
     }
 
     /* news end */
