@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 17 2018 г., 20:13
+-- Время создания: Апр 18 2018 г., 15:16
 -- Версия сервера: 5.7.19
 -- Версия PHP: 7.1.7
 
@@ -597,8 +597,8 @@ INSERT INTO `photos` (`id`, `album_id`, `image`, `title`, `created_at`, `updated
 (9, 1, 'photos/April2018/XwEX0PdaG3RBwMuZCJxQ.jpg', NULL, '2018-04-17 16:47:38', '2018-04-17 16:47:38'),
 (10, 1, 'photos/April2018/SbTbcEtpYcp0xAfod4Tj.jpg', NULL, '2018-04-17 16:47:48', '2018-04-17 16:47:48'),
 (11, 1, 'photos/April2018/o1h8h4dEWPM9ILrVv36X.jpg', NULL, '2018-04-17 16:47:59', '2018-04-17 16:47:59'),
-(12, 1, 'photos/April2018/3O1b5IQjqT9Kz9zZD5Tf.jpg', NULL, '2018-04-17 16:48:43', '2018-04-17 16:48:43'),
-(13, 1, 'photos/April2018/9UNEnO7CjXYzfwARtzDO.jpg', NULL, '2018-04-17 16:48:50', '2018-04-17 16:48:50');
+(14, 1, 'photos/April2018/wY617GIoIQmJRs5bi6Rq.jpg', NULL, '2018-04-17 17:23:59', '2018-04-17 17:23:59'),
+(15, 1, 'photos/April2018/5iF3IMmvTwObcBbDAmO8.jpg', NULL, '2018-04-17 17:24:38', '2018-04-17 17:24:38');
 
 -- --------------------------------------------------------
 
@@ -929,7 +929,7 @@ ALTER TABLE `permission_groups`
 -- AUTO_INCREMENT для таблицы `photos`
 --
 ALTER TABLE `photos`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT для таблицы `roles`
 --
