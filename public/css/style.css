@@ -1082,6 +1082,12 @@ form button:hover {
     border-bottom: 3px solid #c7c7c7;
 }
 
+.single-post-content *{
+    background-color: transparent!important;
+    line-height: 20px !important;
+    color: #4b4b4b !important;
+}
+
 .wrapper-single-post-additional {
     margin: 15px 0;
 }

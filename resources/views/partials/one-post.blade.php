@@ -35,15 +35,6 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="wrapper-post-item-category">
-                        <i class="fas fa-folder-open"></i>
-                        <p class="post-item-category">
-                            @if($post->feature == 1)
-                                ГОЛОВНА ПОДІЯ
-                            @else
-                                ОСТАННІ НОВИНИ
-                            @endif
-                        </p>
-
                         <i class="fas fa-user"></i>
                         <p class="post-item-user">Админ.</p>
                     </div>

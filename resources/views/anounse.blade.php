@@ -39,11 +39,6 @@
                                             {{ Carbon\Carbon::parse($post->created_at)->format('d.m.Y') }}
                                         </a>
                                     </li>
-                                    <li><a class="category" href="#">
-                                            <i class="fas fa-folder-open"></i>
-                                            Анонс
-                                        </a>
-                                    </li>
                                 </ul>
                             </div>
                             <div class="col-md-9">
@@ -74,12 +69,6 @@
                                             <a class="social-icon text-xs-center blue18" target="_blank" href="#">
                                                 <i class="far fa-clock"></i>
                                                 {{ Carbon\Carbon::parse($post->created_at)->format('h.s') }}
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fas fa-folder-open"></i>
-                                                Анонс
                                             </a>
                                         </li>
                                     </ul>

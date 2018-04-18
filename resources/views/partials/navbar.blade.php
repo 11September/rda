@@ -63,6 +63,7 @@
                     </form>
                     <li><a href="{{ url('/') }}" class="menu-list-item">ГОЛОВНА</a></li>
                     <li><a href="{{ url('/news') }}" class="menu-list-item">НОВИНИ</a></li>
+                    <li><a href="{{ url('/anounses') }}" class="menu-list-item">АНОНСИ</a></li>
                     <li><div class="dropdown menu-list-item">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ВІДДІЛ ОСВІТИ

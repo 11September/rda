@@ -38,12 +38,6 @@
                                                         <i class="fas fa-calendar-alt"></i>
                                                         <p class="">{{ Carbon\Carbon::parse($feature_post->created_at)->format('d.m.Y') }}</p>
                                                     </div>
-                                                    <div class="last_news">
-                                                        <i class="fas fa-folder-open"></i>
-                                                        <p class="">Головна подія</p>
-                                                    </div>
-
-
                                                 </div>
                                                 <div class="col-xl-6 col-lg-5 col-md-5 col-sm-12 news_item_link_right">
                                                     <a href="{{ action('NewsController@post', $feature_post->id) }}">
@@ -101,14 +95,6 @@
                                                     <i class="fas fa-calendar-alt"></i>
                                                     <p class="">{{ Carbon\Carbon::parse($post->created_at)->format('d.m.Y') }}</p>
                                                 </div>
-                                                <div class="last_news">
-                                                    <i class="fas fa-folder-open"></i>
-                                                    <p class="">
-                                                        ОСТАННІ НОВИНИ
-                                                    </p>
-                                                </div>
-
-
                                             </div>
                                             <div class="col-xl-6 col-lg-5 col-md-5 col-sm-12 news_item_link_right">
                                                 <a class="post-item-more"
