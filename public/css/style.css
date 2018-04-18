@@ -1419,6 +1419,15 @@ form button:hover {
         padding: 9px 20px;
     }
 
+    .news_item_text h3 {
+        padding-bottom: 0px;
+        height: 50px;
+    }
+
+    .news_item_text .post-content {
+        max-height: 110px;
+        padding-top: 10px;
+    }
     /* news end */
     .news-page .news_item_img {
         text-align: center;
@@ -1429,6 +1438,19 @@ form button:hover {
 @media (max-width: 992px) {
     .header-bottom .dropdown-menu.show {
         top: 11px !important;
+    }
+
+    .news_item_text .post-content {
+        max-height: 145px;
+        padding: 0 1%;
+    }
+
+    .news_item_text p {
+        height: 138px;
+    }
+
+    .news_item_text .post-content * {
+        padding-top: 3px;
     }
 
     /* news */
@@ -1550,6 +1572,19 @@ form button:hover {
 
     .header-bottom .dropdown-menu.show {
         top: 0 !important;
+    }
+
+    .news_item_text .post-content {
+        max-height: 153px;
+        padding: 0 0%;
+    }
+
+    .news_item_text p {
+        height: auto;
+    }
+
+    .news_item_link {
+        margin-top: 10px;
     }
 
     /* news */
@@ -1861,9 +1896,10 @@ form button:hover {
     }
 
     .news_item_link_left {
-        padding-left: 45px;
+        padding-left: 15px;
         text-align: center;
         line-height: 2;
+        margin-top: 25px;
     }
 
     .news_item {
@@ -1898,6 +1934,23 @@ form button:hover {
         padding: 0 5%;
     }
 
+    .news_item_img img {
+        width: 80%;
+        height: auto;
+        max-width: inherit;
+    }
+
+    .news_item_text .post-content {
+        padding: 0 0 0 25px;
+    }
+
+    .news_item_link .row {
+        margin: 0 auto;
+    }
+
+    .news_item_link_right {
+        padding-left: 0;
+    }
     /* news end */
     .news-page .news-page-panel {
         display: none;
@@ -1931,12 +1984,6 @@ form button:hover {
     }
 
     /* news */
-    .news_item_img img {
-        width: auto;
-        height: 210px;
-        max-width: 155px;
-    }
-
     .news_item_text h3 {
         height: auto;
         padding-left: 25px;
