@@ -25,9 +25,9 @@
                                         <p class="abstract">
                                             {{ $feature_post->title }}
                                         </p>
-                                        <p class="main-text">
+                                        <div class="main-text">
                                             {!! $feature_post->body !!}
-                                        </p>
+                                        </div>
                                     </div>
 
                                     <div class="news_item_link_padding">

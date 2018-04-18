@@ -307,6 +307,12 @@ form button:hover {
     font-family: 'Century_Gothic';
 }
 
+.info-flex .main-text *{
+    background-color: transparent!important;
+    line-height: 20px !important;
+    color: #4b4b4b !important;
+}
+
 .wrapper-news .news_item_link_left p {
     font-weight: 600;
     font-family: 'Century_Gothic';
@@ -1420,7 +1426,7 @@ form button:hover {
     }
 
     .news_item_text h3 {
-        padding-bottom: 0px;
+        padding-bottom: 0;
         height: 50px;
     }
 
