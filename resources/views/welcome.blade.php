@@ -131,7 +131,7 @@
                     @include('partials.gallery-photos')
 
                     <div class="row center">
-                        <a class="post-item-more"
+                        <a class="post-item-more welcome_all_gallery"
                            href="{{ url('/albums') }}">
                             <span>Переглянути усі галереї</span>
                         </a>
