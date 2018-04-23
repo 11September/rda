@@ -16,7 +16,7 @@
                     <div class="wrapper-breadcrumbs">
                         <nav class="breadcrumb">
                             <a class="breadcrumb-item" href="{{ url('/') }}">Головна /</a>
-                            <a class="breadcrumb-item" href="{{ url('/anounses') }}">Анонси /</a>
+                            <a class="breadcrumb-item" href="{{ url('/news') }}">Новини /</a>
                             <a class="breadcrumb-item" href="#"><span
                                         class="breadcrumb-item active">{{ $post->title }}</span></a>
                         </nav>
@@ -34,7 +34,6 @@
                                     </div>
                                 </div>
                             @endif
-
 
                             <div class="col-md-3">
                                 <ul class="single-post-menu">
@@ -55,9 +54,9 @@
 
                             <div class="col-md-12">
                                 <div class="single-post-content">
-                                    <p>
+                                    <div class="post-content">
                                         {!! $post->body !!}
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
 
@@ -84,7 +83,7 @@
                                     <ul class="list-inline float-right">
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank"
-                                               href="{{ url('/anounses') }}">
+                                               href="{{ url('/news') }}">
                                                 <i class="fas fa-user"></i>{{ $post->author }}
                                             </a>
                                         </li>
@@ -108,15 +107,6 @@
                             @include('partials.anonses')
                         </div>
                     </div>
-
-                    <h2 class="sigle-post-video-header">BІДЕО</h2>
-
-                    <div class="video-item">
-                        <a href="#">
-                            <img src="{{ asset('images/video_poster.png') }}" alt="gallery">
-                        </a>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -128,22 +118,22 @@
                         <div class="post-controls">
                             <p>
                                 @if (isset($previous))
-                                    <a href="{{ action('AnounsesController@post', $previous->id) }}">
-                                        <i class="fas fa-angle-left control-arrow-left"></i> Попереднiй анонс
+                                    <a href="{{ action('NewsController@meeting', $previous->id) }}">
+                                        <i class="fas fa-angle-left control-arrow-left"></i> Попередня стаття
                                     </a>
                                 @endif
 
                                 <span>|</span>
 
                                 @if (isset($next))
-                                    <a href="{{ action('AnounsesController@post', $next->id) }}">Наступний анонс
+                                    <a href="{{ action('NewsController@meeting', $next->id) }}">Наступна стаття
                                         <i class="fas fa-angle-right control-arrow-right"></i>
                                     </a>
                                 @endif
                             </p>
 
                             <p>
-                                <a href="{{ url('/anounses') }}">Всі анонси <i
+                                <a href="{{ url('/meetings') }}">Всі наради <i
                                             class="fas fa-angle-double-right control-arrow-right"></i></a>
                             </p>
                         </div>

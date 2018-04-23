@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 18 2018 г., 19:01
+-- Время создания: Апр 23 2018 г., 17:08
 -- Версия сервера: 5.7.19
 -- Версия PHP: 7.1.7
 
@@ -72,6 +72,30 @@ CREATE TABLE `anounses` (
 INSERT INTO `anounses` (`id`, `author`, `title`, `body`, `image`, `status`, `created_at`, `updated_at`) VALUES
 (1, 'Admin', 'Доски объявлений. Как выделить объявление на общем фоне', '<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\"><span style=\"box-sizing: border-box;\">Люди часто размещают объявления на досках. И многие не задумываются что и как они пишут. Конечно, можно написать много объявлений, разместить их на всех досках и ждать много звонков. Но! Если объявления не интересные, то читать их не будут, звонить &mdash; тем более. И не важно сколько объявлений размещено.<br style=\"box-sizing: border-box;\" /><br style=\"box-sizing: border-box;\" /></span><span style=\"box-sizing: border-box;\">Давайте разберемся с самыми частыми ошибками при создании объявлений и выясним как сделать объявление более привлекательным.<br style=\"box-sizing: border-box;\" /><br style=\"box-sizing: border-box;\" /></span><span style=\"box-sizing: border-box;\"><span style=\"box-sizing: border-box; font-weight: bold;\"><img style=\"box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; margin-bottom: 10px;\" src=\"https://www.s.0542.ua/s/44/section/newsInText/upload/images/news/intext/000/032/594/6_5ad602256d872.jpg\" alt=\"\" width=\"652\" height=\"389\" data-author=\"\" /><br style=\"box-sizing: border-box;\" /></span><em style=\"box-sizing: border-box;\">Что неправильно: орфографические ошибки в заголовке, вакансия размещена в разделе автозапчастей.<br style=\"box-sizing: border-box;\" /><br style=\"box-sizing: border-box;\" /></em></span><span style=\"box-sizing: border-box;\"><span style=\"box-sizing: border-box; font-weight: bold;\"><img style=\"box-sizing: border-box; border: 0px; vertical-align: middle; max-width: 100%; margin-bottom: 10px;\" src=\"https://www.s.0542.ua/s/44/section/newsInText/upload/images/news/intext/000/032/593/9_5ad5f82c778ea.jpg\" alt=\"\" width=\"545\" height=\"577\" data-author=\"\" /><br style=\"box-sizing: border-box;\" /></span><em style=\"box-sizing: border-box;\">Что правильно: понятный заголовок, много фотографий, подробное описание.</em></span><span style=\"box-sizing: border-box;\"><br style=\"box-sizing: border-box;\" /></span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\">&nbsp;</p>', 'anounses/April2018/tWwYVwKrbOY3hZl4uYHd.png', 'published', '2018-04-17 16:17:02', '2018-04-17 16:17:02'),
 (2, 'Admin', 'Мэр г. Сумы Александр Лысенко заявил отвод судье', '<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\"><span style=\"box-sizing: border-box;\">Сегодня в Заречном районном суде г. Сумы должно было состояться слушание по делу в отношении городского головы Сум Александра Лысенко, которого обвиняют в админнарушении, связанном с коррупцией. Сегодня был запланирован допрос свидетелей.</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\"><span style=\"box-sizing: border-box;\">Но к слушанию по сути так и не приступили, поскольку обвиняемый заявил отвод судье. Адвокат утверждает, что судья Климашевская грубо нарушала процессуальное право во время рассмотрения дела, а именно, находясь в отпуске и с целью принятия решения по делу, 14 и 20 марта выходила на работу, в то время как другие дела на указанные даты не назначались. Помимо этого, судья Климашевская не угодила тем, что на время пребывания подсудимого на больничном, во избежание затягивания дела и истечения срока привлечения к админответственности, приостановила рассмотрение дела. Решение о приостановлении слушания принято в форме постановления без присутствия обвиняемого что, как утверждает адвокат Матюшинец, противоречит процессуальному и административному кодексу. В третьих, сторона защиты считает, что при рассмотрении аналогичного дела по секретарю горсовета Андрею Баранову, у суда уже сложилось окончательное мнение, поэтому в данном случае суд может принять такое же решение.</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\"><span style=\"box-sizing: border-box;\">Учитывая ходатайство обвиняемого, дело было отложено до 24 апреля. За это время автоматизированная система должна назначить другого судью.</span></p>\r\n<p style=\"box-sizing: border-box; margin: 0px 0px 20px; color: #323232; font-family: site-font, Arial, sans-serif; font-size: 16px; background-color: #f0f0f0;\"><span style=\"box-sizing: border-box;\">Впрочем, есть подозрение, что к тому времени истечет срок привлечения Александра Лысенко к административной ответственности. Как утверждает адвокат городского головы, по их подсчетам, срок привлечения к ответственности уже истек.</span></p>', 'anounses/April2018/XlhAaEVdiYUMI3ZwZz9o.jpg', 'published', '2018-04-17 16:17:49', '2018-04-17 16:17:49');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `collegiums`
+--
+
+CREATE TABLE `collegiums` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `author` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `body` text COLLATE utf8_unicode_ci,
+  `image` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `status` enum('published','pending','closed') COLLATE utf8_unicode_ci DEFAULT 'published',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Дамп данных таблицы `collegiums`
+--
+
+INSERT INTO `collegiums` (`id`, `author`, `title`, `body`, `image`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Админ', 'План засідання колегії Сумської обласної державної адміністрації на ІІ квартал 2018 року', '<p><span lang=\"UK\" style=\"font-size: 13.0pt;\">ПЛАН</span></p>\r\n<p><span lang=\"UK\" style=\"font-size: 13.0pt;\">засідань колегії Сумської обласної державної адміністрації </span></p>\r\n<p><span lang=\"UK\" style=\"font-size: 13.0pt;\">на І квартал 2018 року</span></p>\r\n<p class=\"MsoBodyTextIndent\" style=\"margin-left: 0cm;\"><strong><span lang=\"UK\" style=\"font-size: 4.0pt;\">&nbsp;</span></strong></p>\r\n<p class=\"MsoBodyTextIndent\" style=\"margin-left: 0cm;\"><strong><span lang=\"UK\" style=\"font-size: 4.0pt;\">&nbsp;</span></strong></p>\r\n<p class=\"MsoBodyTextIndent\" style=\"margin-left: 0cm;\"><strong><span lang=\"UK\" style=\"font-size: 4.0pt;\">&nbsp;</span></strong></p>\r\n<table class=\"MsoNormalTable\" style=\"margin-left: -34.05pt; border-collapse: collapse; mso-table-layout-alt: fixed; border: none; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext;\" border=\"1\" width=\"690\" cellspacing=\"0\" cellpadding=\"0\">\r\n<tbody>\r\n<tr style=\"mso-yfti-irow: 0; mso-yfti-firstrow: yes;\">\r\n<td style=\"width: 21.25pt; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 1.4pt 0cm 1.4pt;\" valign=\"top\" width=\"28\">\r\n<p class=\"MsoBodyText\" style=\"text-align: center;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">№ </span></strong></p>\r\n<p class=\"MsoBodyText\" style=\"text-align: center;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">п/п</span></strong></p>\r\n</td>\r\n<td style=\"width: 219.75pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 1.4pt 0cm 1.4pt;\" valign=\"top\" width=\"293\">\r\n<p class=\"MsoBodyText\" style=\"text-align: center; margin: 0cm -4.7pt .0001pt -4.85pt;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">Питання, що пропонується </span></strong></p>\r\n<p class=\"MsoBodyText\" style=\"text-align: center; margin: 0cm -4.7pt .0001pt -4.85pt;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">розглянути</span></strong></p>\r\n</td>\r\n<td style=\"width: 63.8pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;\" valign=\"top\" width=\"85\">\r\n<p class=\"MsoBodyText\" style=\"text-align: center;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">Дата </span></strong></p>\r\n<p class=\"MsoBodyText\" style=\"text-align: center; margin: 0cm -5.4pt .0001pt -5.4pt;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">проведення засідання</span></strong></p>\r\n</td>\r\n<td style=\"width: 148.85pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;\" valign=\"top\" width=\"198\">\r\n<p class=\"MsoBodyText\" style=\"text-align: center; margin: 0cm -4.65pt .0001pt -4.75pt;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">Відповідальні</span></strong></p>\r\n<p class=\"MsoBodyText\" style=\"text-align: center; margin: 0cm -4.65pt .0001pt -4.75pt;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">за підготовку </span></strong></p>\r\n<p class=\"MsoBodyText\" style=\"text-align: center; margin: 0cm -4.65pt .0001pt -4.75pt;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">питання</span></strong></p>\r\n</td>\r\n<td style=\"width: 63.75pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 1.4pt 0cm 1.4pt;\" valign=\"top\" width=\"85\">\r\n<p class=\"MsoBodyText\" style=\"text-align: center;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">Строк </span></strong></p>\r\n<p class=\"MsoBodyText\" style=\"text-align: center;\" align=\"center\"><strong><span lang=\"UK\" style=\"font-size: 12.0pt;\">подання матеріалів</span></strong></p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n<thead>\r\n<tr style=\"mso-yfti-irow: 1; height: 3.55pt;\">\r\n<td style=\"width: 21.25pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 1.4pt 0cm 1.4pt; height: 3.55pt;\" valign=\"top\" width=\"28\">\r\n<p class=\"MsoBodyText\" style=\"text-align: center;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt; mso-bidi-font-weight: bold;\">1</span></p>\r\n</td>\r\n<td style=\"width: 219.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 1.4pt 0cm 1.4pt; height: 3.55pt;\" valign=\"top\" width=\"293\">\r\n<p class=\"MsoBodyText\" style=\"text-align: center; margin: 0cm -4.7pt .0001pt -4.85pt;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt; mso-bidi-font-weight: bold;\">2</span></p>\r\n</td>\r\n<td style=\"width: 63.8pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 3.55pt;\" valign=\"top\" width=\"85\">\r\n<p class=\"MsoBodyText\" style=\"text-align: center;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt; mso-bidi-font-weight: bold;\">3</span></p>\r\n</td>\r\n<td style=\"width: 148.85pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 3.55pt;\" valign=\"top\" width=\"198\">\r\n<p class=\"MsoBodyText\" style=\"text-align: center; margin: 0cm -4.65pt .0001pt -4.75pt;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt; mso-bidi-font-weight: bold;\">4</span></p>\r\n</td>\r\n<td style=\"width: 63.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 1.4pt 0cm 1.4pt; height: 3.55pt;\" valign=\"top\" width=\"85\">\r\n<p class=\"MsoBodyText\" style=\"text-align: center;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt; mso-bidi-font-weight: bold;\">5</span></p>\r\n</td>\r\n</tr>\r\n</thead>\r\n<tbody>\r\n<tr style=\"mso-yfti-irow: 2;\">\r\n<td style=\"width: 517.4pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;\" colspan=\"5\" valign=\"top\" width=\"690\">\r\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 8.0pt; background: yellow; mso-highlight: yellow; mso-bidi-font-weight: bold;\">&nbsp;</span></p>\r\n</td>\r\n</tr>\r\n<tr style=\"mso-yfti-irow: 3; height: 11.75pt;\">\r\n<td style=\"width: 21.25pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 11.75pt;\" valign=\"top\" width=\"28\">\r\n<p class=\"a2\" style=\"margin-left: 0cm; text-align: center; text-indent: 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\" align=\"center\"><!-- [if !supportLists]--><span lang=\"UK\" style=\"font-size: 12.0pt; font-family: \'Times New Roman\',serif; mso-fareast-font-family: \'Times New Roman\'; mso-ansi-language: UK;\"><span style=\"mso-list: Ignore;\">1.<span style=\"font: 7.0pt \'Times New Roman\';\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span lang=\"UK\" style=\"font-size: 12.0pt; font-family: \'Times New Roman\',serif; mso-ansi-language: UK;\">&nbsp;</span></p>\r\n</td>\r\n<td style=\"width: 219.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: white; padding: 0cm 5.4pt 0cm 5.4pt; height: 11.75pt;\" valign=\"top\" width=\"293\">\r\n<p style=\"margin-right: 1.45pt; text-align: justify; mso-pagination: none;\"><span lang=\"UK\" style=\"font-size: 12.0pt; font-weight: normal; mso-bidi-font-weight: bold;\">Про підсумки соціально-економічного розвитку області та виконання місцевих бюджетів за 2017 рік.</span></p>\r\n</td>\r\n<td style=\"width: 63.8pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: white; padding: 0cm 5.4pt 0cm 5.4pt; height: 11.75pt;\" valign=\"top\" width=\"85\">\r\n<p class=\"MsoNormal\" style=\"text-align: center; margin: 0cm -5.4pt .0001pt -5.4pt;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt; mso-bidi-font-weight: bold;\">22.02.2018</span></p>\r\n</td>\r\n<td style=\"width: 148.85pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: white; padding: 0cm 5.4pt 0cm 5.4pt; height: 11.75pt;\" valign=\"top\" width=\"198\">\r\n<p class=\"MsoNormal\" style=\"text-align: center; margin: 0cm -3.15pt .0001pt -4.7pt;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt;\">Департамент економічного розвитку і торгівлі,</span></p>\r\n<p class=\"MsoNormal\" style=\"text-align: center; margin: 0cm -3.15pt .0001pt -4.7pt;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt;\">Департамент фінансів Сумської обласної державної адміністрації</span></p>\r\n</td>\r\n<td style=\"width: 63.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: white; padding: 0cm 5.4pt 0cm 5.4pt; height: 11.75pt;\" valign=\"top\" width=\"85\">\r\n<p class=\"MsoNormal\" style=\"text-align: center; margin: 0cm -5.4pt .0001pt -5.4pt;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt; mso-bidi-font-weight: bold;\">13.02.2018</span></p>\r\n</td>\r\n</tr>\r\n<tr style=\"mso-yfti-irow: 4; mso-yfti-lastrow: yes;\">\r\n<td style=\"width: 21.25pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;\" valign=\"top\" width=\"28\">\r\n<p class=\"a2\" style=\"margin-left: 0cm; text-align: center; text-indent: 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;\" align=\"center\"><!-- [if !supportLists]--><span lang=\"UK\" style=\"font-size: 12.0pt; font-family: \'Times New Roman\',serif; mso-fareast-font-family: \'Times New Roman\'; mso-ansi-language: UK;\"><span style=\"mso-list: Ignore;\">2.<span style=\"font: 7.0pt \'Times New Roman\';\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span lang=\"UK\" style=\"font-size: 12.0pt; font-family: \'Times New Roman\',serif; mso-ansi-language: UK;\">&nbsp;</span></p>\r\n</td>\r\n<td style=\"width: 219.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: white; padding: 0cm 5.4pt 0cm 5.4pt;\" valign=\"top\" width=\"293\">\r\n<p class=\"MsoNormal\" style=\"text-align: justify; mso-pagination: none;\"><span lang=\"UK\" style=\"font-size: 12.0pt;\">Про стан житлового будівництва на території області.</span></p>\r\n</td>\r\n<td style=\"width: 63.8pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: white; padding: 0cm 5.4pt 0cm 5.4pt;\" valign=\"top\" width=\"85\">\r\n<p class=\"MsoNormal\" style=\"text-align: center; margin: 0cm -5.4pt .0001pt -5.4pt;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt; mso-bidi-font-weight: bold;\">22.02.2018</span></p>\r\n</td>\r\n<td style=\"width: 148.85pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: white; padding: 0cm 5.4pt 0cm 5.4pt;\" valign=\"top\" width=\"198\">\r\n<p class=\"MsoNormal\" style=\"text-align: center; margin: 0cm -3.15pt .0001pt -4.7pt;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt;\">Управління капітального будівництва Сумської обласної державної адміністрації</span></p>\r\n</td>\r\n<td style=\"width: 63.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: white; padding: 0cm 5.4pt 0cm 5.4pt;\" valign=\"top\" width=\"85\">\r\n<p class=\"MsoNormal\" style=\"text-align: center; margin: 0cm -5.4pt .0001pt -5.4pt;\" align=\"center\"><span lang=\"UK\" style=\"font-size: 12.0pt; mso-bidi-font-weight: bold;\">13.02.2018</span></p>\r\n</td>\r\n</tr>\r\n</tbody>\r\n</table>', '', 'published', '2018-04-23 12:42:08', '2018-04-23 12:42:08');
 
 -- --------------------------------------------------------
 
@@ -164,8 +188,24 @@ INSERT INTO `data_rows` (`id`, `data_type_id`, `field`, `type`, `display_name`, 
 (89, 12, 'updated_at', 'timestamp', 'Время обновления', 0, 0, 0, 0, 0, 0, NULL, 6),
 (90, 12, 'photo_belongsto_album_relationship', 'relationship', 'Альбом', 0, 1, 1, 1, 1, 1, '{\"model\":\"App\\\\Album\",\"table\":\"albums\",\"type\":\"belongsTo\",\"column\":\"album_id\",\"key\":\"id\",\"label\":\"name\",\"pivot_table\":\"albums\",\"pivot\":\"0\"}', 7),
 (91, 10, 'author', 'text', 'Автор', 1, 1, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required|max:255\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 2),
-(92, 9, 'author', 'text', 'Автор', 1, 1, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required|max:255\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 2),
-(93, 2, 'category', 'select_dropdown', 'Категория', 1, 1, 1, 1, 1, 1, '{\"default\":\"Other pages\",\"options\":{\"Other pages\":\"ДРУГАЯ СТРАНИЦА\",\"DEPARTMENT OF EDUCATION\":\"ВІДДІЛ ОСВІТИ\",\"RUBRICS\":\"РУБРИКИ\",\"PRE-SCHOOL EDUCATION\":\"ДОШКІЛЬНА ОСВІТА\",\"SECONDARY EDUCATION\":\"ЗАГАЛЬНА СЕРЕДНЯ ОСВІТА\",\"PRESCHOOL EDUCATION\":\"ПОЗАШКІЛЬНА ОСВІТА\",\"Regulatory framework\":\"НОРМАТИВНО-ПРАВОВА БАЗА\",\"Access to public information\":\"ДОСТУП ДО ПУБЛIЧНОI IНФОРМАЦII\",\"Appeal of Citizens\":\"ЗВЕРНЕНЯЯ ГРОМАДЯН\"}}', 5);
+(92, 9, 'author', 'text', 'Автор', 1, 0, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required|max:255\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 2),
+(93, 2, 'category', 'select_dropdown', 'Категория', 1, 1, 1, 1, 1, 1, '{\"default\":\"Other pages\",\"options\":{\"Other pages\":\"ДРУГАЯ СТРАНИЦА\",\"DEPARTMENT OF EDUCATION\":\"ВІДДІЛ ОСВІТИ\",\"RUBRICS\":\"РУБРИКИ\",\"PRE-SCHOOL EDUCATION\":\"ДОШКІЛЬНА ОСВІТА\",\"SECONDARY EDUCATION\":\"ЗАГАЛЬНА СЕРЕДНЯ ОСВІТА\",\"PRESCHOOL EDUCATION\":\"ПОЗАШКІЛЬНА ОСВІТА\",\"Regulatory framework\":\"НОРМАТИВНО-ПРАВОВА БАЗА\",\"Access to public information\":\"ДОСТУП ДО ПУБЛIЧНОI IНФОРМАЦII\",\"Appeal of Citizens\":\"ЗВЕРНЕНЯЯ ГРОМАДЯН\"}}', 5),
+(94, 13, 'id', 'checkbox', 'Id', 1, 0, 0, 0, 0, 0, NULL, 1),
+(95, 13, 'author', 'text', 'Автор', 1, 0, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required|max:255\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 3),
+(96, 13, 'title', 'text', 'Заголовок', 1, 1, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required|max:255\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 2),
+(97, 13, 'body', 'rich_text_box', 'Описание статьи', 0, 0, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 5),
+(98, 13, 'status', 'radio_btn', 'Статус', 0, 1, 1, 1, 1, 1, '{\"default\":\"published\",\"options\":{\"published\":\"Опубликованный\",\"pending\":\"В ожидании\",\"closed\":\"Закрыто\"}}', 6),
+(99, 13, 'created_at', 'timestamp', 'Время создания', 0, 1, 1, 0, 0, 0, NULL, 7),
+(100, 13, 'updated_at', 'timestamp', 'Время обновления', 0, 0, 0, 0, 0, 0, NULL, 8),
+(101, 14, 'id', 'checkbox', 'Id', 1, 0, 0, 0, 0, 0, NULL, 1),
+(102, 14, 'author', 'text', 'Автор', 0, 0, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required|max:255\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 3),
+(103, 14, 'title', 'text', 'Заголовок', 0, 1, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required|max:255\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 2),
+(104, 14, 'body', 'rich_text_box', 'Описание статьи', 0, 0, 1, 1, 1, 1, '{\"validation\":{\"rule\":\"required\",\"messages\":{\"required\":\"Поле обязательное к заполнению\",\"max\":\"Поле :attribute максимум :max символов.\"}}}', 5),
+(105, 14, 'status', 'radio_btn', 'Статус', 0, 1, 1, 1, 1, 1, '{\"default\":\"published\",\"options\":{\"published\":\"Опубликованный\",\"pending\":\"В ожидании\",\"closed\":\"Закрыто\"}}', 6),
+(106, 14, 'created_at', 'timestamp', 'Время создания', 0, 1, 1, 0, 0, 0, NULL, 7),
+(107, 14, 'updated_at', 'timestamp', 'Время обновления', 0, 0, 0, 0, 0, 0, NULL, 8),
+(108, 13, 'image', 'image', 'Картинка', 1, 1, 1, 1, 1, 1, '{\"resize\":{\"width\":\"1000\",\"height\":null},\"quality\":\"65%\",\"upsize\":true}', 4),
+(109, 14, 'image', 'image', 'Картинка', 1, 1, 1, 1, 1, 1, '{\"resize\":{\"width\":\"1000\",\"height\":null},\"quality\":\"65%\",\"upsize\":true}', 4);
 
 -- --------------------------------------------------------
 
@@ -203,7 +243,33 @@ INSERT INTO `data_types` (`id`, `name`, `slug`, `display_name_singular`, `displa
 (9, 'news', 'news', 'News', 'News', 'voyager-news', 'App\\News', NULL, NULL, NULL, 1, 0, '2018-04-17 06:05:40', '2018-04-17 06:05:40'),
 (10, 'anounses', 'anounses', 'Anounse', 'Anounses', 'voyager-news', 'App\\Anounse', NULL, NULL, NULL, 1, 0, '2018-04-17 16:15:02', '2018-04-17 16:15:02'),
 (11, 'albums', 'albums', 'Album', 'Albums', 'voyager-photo', 'App\\Album', NULL, NULL, NULL, 1, 0, '2018-04-17 16:35:10', '2018-04-17 16:35:10'),
-(12, 'photos', 'photos', 'Photo', 'Photos', 'voyager-photos', 'App\\Photo', NULL, NULL, NULL, 1, 0, '2018-04-17 16:41:36', '2018-04-17 16:41:36');
+(12, 'photos', 'photos', 'Photo', 'Photos', 'voyager-photos', 'App\\Photo', NULL, NULL, NULL, 1, 0, '2018-04-17 16:41:36', '2018-04-17 16:41:36'),
+(13, 'collegiums', 'collegiums', 'Колегії', 'Колегії', 'voyager-news', 'App\\Collegium', NULL, NULL, NULL, 1, 0, '2018-04-23 11:42:04', '2018-04-23 11:42:04'),
+(14, 'meetings', 'meetings', 'Совещания', 'Совещания', 'voyager-news', 'App\\Meeting', NULL, NULL, NULL, 1, 0, '2018-04-23 13:20:02', '2018-04-23 13:20:02');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `meetings`
+--
+
+CREATE TABLE `meetings` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `author` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `body` text COLLATE utf8_unicode_ci,
+  `image` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `status` enum('published','pending','closed') COLLATE utf8_unicode_ci DEFAULT 'published',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Дамп данных таблицы `meetings`
+--
+
+INSERT INTO `meetings` (`id`, `author`, `title`, `body`, `image`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Админ', 'НОВІ ПОСІБНИКИ ДЛЯ ГРОМАД', '<p style=\"margin: 12px 0px; padding: 0px; color: #404040; font-family: Arial, Helvetica, sans-serif; font-size: 13px; background-color: #ededed; text-align: justify;\"><strong>Рада Європи, Інститут Громадянського Суспільства та Національна академія державного управління при Президентові України підготували чотири навчальні посібники з питань реформування місцевого самоврядування та децентралізації.</strong></p>\r\n<p style=\"margin: 12px 0px; padding: 0px; color: #404040; font-family: Arial, Helvetica, sans-serif; font-size: 13px; background-color: #ededed; text-align: justify;\">Видання сфокусовані на питаннях розвитку об&rsquo;єднаних територіальних громад та місцевого самоврядування в Україні загалом і стануть у пригоді всім, хто залучений до питань місцевого і регіонального розвитку.</p>', '', 'published', '2018-04-23 13:25:59', '2018-04-23 13:25:59');
 
 -- --------------------------------------------------------
 
@@ -253,22 +319,23 @@ CREATE TABLE `menu_items` (
 
 INSERT INTO `menu_items` (`id`, `menu_id`, `title`, `url`, `target`, `icon_class`, `color`, `parent_id`, `order`, `created_at`, `updated_at`, `route`, `parameters`) VALUES
 (1, 1, 'Панель приладів', '', '_self', 'voyager-boat', '#000000', NULL, 1, '2018-04-02 14:26:48', '2018-04-18 15:43:55', 'voyager.dashboard', 'null'),
-(2, 1, 'Media', '', '_self', 'voyager-images', NULL, NULL, 5, '2018-04-02 14:26:48', '2018-04-02 14:26:48', 'voyager.media.index', NULL),
+(2, 1, 'Media', '', '_self', 'voyager-images', NULL, NULL, 4, '2018-04-02 14:26:48', '2018-04-23 13:27:01', 'voyager.media.index', NULL),
 (4, 1, 'Users', '', '_self', 'voyager-person', NULL, NULL, 3, '2018-04-02 14:26:48', '2018-04-02 14:26:48', 'voyager.users.index', NULL),
-(6, 1, 'Сторінки', '', '_self', 'voyager-file-text', '#000000', NULL, 7, '2018-04-02 14:26:48', '2018-04-18 15:44:07', 'voyager.pages.index', 'null'),
+(6, 1, 'Сторінки', '', '_self', 'voyager-file-text', '#000000', NULL, 5, '2018-04-02 14:26:48', '2018-04-23 13:27:01', 'voyager.pages.index', 'null'),
 (7, 1, 'Roles', '', '_self', 'voyager-lock', NULL, NULL, 2, '2018-04-02 14:26:48', '2018-04-02 14:26:48', 'voyager.roles.index', NULL),
-(8, 1, 'Tools', '', '_self', 'voyager-tools', NULL, NULL, 9, '2018-04-02 14:26:48', '2018-04-02 14:26:48', NULL, NULL),
-(9, 1, 'Menu Builder', '', '_self', 'voyager-list', NULL, 8, 10, '2018-04-02 14:26:48', '2018-04-02 14:26:48', 'voyager.menus.index', NULL),
-(10, 1, 'Database', '', '_self', 'voyager-data', NULL, 8, 11, '2018-04-02 14:26:48', '2018-04-02 14:26:48', 'voyager.database.index', NULL),
-(11, 1, 'Compass', '', '_self', 'voyager-compass', NULL, 8, 12, '2018-04-02 14:26:48', '2018-04-02 14:26:48', 'voyager.compass.index', NULL),
-(12, 1, 'Налаштування', '', '_self', 'voyager-settings', '#000000', NULL, 14, '2018-04-02 14:26:48', '2018-04-18 15:44:18', 'voyager.settings.index', 'null'),
-(13, 1, 'Hooks', '', '_self', 'voyager-hook', NULL, 8, 13, '2018-04-02 14:26:48', '2018-04-02 14:26:48', 'voyager.hooks', NULL),
-(14, 1, 'Галереї', '/admin/galleries', '_self', 'voyager-images', '#000000', NULL, 15, '2018-04-13 10:53:38', '2018-04-18 15:44:30', NULL, ''),
-(15, 1, 'Слайдер', '/admin/sliders', '_self', 'voyager-play', '#000000', NULL, 16, '2018-04-13 11:12:15', '2018-04-18 15:44:47', NULL, ''),
-(16, 1, 'Новини', '/admin/news', '_self', 'voyager-news', '#000000', NULL, 17, '2018-04-17 06:05:40', '2018-04-18 15:44:57', NULL, ''),
-(17, 1, 'Оголошення', '/admin/anounses', '_self', 'voyager-news', '#000000', NULL, 18, '2018-04-17 16:15:03', '2018-04-18 15:45:10', NULL, ''),
-(18, 1, 'Альбоми', '/admin/albums', '_self', 'voyager-photo', '#000000', NULL, 19, '2018-04-17 16:35:10', '2018-04-18 15:45:19', NULL, ''),
-(19, 1, 'Фотографії', '/admin/photos', '_self', 'voyager-photos', '#000000', NULL, 20, '2018-04-17 16:41:36', '2018-04-18 15:45:30', NULL, '');
+(8, 1, 'Tools', '', '_self', 'voyager-tools', NULL, NULL, 6, '2018-04-02 14:26:48', '2018-04-23 13:27:01', NULL, NULL),
+(9, 1, 'Menu Builder', '', '_self', 'voyager-list', NULL, 8, 1, '2018-04-02 14:26:48', '2018-04-23 13:27:01', 'voyager.menus.index', NULL),
+(10, 1, 'Database', '', '_self', 'voyager-data', NULL, 8, 2, '2018-04-02 14:26:48', '2018-04-23 13:27:01', 'voyager.database.index', NULL),
+(11, 1, 'Compass', '', '_self', 'voyager-compass', NULL, 8, 3, '2018-04-02 14:26:48', '2018-04-23 13:27:01', 'voyager.compass.index', NULL),
+(12, 1, 'Налаштування', '', '_self', 'voyager-settings', '#000000', NULL, 7, '2018-04-02 14:26:48', '2018-04-23 13:27:01', 'voyager.settings.index', 'null'),
+(13, 1, 'Hooks', '', '_self', 'voyager-hook', NULL, 8, 4, '2018-04-02 14:26:48', '2018-04-23 13:27:01', 'voyager.hooks', NULL),
+(15, 1, 'Слайдер', '/admin/sliders', '_self', 'voyager-play', '#000000', NULL, 8, '2018-04-13 11:12:15', '2018-04-23 13:27:01', NULL, ''),
+(16, 1, 'Новини', '/admin/news', '_self', 'voyager-news', '#000000', NULL, 9, '2018-04-17 06:05:40', '2018-04-23 13:27:01', NULL, ''),
+(17, 1, 'Анонси подій', '/admin/anounses', '_self', 'voyager-news', '#000000', NULL, 12, '2018-04-17 16:15:03', '2018-04-23 13:28:43', NULL, ''),
+(18, 1, 'Альбоми', '/admin/albums', '_self', 'voyager-photo', '#000000', NULL, 13, '2018-04-17 16:35:10', '2018-04-23 13:27:02', NULL, ''),
+(19, 1, 'Фотографії', '/admin/photos', '_self', 'voyager-photos', '#000000', NULL, 14, '2018-04-17 16:41:36', '2018-04-23 13:27:02', NULL, ''),
+(20, 1, 'Колегії', '/admin/collegiums', '_self', 'voyager-news', NULL, NULL, 10, '2018-04-23 11:42:04', '2018-04-23 13:27:01', NULL, NULL),
+(21, 1, 'Совещания', '/admin/meetings', '_self', 'voyager-news', NULL, NULL, 11, '2018-04-23 13:20:02', '2018-04-23 13:28:43', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -488,7 +555,17 @@ INSERT INTO `permissions` (`id`, `key`, `table_name`, `created_at`, `updated_at`
 (67, 'read_photos', 'photos', '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL),
 (68, 'edit_photos', 'photos', '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL),
 (69, 'add_photos', 'photos', '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL),
-(70, 'delete_photos', 'photos', '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL);
+(70, 'delete_photos', 'photos', '2018-04-17 16:41:36', '2018-04-17 16:41:36', NULL),
+(71, 'browse_collegiums', 'collegiums', '2018-04-23 11:42:04', '2018-04-23 11:42:04', NULL),
+(72, 'read_collegiums', 'collegiums', '2018-04-23 11:42:04', '2018-04-23 11:42:04', NULL),
+(73, 'edit_collegiums', 'collegiums', '2018-04-23 11:42:04', '2018-04-23 11:42:04', NULL),
+(74, 'add_collegiums', 'collegiums', '2018-04-23 11:42:04', '2018-04-23 11:42:04', NULL),
+(75, 'delete_collegiums', 'collegiums', '2018-04-23 11:42:04', '2018-04-23 11:42:04', NULL),
+(76, 'browse_meetings', 'meetings', '2018-04-23 13:20:02', '2018-04-23 13:20:02', NULL),
+(77, 'read_meetings', 'meetings', '2018-04-23 13:20:02', '2018-04-23 13:20:02', NULL),
+(78, 'edit_meetings', 'meetings', '2018-04-23 13:20:02', '2018-04-23 13:20:02', NULL),
+(79, 'add_meetings', 'meetings', '2018-04-23 13:20:02', '2018-04-23 13:20:02', NULL),
+(80, 'delete_meetings', 'meetings', '2018-04-23 13:20:02', '2018-04-23 13:20:02', NULL);
 
 -- --------------------------------------------------------
 
@@ -603,7 +680,17 @@ INSERT INTO `permission_role` (`permission_id`, `role_id`) VALUES
 (69, 1),
 (69, 3),
 (70, 1),
-(70, 3);
+(70, 3),
+(71, 1),
+(72, 1),
+(73, 1),
+(74, 1),
+(75, 1),
+(76, 1),
+(77, 1),
+(78, 1),
+(79, 1),
+(80, 1);
 
 -- --------------------------------------------------------
 
@@ -781,6 +868,12 @@ ALTER TABLE `anounses`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `collegiums`
+--
+ALTER TABLE `collegiums`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `data_rows`
 --
 ALTER TABLE `data_rows`
@@ -794,6 +887,12 @@ ALTER TABLE `data_types`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `data_types_name_unique` (`name`),
   ADD UNIQUE KEY `data_types_slug_unique` (`slug`);
+
+--
+-- Индексы таблицы `meetings`
+--
+ALTER TABLE `meetings`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Индексы таблицы `menus`
@@ -910,15 +1009,25 @@ ALTER TABLE `albums`
 ALTER TABLE `anounses`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
+-- AUTO_INCREMENT для таблицы `collegiums`
+--
+ALTER TABLE `collegiums`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
 -- AUTO_INCREMENT для таблицы `data_rows`
 --
 ALTER TABLE `data_rows`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=94;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=110;
 --
 -- AUTO_INCREMENT для таблицы `data_types`
 --
 ALTER TABLE `data_types`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+--
+-- AUTO_INCREMENT для таблицы `meetings`
+--
+ALTER TABLE `meetings`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT для таблицы `menus`
 --
@@ -928,7 +1037,7 @@ ALTER TABLE `menus`
 -- AUTO_INCREMENT для таблицы `menu_items`
 --
 ALTER TABLE `menu_items`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 --
 -- AUTO_INCREMENT для таблицы `migrations`
 --
@@ -948,7 +1057,7 @@ ALTER TABLE `pages`
 -- AUTO_INCREMENT для таблицы `permissions`
 --
 ALTER TABLE `permissions`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 --
 -- AUTO_INCREMENT для таблицы `permission_groups`
 --

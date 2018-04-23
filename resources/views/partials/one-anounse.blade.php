@@ -1,11 +1,15 @@
 <div class="col-md-6">
     <div class="post-item">
         <div class="row">
-            <div class="col-xl-6 news_item_img">
-                <a class="hover-image" href="{{ action('AnounsesController@post', $post->id) }}">
-                    <img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->title }}">
-                </a>
-            </div>
+
+            @if($post->image)
+                <div class="col-xl-6 news_item_img">
+                    <a class="hover-image" href="{{ action('AnounsesController@post', $post->id) }}">
+                        <img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->title }}">
+                    </a>
+                </div>
+            @endif
+
             <div class="col-xl-6 post-item-description">
                 <div class="row">
                     <div class="col-md-12">

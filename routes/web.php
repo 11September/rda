@@ -19,6 +19,12 @@ Route::get('/search', 'NewsController@search');
 Route::get('/anounses', 'AnounsesController@index');
 Route::get('/anounses/{anounse}', 'AnounsesController@post');
 
+Route::get('/collegiums', 'NewsController@collegiums');
+Route::get('/collegiums/{collegium}', 'NewsController@collegium');
+
+Route::get('/meetings', 'NewsController@meetings');
+Route::get('/meetings/{meeting}', 'NewsController@meeting');
+
 Route::get('/page/{page}', 'WelcomeController@page');
 Route::get('/albums', 'WelcomeController@albums');
 Route::get('/albums/{album}', 'WelcomeController@album');

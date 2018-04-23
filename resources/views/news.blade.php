@@ -47,7 +47,7 @@
 
                 <div class="row">
                     <p class="view-more-wrapper-button">
-                        <a class="view-more-button" href="{{ url('/anounses') }}">Всі новини</a>
+                        <a class="view-more-button" href="{{ url('/news') }}">Всі новини</a>
                     </p>
                 </div>
             </div>
