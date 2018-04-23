@@ -653,7 +653,7 @@ form button:hover {
 
 .wrapper-gallery-item-date {
     position: absolute;
-    bottom: 0;
+    bottom: 1px;
     left: 0;
     width: 165px;
     height: 34px;
@@ -676,7 +676,7 @@ form button:hover {
     min-height: 260px;
 
     opacity: 1;
-    display: block;
+    /*display: block;*/
     transition: .5s ease;
     backface-visibility: hidden;
 }
