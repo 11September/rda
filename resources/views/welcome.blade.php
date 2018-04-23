@@ -18,8 +18,10 @@
                             <h2>ПОДІЇ</h2>
                             <div class="wrapper-news">
                                 <div class="news-img">
-                                    <img src="{{ asset('storage/' . $feature_post->image) }}"
-                                         alt="{{ $feature_post->title }}">
+                                    <a href="{{ action('NewsController@post', $feature_post->id) }}">
+                                        <img src="{{ asset('storage/' . $feature_post->image) }}"
+                                             alt="{{ $feature_post->title }}">
+                                    </a>
 
                                     <div class="info-flex">
                                         <p class="abstract">

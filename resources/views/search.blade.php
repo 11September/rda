@@ -37,14 +37,14 @@
                             <span>{{ $posts->count() }}</span>
                         </p>
 
-                        <div class="news-page-panel">
-                            <span class="sections">Розділи:</span>
+                        {{--<div class="news-page-panel">--}}
+                            {{--<span class="sections">Розділи:</span>--}}
 
-                            <a href="#">останні новини</a>
-                            <a class="news-page-panel-active" href="#">несортовані</a>
-                            <a href="#">влада</a>
-                            <a href="#">закон</a>
-                        </div>
+                            {{--<a href="#">останні новини</a>--}}
+                            {{--<a class="news-page-panel-active" href="#">несортовані</a>--}}
+                            {{--<a href="#">влада</a>--}}
+                            {{--<a href="#">закон</a>--}}
+                        {{--</div>--}}
                     </div>
                 </div>
             </div>

@@ -580,6 +580,11 @@ form button:hover {
     display: none;
 }
 
+.wrapper-news-anonses .news-img img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=30);
+}
+
 /* news end */
 
 /* gallery */
