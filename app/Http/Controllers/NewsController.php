@@ -33,9 +33,11 @@ class NewsController extends Controller
 
         $query = $request->search;
 
+
         $posts = News::where('status', 'published')
             ->where('title', 'LIKE', '%' . $query . '%')
-            ->paginate(1);
+            ->orWhere('body', 'LIKE', '%' . $query . '%')
+            ->paginate(10);
 
         return view('search', compact('posts', 'query'));
     }
