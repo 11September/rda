@@ -653,7 +653,7 @@ form button:hover {
 
 .wrapper-gallery-item-date {
     position: absolute;
-    bottom: 2px;
+    bottom: 0;
     left: 0;
     width: 165px;
     height: 34px;
@@ -674,6 +674,30 @@ form button:hover {
     width: 100%;
     height: inherit;
     min-height: 260px;
+
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gallery-item:hover .image {
+    opacity: 0.4;
+}
+
+.gallery-item:hover .middle {
+    opacity: 1;
 }
 
 .video-item {

@@ -5,8 +5,10 @@
             <div class="col-md-4 col-sm-4">
                 <div class="gallery-item">
                     <a href="{{ action('WelcomeController@album', $photo->id) }}">
-                        <img src="{{ asset('storage/' . $photo->image) }}" alt="gallery">
+                        <img class="image" src="{{ asset('storage/' . $photo->image) }}" alt="gallery">
                     </a>
+
+                    <div class="middle"></div>
 
                     <div class="wrapper-gallery-item-date">
                         <p class="gallery-item-date">
