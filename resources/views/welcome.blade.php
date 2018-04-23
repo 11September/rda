@@ -132,7 +132,7 @@
 
                     <div class="row center">
                         <a class="post-item-more"
-                           href="{{ url('/anounses') }}">
+                           href="{{ url('/albums') }}">
                             <span>Переглянути усі галереї</span>
                         </a>
                     </div>
