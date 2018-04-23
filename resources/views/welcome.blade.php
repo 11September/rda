@@ -113,11 +113,6 @@
 
                     @include('partials.pagination')
 
-                    <nav class="news_navigation" aria-label="Page navigation">
-                        <ul class="pagination">
-                            <li class="add_info add_info_news"><a href="{{ url('/news') }}">Всі новини</a></li>
-                        </ul>
-                    </nav>
                 </div>
 
                 <div class="col-xl-4 col-lg-4 news_right_block">

@@ -10,7 +10,7 @@
         </li>
     @endforeach
 
-    <li class="all_anounses">
-        <a href="{{ url('/anounses') }}">Все Анонси</a>
-    </li>
+    {{--<li class="all_anounses">--}}
+        {{--<a href="{{ url('/anounses') }}">Все Анонси</a>--}}
+    {{--</li>--}}
 </ul>
