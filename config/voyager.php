@@ -159,7 +159,7 @@ return [
                 'icon_class' => 'voyager-home',
                 'target_blank' => true,
             ],
-            'Logout' => [
+            'Вийти' => [
                 'route' => 'voyager.logout',
                 'icon_class' => 'voyager-power',
             ],
