@@ -154,7 +154,7 @@ return [
 //                'classes' => 'class-full-of-rum',
 //                'icon_class' => 'voyager-person',
 //            ],
-            'Home' => [
+            'Головна' => [
                 'route' => '/',
                 'icon_class' => 'voyager-home',
                 'target_blank' => true,
