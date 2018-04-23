@@ -52,10 +52,7 @@
                 </div>
             </div>
         </div>
-
     </section>
-
-    @include('partials.links')
 
 @endsection
 

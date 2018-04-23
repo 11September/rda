@@ -96,8 +96,6 @@
 
     @include('partials.search-more')
 
-    @include('partials.links')
-
 @endsection
 
 @section('scripts')

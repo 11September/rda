@@ -54,8 +54,6 @@
         </div>
     </section>
 
-
-    @include('partials.links')
 @endsection
 
 @section('scripts')

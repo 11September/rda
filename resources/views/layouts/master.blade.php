@@ -29,6 +29,8 @@
 
 @yield('content')
 
+@include('partials.links')
+
 @include('partials.footer')
 @include('partials.scripts')
 @yield('scripts')
