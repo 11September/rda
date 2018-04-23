@@ -21,17 +21,30 @@
                     </div>
 
                     <div class="wrapper-single-post-content">
-                        <h2>Альбом</h2>
+                        <h2>Альбоми</h2>
 
                         <div class="wrapper-album">
                             <div class="row">
-                                @foreach($photos as $photo)
-                                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12 albom_item_img">
-                                        <a data-fancybox="photos" href="{{ asset('storage/' . $photo->image) }}">
-                                            <img src="{{ asset('storage/' . $photo->image) }}" alt="">
-                                        </a>
+
+                                @foreach($galleries as $gallery)
+                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 albom_item_img">
+                                        <div class="gallery-item">
+                                            <a href="{{ action('WelcomeController@album', $gallery->id) }}">
+                                                <img class="image" src="{{ asset('storage/' . $gallery->image) }}"
+                                                     alt="gallery">
+                                            </a>
+
+                                            <div class="middle"></div>
+
+                                            <div class="wrapper-gallery-item-date">
+                                                <p class="gallery-item-date">
+                                                    {{ Carbon\Carbon::parse($gallery->created_at)->format('m.d.Y') }}
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 @endforeach
+
                             </div>
                         </div>
 
@@ -50,15 +63,6 @@
                             @include('partials.anonses')
                         </div>
                     </div>
-
-                    <h2 class="sigle-post-video-header">BІДЕО</h2>
-
-                    <div class="video-item">
-                        <a href="#">
-                            <img src="{{ asset('images/video_poster.png') }}" alt="gallery">
-                        </a>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -67,8 +71,6 @@
 @endsection
 
 @section('scripts')
-    <script type="text/javascript" src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
-
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <script>
         $('.big-slider-body').owlCarousel({

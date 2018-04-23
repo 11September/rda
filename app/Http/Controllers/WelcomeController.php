@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Album;
 use App\Gallery;
 use App\News;
 use App\Page;
@@ -63,7 +64,7 @@ class WelcomeController extends Controller
 
     public function albums()
     {
-        $galleries = Gallery::all();
+        $galleries = Album::all();
 
         return view('albums', compact('galleries'));
     }
