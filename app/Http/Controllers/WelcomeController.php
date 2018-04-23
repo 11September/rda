@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Gallery;
 use App\News;
 use App\Page;
 use App\Photo;
@@ -58,6 +59,13 @@ class WelcomeController extends Controller
         $photos = Photo::where('album_id', $album)->get();
 
         return view('album', compact('photos'));
+    }
+
+    public function albums()
+    {
+        $galleries = Gallery::all();
+
+        return view('albums', compact('galleries'));
     }
 
     public function page(Page $page)

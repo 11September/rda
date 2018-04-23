@@ -20,6 +20,7 @@ Route::get('/anounses', 'AnounsesController@index');
 Route::get('/anounses/{anounse}', 'AnounsesController@post');
 
 Route::get('/page/{page}', 'WelcomeController@page');
+Route::get('/albums', 'WelcomeController@albums');
 Route::get('/albums/{album}', 'WelcomeController@album');
 
 //Route::get('/contact', 'WelcomeController@contacts');

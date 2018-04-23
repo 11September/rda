@@ -130,6 +130,13 @@
 
                     @include('partials.gallery-photos')
 
+                    <div class="row center">
+                        <a class="post-item-more"
+                           href="{{ url('/anounses') }}">
+                            <span>Переглянути усі галереї</span>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>
