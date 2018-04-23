@@ -1661,6 +1661,16 @@ form button:hover {
     }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+    .wrapper-services-list-item{
+        padding: 0 15px 0 10px;
+    }
+
+    .services-list-item-content{
+        padding: 0 15px;
+    }
+}
+
 @media (max-width: 768px) {
     .reverse{
         flex-direction: column-reverse;
@@ -2088,6 +2098,14 @@ form button:hover {
 }
 
 @media (max-width: 375px) {
+    .top-part-body .text-block p:first-child{
+        margin-top: 0;
+    }
+
+    .social-part {
+        top: 110px;
+    }
+
     .social-part a {
         margin-right: 15px;
     }
