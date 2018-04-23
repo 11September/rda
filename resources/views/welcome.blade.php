@@ -18,7 +18,7 @@
                             <h2>ПОДІЇ</h2>
                             <div class="wrapper-news">
                                 <div class="news-img">
-                                    <a href="{{ action('NewsController@post', $feature_post->id) }}">
+                                    <a class="hover-image" href="{{ action('NewsController@post', $feature_post->id) }}">
                                         <img src="{{ asset('storage/' . $feature_post->image) }}"
                                              alt="{{ $feature_post->title }}">
                                     </a>
@@ -77,7 +77,7 @@
                         <div class="news_item">
                             <div class="row">
                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 news_item_img">
-                                    <a href="{{ action('NewsController@post', $post->id) }}">
+                                    <a class="hover-image" href="{{ action('NewsController@post', $post->id) }}">
                                         <img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->title }}">
                                     </a>
                                 </div>

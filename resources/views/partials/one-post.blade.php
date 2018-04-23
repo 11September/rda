@@ -2,7 +2,7 @@
     <div class="post-item">
         <div class="row">
             <div class="col-xl-6 news_item_img">
-                <a href="{{ action('NewsController@post', $post->id) }}">
+                <a class="hover-image" href="{{ action('NewsController@post', $post->id) }}">
                     <img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->title }}">
                 </a>
             </div>
