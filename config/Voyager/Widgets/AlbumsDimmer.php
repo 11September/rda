@@ -24,7 +24,7 @@ class AlbumsDimmer extends AbstractWidget
             'title'  => "{$count} {$string}",
             'text'   => "В базі даних {$count} альбомiв.",
             'button' => [
-                'text' => 'Посмотреть все',
+                'text' => 'Подивитись все',
                 'link' => route('voyager.albums.index'),
             ],
             'image' => asset('voyager/facebook-shared-photo-albums.jpg'),

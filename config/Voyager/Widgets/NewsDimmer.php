@@ -24,7 +24,7 @@ class NewsDimmer extends AbstractWidget
             'title'  => "{$count} {$string}",
             'text'   => "В базі даних {$count} новин.",
             'button' => [
-                'text' => 'Посмотреть все',
+                'text' => 'Подивитись все',
                 'link' => route('voyager.news.index'),
             ],
             'image' => asset('voyager/02.jpg'),

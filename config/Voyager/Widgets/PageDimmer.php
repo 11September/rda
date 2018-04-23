@@ -24,7 +24,7 @@ class PageDimmer extends AbstractWidget
             'title'  => "{$count} {$string}",
             'text'   => "В базі даних {$count} cторінок.",
             'button' => [
-                'text' => 'Посмотреть все',
+                'text' => 'Подивитись все',
                 'link' => route('voyager.pages.index'),
             ],
             'image' => asset('voyager/03.jpg'),
