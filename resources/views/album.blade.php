@@ -187,9 +187,10 @@
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <script>
         $('.big-slider-body').owlCarousel({
-            loop: true,
             margin: 10,
-            items: 1
+            items: 1,
+            autoplay: true,
+            loop: true
         });
     </script>
 @endsection
