@@ -161,6 +161,7 @@ form button:hover {
     font-family: 'Century_Gothic';
     font-weight: 600;
     font-size: 24px;
+    margin-top: 10px;
 }
 
 .top-part-body .text-block p:nth-child(2) {
