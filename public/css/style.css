@@ -13,6 +13,7 @@ h2 {
     font-size: 36px;
     color: #1567a1;
     text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .slick-slide:hover, .slick-slide:active, .slick-slide:visited {
@@ -1681,6 +1682,10 @@ form button:hover {
         flex-direction: column-reverse;
     }
 
+    .menu-list-item button.dropdown-toggle {
+        font-size: 14px !important;
+    }
+
     .wrapper-album{
         padding: 0 10%;
     }
@@ -1825,7 +1830,7 @@ form button:hover {
     .menu-list-item {
         display: inline-block;
         font-family: 'Century_Gothic';
-        /*font-size: 14px;*/
+        font-size: 14px;
         color: white !important;
         margin-bottom: 20px;
     }
